@@ -32,10 +32,66 @@
             android:id="@+id/textview_first"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/lorem_ipsum"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            android:text="Come and Join Us"
+            android:textColor="@color/orange"
+            android:textSize="16sp"
             app:layout_constraintTop_toBottomOf="@+id/textview_firstHeader" />
+
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/textview_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="On the Pumpkin Patch and Fall Foliage Excursions"
+            app:layout_constraintTop_toBottomOf="@+id/imageMain" />
+
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/textview_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Make Plans to Visit Us This Fall"
+            app:layout_constraintTop_toBottomOf="@+id/textview_second" />
+
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/textview_brochure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Check out our 2024 Brochure"
+            app:layout_constraintTop_toBottomOf="@+id/textview_third" />
+
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/textview_trainTickets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Train Tickets: Adults $10, Children $7, Under 3 free"
+            app:layout_constraintTop_toBottomOf="@+id/textview_brochure" />
+
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/textview_Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Contact Us"
+            app:layout_constraintTop_toBottomOf="@+id/textview_trainTickets" />
+
+        <ImageView
+            android:id="@+id/imageMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/viber_image_2023_11_07_10_23_52_919"
+            app:layout_constraintTop_toBottomOf="@+id/textview_first"
+            tools:layout_editor_absoluteX="-2dp" />/>
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
