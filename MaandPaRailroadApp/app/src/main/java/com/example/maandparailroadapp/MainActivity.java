@@ -10,6 +10,13 @@ import androidx.navigation.ui.NavigationUI;
 import com.google.android.material.navigation.NavigationView;
 import android.view.MenuItem;
 import com.example.maandparailroadapp.databinding.ActivityMainBinding;
+import com.google.android.material.snackbar.Snackbar;
+import android.content.Intent;
+import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,10 +53,23 @@ public class MainActivity extends AppCompatActivity {
                 navController.navigate(R.id.SecondFragment); // Navigate to SecondFragment (Details)
             } else if (itemId == R.id.action_settings) {
                 // Handle settings navigation, if applicable
+            } else if (itemId == R.id.login){
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+            } else if (itemId == R.id.register){
+                startActivity(new Intent(MainActivity.this, RegisterActivity.class));
             }
 
             drawerLayout.closeDrawers(); // Close drawer after selecting
             return true;
+        });
+
+
+        Button btn = findViewById(R.id.signIn);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+            }
         });
     }
 
