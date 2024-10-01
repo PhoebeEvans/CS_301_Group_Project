@@ -42,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
 
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
-
+        /*
+        @author Griffin
+         */
         // Handle menu item clicks in NavigationView using if-else
         binding.navView.setNavigationItemSelectedListener(item -> {
             int itemId = item.getItemId();
@@ -63,7 +65,9 @@ public class MainActivity extends AppCompatActivity {
             return true;
         });
 
-
+    /*
+    @author Lauren
+     */
         Button btn = findViewById(R.id.signIn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
