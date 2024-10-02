@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sign"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#A05353"
+    android:backgroundTintMode="add"
+    tools:context=".FirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textview_firstHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:text="Welcome to the Ma and Pa Railroad Heritage Village"
+            android:textColor="@color/orange"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@id/textview_first"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:text="Come and Join Us"
+            android:textColor="@color/orange"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@+id/textview_firstHeader" />
+
+        <TextView
+            android:id="@+id/textview_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:text="On the Pumpkin Patch and Fall Foliage Excursions"
+            app:layout_constraintTop_toBottomOf="@+id/imageMain" />
+
+        <TextView
+            android:id="@+id/textview_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:text="Make Plans to Visit Us This Fall"
+            app:layout_constraintTop_toBottomOf="@+id/textview_second" />
+
+        <TextView
+            android:id="@+id/textview_brochure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:text="Check out our 2024 Brochure"
+            app:layout_constraintTop_toBottomOf="@+id/textview_third" />
+
+        <TextView
+            android:id="@+id/textview_trainTickets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:text="Train Tickets: Adults $10, Children $7, Under 3 free"
+            app:layout_constraintTop_toBottomOf="@+id/textview_brochure" />
+
+        <TextView
+            android:id="@+id/textview_Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:text="Contact Us"
+            app:layout_constraintTop_toBottomOf="@+id/textview_trainTickets" />
+
+        <ImageView
+            android:id="@+id/imageMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/viber_image_2023_11_07_10_23_52_919"
+            app:layout_constraintTop_toBottomOf="@+id/textview_first"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="#C1BC8B"
+            android:text="Sign in"
+            app:layout_constraintEnd_toEndOf="@+id/textview_first"
+            app:layout_constraintStart_toStartOf="@+id/textview_first"
+            app:layout_constraintTop_toTopOf="@+id/imageMain" />/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
