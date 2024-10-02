@@ -3081,6 +3081,7 @@ drawable ic_security
 drawable ic_settings
 drawable indeterminate_static
 drawable input_bg
+drawable kidsatmapa
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3652,7 +3653,14 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview_Address
 id textview_Contact
+id textview_Coordinates
+id textview_Email
+id textview_MailingAddress
+id textview_Phone
+id textview_Subscribe
+id textview_WhatThreeWords
 id textview_brochure
 id textview_first
 id textview_firstHeader
