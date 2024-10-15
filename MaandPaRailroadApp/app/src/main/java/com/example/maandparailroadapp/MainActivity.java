@@ -53,6 +53,20 @@ public class MainActivity extends AppCompatActivity {
                 navController.navigate(R.id.FirstFragment); // Navigate to FirstFragment (Home)
             } else if (itemId == R.id.nav_second_fragment) {
                 navController.navigate(R.id.SecondFragment); // Navigate to SecondFragment (Details)
+            } else if (itemId == R.id.nav_gallery) {
+                navController.navigate(R.id.GalleryFragment); // Navigate to GalleryFragment
+            } else if (itemId == R.id.nav_village) {
+                navController.navigate(R.id.VillageFragment); // Navigate to VillageFragment
+            } else if (itemId == R.id.nav_train_ride) {
+                navController.navigate(R.id.TrainRideFragment); // Navigate to TrainRideFragment
+            } else if (itemId == R.id.nav_hours) {
+                navController.navigate(R.id.HoursFragment); // Navigate to HoursFragment
+            } else if (itemId == R.id.nav_events) {
+                navController.navigate(R.id.EventsFragment); // Navigate to EventsFragment
+            } else if (itemId == R.id.nav_directions) {
+                navController.navigate(R.id.DirectionsFragment); // Navigate to DirectionsFragment
+            } else if (itemId == R.id.nav_contact) {
+                navController.navigate(R.id.ContactFragment); // Navigate to ContactFragment
             } else if (itemId == R.id.action_settings) {
                 // Handle settings navigation, if applicable
             } else if (itemId == R.id.login){

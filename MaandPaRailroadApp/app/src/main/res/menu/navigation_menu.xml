@@ -14,6 +14,47 @@
         android:title="Details"
         app:showAsAction="ifRoom" />
 
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_gallery"
+        android:title="Gallery"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_village"
+        android:icon="@drawable/ic_village"
+        android:title="Village Info"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_train_ride"
+        android:icon="@drawable/ic_train"
+        android:title="Train Rides"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_hours"
+        android:icon="@drawable/ic_hours"
+        android:title="Hours"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_events"
+        android:icon="@drawable/ic_events"
+        android:title="Events"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_directions"
+        android:icon="@drawable/ic_directions"
+        android:title="Directions"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/ic_contact"
+        android:title="Contact"
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_settings"

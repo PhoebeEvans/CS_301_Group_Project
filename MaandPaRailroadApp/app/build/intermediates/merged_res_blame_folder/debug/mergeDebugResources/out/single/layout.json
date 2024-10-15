@@ -1,30 +1,58 @@
 [
     {
-        "merged": "com.example.maandparailroadapp-mergeDebugResources-42:/layout/fragment_first.xml",
-        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_first.xml"
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_hours.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_hours.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_second.xml"
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_first.xml"
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\activity_register.xml"
+        "merged": "com.example.maandparailroadapp-mergeDebugResources-42:/layout/fragment_contact.xml",
+        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_contact.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\content_main.xml",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\content_main.xml"
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_events.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_events.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_train_ride.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_train_ride.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\content_main.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_village.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_village.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_contact.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-mergeDebugResources-42:\\layout\\fragment_directions.xml",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.7\\com.example.maandparailroadapp-main-45:\\layout\\fragment_directions.xml"
     }
 ]
