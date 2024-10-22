@@ -34,7 +34,7 @@
     <fragment
         android:id="@+id/VillageFragment"
         android:name="com.example.maandparailroadapp.VillageFragment"
-        android:label="Village" />
+        android:label="Village Info" />
 
     <fragment
         android:id="@+id/TrainRideFragment"

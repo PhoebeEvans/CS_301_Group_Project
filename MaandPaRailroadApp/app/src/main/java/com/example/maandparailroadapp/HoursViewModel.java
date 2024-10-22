@@ -25,6 +25,19 @@ public class HoursViewModel extends ViewModel {
 
     //Loads the village information with the .setValue method.
     private void loadHoursInfo() {
-        hoursInfo.setValue("Open daily from 9:00am to 6:00pm.");
+        hoursInfo.setValue("Train rides are available during our regular Sundays operating season and also during all special events. Specific dates and times are listed below.\n" +
+                "\n" +
+                "A.M. Grove Store and Roller Mill open to all.\n" +
+                "\n" +
+                "Free guided tours of the village are available for purchasers of train tickets who wish to take them. Tickets: $10.00 adult, $7.00 child, under 3 free.\n" +
+                "\n" +
+                "Capacity is limited and advance ticket purchase online is recommended. Please arrive 15 minutes prior to your train's departure.\n" +
+                "\n" +
+                "Train Rides & Tours\n" +
+                "All Sundays June 2 - Sep. 1, 1-5 pm\n" +
+                "» Motorcar train rides on all open days. The last train departs 45 minutes before closing.\n" +
+                "\n" +
+                "» Tickets available online\n" +
+                "\n");
     }
 }
