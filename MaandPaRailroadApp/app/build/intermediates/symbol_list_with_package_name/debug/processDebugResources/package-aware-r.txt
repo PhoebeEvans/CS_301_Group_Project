@@ -3051,6 +3051,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable heritagevillage
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3100,6 +3101,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable map_muddycreekforks
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -3161,10 +3163,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable oldphone
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable train_1
 drawable viber_image_2023_11_07_10_23_52_919
+drawable volunteers02
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3307,6 +3312,7 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
+id contact_image
 id contact_text
 id container
 id content
@@ -3336,6 +3342,7 @@ id design_navigation_view
 id dialog_button
 id dimensions
 id direct
+id directions_image
 id directions_text
 id disableHome
 id disableIntraAutoTransition
@@ -3391,7 +3398,8 @@ id forgotPassword
 id fragment_container_view_tag
 id frost
 id fullscreen_header
-id gallery_text
+id gallery_image_view
+id gallery_recycler_view
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3407,6 +3415,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hours_image
 id hours_text
 id icon
 id icon_group
@@ -3423,6 +3432,7 @@ id inputConfirmPassword
 id inputEmail
 id invisible
 id inward
+id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3564,7 +3574,9 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id photo_view
 id pin
+id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
@@ -3702,6 +3714,7 @@ id toolbar
 id top
 id topPanel
 id touch_outside
+id train_ride_image
 id train_ride_text
 id transitionToEnd
 id transitionToStart
@@ -3726,6 +3739,7 @@ id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
+id village_image
 id village_info_text
 id visible
 id visible_removing_fragment_view_tag
@@ -3853,6 +3867,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_fullscreen_image
 layout activity_login
 layout activity_main
 layout activity_register
@@ -3884,6 +3899,7 @@ layout fragment_train_ride
 layout fragment_village
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_gallery_image
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3951,6 +3967,10 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
+raw image_1
+raw image_2
+raw image_3
+raw image_4
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

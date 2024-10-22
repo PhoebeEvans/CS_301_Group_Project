@@ -25,6 +25,19 @@ public class TrainRideViewModel extends ViewModel {
 
     //Loads the train ride information with the .setValue method.
     private void loadTrainRideInfo() {
-        trainRideInfo.setValue("Train rides are available every 30 minutes from 10 AM to 4 PM.");
+        trainRideInfo.setValue("Ride the historic Ma & Pa Railroad!\n" +
+                "\n" +
+                "Sundays - June through Labor Day\n" +
+                "Open 1:00 p.m. to 5:00 p.m. Last train leaves at 4:15 p.m.\n" +
+                "\n" +
+                "Special Event Days\n" +
+                "View calendar for dates & times\n" +
+                "\n" +
+                "» Buy tickets online*\n" +
+                "\n" +
+                "*Tickets purchased Online add $1 handling fee.\n" +
+                "\n" +
+                "\n" +
+                "» View Full Events Calendar for specific operating dates and times");
     }
 }

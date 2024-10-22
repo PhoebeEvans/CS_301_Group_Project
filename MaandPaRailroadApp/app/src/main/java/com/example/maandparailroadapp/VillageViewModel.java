@@ -24,9 +24,9 @@ public class VillageViewModel extends ViewModel {
         }
         return villageInfo;
     }
-    //Loads the village information with the .setValue method.
+
     //Loads the village information with the .setValue method.
     private void loadVillageInfo() {
-        villageInfo.setValue("Welcome to the village! Here’s everything you need to know...");
+        villageInfo.setValue("Come visit our authentic circa 1900's historic Ma & Pa Railroad Heritage Village at Muddy Creek Forks in York County, Pennsylvania. The train, store, and buildings are open during our operating season (June - Sept). The grounds are open for self-guided tours year-round.");
     }
 }

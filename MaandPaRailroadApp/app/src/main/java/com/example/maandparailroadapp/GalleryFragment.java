@@ -4,9 +4,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
+
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author Griffin
@@ -15,35 +19,36 @@ import androidx.lifecycle.ViewModelProvider;
  */
 public class GalleryFragment extends Fragment {
 
-    //The ViewModel for this fragment, which handles UI-related data for the village information.
-    private GalleryViewModel galleryViewModel;
+    private GalleryAdapter galleryAdapter;
+    private List<Integer> imageResources = new ArrayList<>(); // Store resource IDs
 
-    /**
-     * Called to have the fragment instantiate its user interface view.
-     *
-     * @param inflater The LayoutInflater object that can be used to inflate any views in the fragment.
-     * @param container If non-null, this is the parent view that the fragment's UI should be attached to.
-     * @param savedInstanceState If non-null, this fragment is being re-constructed from a previous saved state.
-     * @return Return the View for the fragment's UI, or null.
-     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_gallery, container, false);
 
-        // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        // Set up RecyclerView with a Grid Layout Manager (3 columns)
+        RecyclerView recyclerView = view.findViewById(R.id.gallery_recycler_view);
+        recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3));
 
-        //Instantiate the TextView in the layout.
-        TextView gallery_text = root.findViewById(R.id.gallery_text);
+        // Initialize the adapter and set it to the RecyclerView
+        galleryAdapter = new GalleryAdapter(getContext(), imageResources);
+        recyclerView.setAdapter(galleryAdapter);
 
-        // Initialize the ViewModel for this fragment
-        galleryViewModel = new ViewModelProvider(this).get(GalleryViewModel.class);
+        // Load image resources
+        loadImageResources();
 
-        //This observes live data and will update the TextView with new information.
-        galleryViewModel.getGalleryItems().observe(getViewLifecycleOwner(), items -> {
-            gallery_text.setText(items.toString());
-        });
+        return view;
+    }
 
-        //Returns the actual view of the fragment.
-        return root;
+    /**
+     * Loads image resource IDs from the res/raw folder.
+     */
+    private void loadImageResources() {
+        imageResources.add(R.raw.image_1);
+        imageResources.add(R.raw.image_2);
+        imageResources.add(R.raw.image_3);
+        imageResources.add(R.raw.image_4);
+
+        galleryAdapter.notifyDataSetChanged(); // Notify the adapter that data has changed
     }
 }

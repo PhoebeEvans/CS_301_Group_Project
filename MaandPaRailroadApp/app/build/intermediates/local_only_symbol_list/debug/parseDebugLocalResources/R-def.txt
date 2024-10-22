@@ -7,6 +7,7 @@ color white
 color yellow
 dimen fab_margin
 drawable btn_bg
+drawable heritagevillage
 drawable ic_contact
 drawable ic_directions
 drawable ic_email
@@ -26,7 +27,11 @@ drawable ic_train
 drawable ic_village
 drawable input_bg
 drawable kidsatmapa
+drawable map_muddycreekforks
+drawable oldphone
+drawable train_1
 drawable viber_image_2023_11_07_10_23_52_919
+drawable volunteers02
 id ContactFragment
 id DirectionsFragment
 id EventsFragment
@@ -44,7 +49,9 @@ id alreadyHaveAccount
 id btnLogin
 id btnRegister
 id button_second
+id contact_image
 id contact_text
+id directions_image
 id directions_text
 id drawer_layout
 id enterPassword
@@ -52,7 +59,9 @@ id enterUsername
 id events_text
 id fab
 id forgotPassword
-id gallery_text
+id gallery_image_view
+id gallery_recycler_view
+id hours_image
 id hours_text
 id imageMain
 id inputConfirmPassword
@@ -71,6 +80,7 @@ id nav_second_fragment
 id nav_train_ride
 id nav_view
 id nav_village
+id photo_view
 id register
 id sign
 id signIn
@@ -90,8 +100,11 @@ id textview_second
 id textview_third
 id textview_trainTickets
 id toolbar
+id train_ride_image
 id train_ride_text
+id village_image
 id village_info_text
+layout activity_fullscreen_image
 layout activity_login
 layout activity_main
 layout activity_register
@@ -105,11 +118,16 @@ layout fragment_hours
 layout fragment_second
 layout fragment_train_ride
 layout fragment_village
+layout item_gallery_image
 menu menu_main
 menu navigation_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
+raw image_1
+raw image_2
+raw image_3
+raw image_4
 string action_settings
 string app_name
 string first_fragment_label

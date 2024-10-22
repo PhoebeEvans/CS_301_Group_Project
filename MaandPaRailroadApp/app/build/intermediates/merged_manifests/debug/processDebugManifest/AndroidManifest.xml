@@ -39,6 +39,7 @@
         </activity>
         <activity android:name="com.example.maandparailroadapp.RegisterActivity" />
         <activity android:name="com.example.maandparailroadapp.LoginActivity" />
+        <activity android:name="com.example.maandparailroadapp.FullScreenImage" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
