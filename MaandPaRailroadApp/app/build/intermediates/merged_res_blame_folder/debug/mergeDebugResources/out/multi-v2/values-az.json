@@ -4,7 +4,7 @@
             "outputFile": "com.example.maandparailroadapp-mergeDebugResources-42:/values-az/values-az.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Griffin\\.gradle\\caches\\transforms-4\\0b87cf731b7787282d15ce11ff937a72\\transformed\\material-1.12.0\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\13f328dde550a803b90ae7b19fa2c3c8\\transformed\\material-1.12.0\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,24 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Griffin\\.gradle\\caches\\transforms-4\\0acb700e280cc6df9820a0a1a07eec11\\transformed\\navigation-ui-2.8.0\\res\\values-az\\values-az.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,162",
-                        "endColumns": "106,118",
-                        "endOffsets": "157,276"
-                    },
-                    "to": {
-                        "startLines": "111,112",
-                        "startColumns": "4,4",
-                        "startOffsets": "9378,9485",
-                        "endColumns": "106,118",
-                        "endOffsets": "9480,9599"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Griffin\\.gradle\\caches\\transforms-4\\21bd4097ebde28ec96067d007c1ff392\\transformed\\appcompat-1.7.0\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\26977b5f4bacbebcac0e19e9a0815d0a\\transformed\\appcompat-1.7.0\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Griffin\\.gradle\\caches\\transforms-4\\d5a241435d6043960033883e42e63ab1\\transformed\\core-1.13.0\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\c03fd947cd43346a32e4681b36bc2d7b\\transformed\\core-1.13.0\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -71,6 +54,23 @@
                         "startOffsets": "3440,3541,3643,3746,3850,3951,4056,10004",
                         "endColumns": "100,101,102,103,100,104,110,100",
                         "endOffsets": "3536,3638,3741,3845,3946,4051,4162,10100"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\04e3b731077ad70c82a7a16356e728cc\\transformed\\navigation-ui-2.8.0\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,162",
+                        "endColumns": "106,118",
+                        "endOffsets": "157,276"
+                    },
+                    "to": {
+                        "startLines": "111,112",
+                        "startColumns": "4,4",
+                        "startOffsets": "9378,9485",
+                        "endColumns": "106,118",
+                        "endOffsets": "9480,9599"
                     }
                 }
             ]
