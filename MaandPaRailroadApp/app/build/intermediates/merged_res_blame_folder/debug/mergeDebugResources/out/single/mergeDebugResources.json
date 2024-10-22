@@ -12,12 +12,12 @@
         "source": "com.example.maandparailroadapp-main-45:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.maandparailroadapp-debug-43:/layout_content_main.xml.flat",
-        "source": "com.example.maandparailroadapp-main-45:/layout/content_main.xml"
-    },
-    {
         "merged": "com.example.maandparailroadapp-debug-43:/drawable_ic_gallery.xml.flat",
         "source": "com.example.maandparailroadapp-main-45:/drawable/ic_gallery.xml"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-debug-43:/layout_content_main.xml.flat",
+        "source": "com.example.maandparailroadapp-main-45:/layout/content_main.xml"
     },
     {
         "merged": "com.example.maandparailroadapp-debug-43:/drawable_ic_events.xml.flat",
@@ -88,8 +88,20 @@
         "source": "com.example.maandparailroadapp-main-45:/drawable/ic_login.xml"
     },
     {
+        "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_explore_village.xml.flat",
+        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_explore_village.xml"
+    },
+    {
         "merged": "com.example.maandparailroadapp-debug-43:/drawable_ic_email.xml.flat",
         "source": "com.example.maandparailroadapp-main-45:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_memories.xml.flat",
+        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_memories.xml"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_history.xml.flat",
+        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_history.xml"
     },
     {
         "merged": "com.example.maandparailroadapp-debug-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -98,6 +110,10 @@
     {
         "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_gallery.xml.flat",
         "source": "com.example.maandparailroadapp-main-45:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-debug-43:/drawable-nodpi_tourmap3.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-45:/drawable-nodpi/tourmap3.jpg"
     },
     {
         "merged": "com.example.maandparailroadapp-debug-43:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -116,6 +132,10 @@
         "source": "com.example.maandparailroadapp-pngs-39:/drawable-ldpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_newsletter.xml.flat",
+        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_newsletter.xml"
+    },
+    {
         "merged": "com.example.maandparailroadapp-debug-43:/layout_activity_login.xml.flat",
         "source": "com.example.maandparailroadapp-main-45:/layout/activity_login.xml"
     },
@@ -132,6 +152,10 @@
         "source": "com.example.maandparailroadapp-main-45:/drawable/ic_directions.xml"
     },
     {
+        "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_links.xml.flat",
+        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_links.xml"
+    },
+    {
         "merged": "com.example.maandparailroadapp-debug-43:/drawable_ic_contact.xml.flat",
         "source": "com.example.maandparailroadapp-main-45:/drawable/ic_contact.xml"
     },
@@ -146,6 +170,10 @@
     {
         "merged": "com.example.maandparailroadapp-debug-43:/drawable_ic_launcher_background.xml.flat",
         "source": "com.example.maandparailroadapp-main-45:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_equipment.xml.flat",
+        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_equipment.xml"
     },
     {
         "merged": "com.example.maandparailroadapp-debug-43:/menu_menu_main.xml.flat",
@@ -196,8 +224,16 @@
         "source": "com.example.maandparailroadapp-main-45:/drawable/ic_register.xml"
     },
     {
+        "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_join.xml.flat",
+        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_join.xml"
+    },
+    {
         "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_contact.xml.flat",
         "source": "com.example.maandparailroadapp-main-45:/layout/fragment_contact.xml"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-debug-43:/layout_fragment_industries.xml.flat",
+        "source": "com.example.maandparailroadapp-main-45:/layout/fragment_industries.xml"
     },
     {
         "merged": "com.example.maandparailroadapp-debug-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",

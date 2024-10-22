@@ -1467,6 +1467,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -3164,6 +3165,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable tourmap3
 drawable viber_image_2023_11_07_10_23_52_919
 id ALT
 id BOTTOM_END
@@ -3189,6 +3191,8 @@ id TOP_END
 id TOP_START
 id TrainRideFragment
 id VillageFragment
+id a_m_grove_general_store
+id a_m_grove_house
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3267,6 +3271,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id barn
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3314,9 +3319,12 @@ id contentPanel
 id contiguous
 id continuousVelocity
 id coordinator
+id corn_cribs
+id corn_husking_shed
 id cos
 id counterclockwise
 id cradle
+id credit
 id currentState
 id custom
 id customPanel
@@ -3374,6 +3382,7 @@ id expand_activities_button
 id expanded_menu
 id fab
 id fade
+id fertilizer_warehouse
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3395,6 +3404,7 @@ id gallery_text
 id ghost_view
 id ghost_view_holder
 id gone
+id grain_elevator
 id graph
 id graph_wrap
 id group_divider
@@ -3415,6 +3425,7 @@ id ignore
 id ignoreRequest
 id image
 id imageMain
+id imageSecond
 id immediateStop
 id included
 id indeterminate
@@ -3425,8 +3436,10 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id james_grove_house
 id jumpToEnd
 id jumpToStart
+id keisers_fertilizer_warehouse
 id labeled
 id layout
 id left
@@ -3435,6 +3448,7 @@ id legacy
 id line1
 id line3
 id linear
+id links
 id listMode
 id list_item
 id locale
@@ -3469,6 +3483,10 @@ id material_value_index
 id matrix
 id message
 id middle
+id milk_collection_building
+id mill_loading_platform
+id mill_race
+id mill_tail_race
 id mini
 id month_grid
 id month_navigation_bar
@@ -3550,6 +3568,7 @@ id open_search_view_search_prefix
 id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
+id original_store_site
 id outline
 id outward
 id overshoot
@@ -3571,6 +3590,8 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id railroad_station_platform
+id railroad_tool_house
 id ratio
 id rectangles
 id register
@@ -3580,6 +3601,7 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id roller_mills
 id rounded
 id row_index_key
 id rtl
@@ -3643,6 +3665,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id stone_house
 id stop
 id stretch
 id submenuarrow
@@ -3662,6 +3685,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id team_track
 id text
 id text2
 id textEnd
@@ -3688,11 +3712,14 @@ id textview_Phone
 id textview_Subscribe
 id textview_WhatThreeWords
 id textview_brochure
+id textview_fifth
 id textview_first
 id textview_firstHeader
+id textview_fourth
 id textview_second
 id textview_third
 id textview_trainTickets
+id things_that_are_now_gone
 id time
 id title
 id titleDividerNoCustom
@@ -3738,6 +3765,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id yellow_house
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3875,10 +3903,18 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_contact
 layout fragment_directions
+layout fragment_equipment
 layout fragment_events
+layout fragment_explore_village
 layout fragment_first
 layout fragment_gallery
+layout fragment_history
 layout fragment_hours
+layout fragment_industries
+layout fragment_join
+layout fragment_links
+layout fragment_memories
+layout fragment_newsletter
 layout fragment_second
 layout fragment_train_ride
 layout fragment_village
