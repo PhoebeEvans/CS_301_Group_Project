@@ -51,6 +51,54 @@
         app:showAsAction="ifRoom" />
 
     <item
+        android:id="@+id/nav_equipment"
+        android:icon="@drawable/ic_contact"
+        android:title="Equipment"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_explore"
+        android:icon="@drawable/ic_contact"
+        android:title="Explore Village"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_contact"
+        android:title="History"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_industries"
+        android:icon="@drawable/ic_contact"
+        android:title="Industries"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_join"
+        android:icon="@drawable/ic_contact"
+        android:title="Join"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_links"
+        android:icon="@drawable/ic_contact"
+        android:title="Links"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_memories"
+        android:icon="@drawable/ic_contact"
+        android:title="Memories"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_newsletter"
+        android:icon="@drawable/ic_contact"
+        android:title="Newsletter"
+        app:showAsAction="ifRoom" />
+
+    <item
         android:id="@+id/nav_contact"
         android:icon="@drawable/ic_contact"
         android:title="Contact"

@@ -61,4 +61,44 @@
         android:name="com.example.maandparailroadapp.ContactFragment"
         android:label="Contact" />
 
+    <fragment
+        android:id="@+id/EquipmentFragment"
+        android:name="com.example.maandparailroadapp.EquipmentFragment"
+        android:label="Contact" />
+
+    <fragment
+        android:id="@+id/ExploreVillageFragment"
+        android:name="com.example.maandparailroadapp.ExploreVillageFragment"
+        android:label="Contact" />
+
+    <fragment
+        android:id="@+id/HistoryFragment"
+        android:name="com.example.maandparailroadapp.HistoryFragment"
+        android:label="Contact" />
+
+    <fragment
+        android:id="@+id/IndustriesFragment"
+        android:name="com.example.maandparailroadapp.IndustriesFragment"
+        android:label="Contact" />
+
+    <fragment
+        android:id="@+id/JoinFragment"
+        android:name="com.example.maandparailroadapp.JoinFragment"
+        android:label="Contact" />
+
+    <fragment
+        android:id="@+id/LinksFragment"
+        android:name="com.example.maandparailroadapp.LinksFragment"
+        android:label="Contact" />
+
+    <fragment
+        android:id="@+id/MemoriesFragment"
+        android:name="com.example.maandparailroadapp.MemoriesFragment"
+        android:label="Contact" />
+
+    <fragment
+        android:id="@+id/NewsletterFragment"
+        android:name="com.example.maandparailroadapp.NewsletterFragment"
+        android:label="Contact" />
+
 </navigation>

@@ -1,4 +1,6 @@
 package com.example.maandparailroadapp;
 
-public class MemoriesViewModel {
+import androidx.lifecycle.ViewModel;
+
+public class MemoriesViewModel  extends ViewModel {
 }

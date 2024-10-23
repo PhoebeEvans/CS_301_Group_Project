@@ -1,4 +1,6 @@
 package com.example.maandparailroadapp;
 
-public class EquipmentFragment {
+import androidx.fragment.app.Fragment;
+
+public class EquipmentFragment  extends Fragment {
 }

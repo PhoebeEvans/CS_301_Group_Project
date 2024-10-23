@@ -1,4 +1,6 @@
 package com.example.maandparailroadapp;
 
-public class LinksFragment {
+import androidx.fragment.app.Fragment;
+
+public class LinksFragment  extends Fragment {
 }

@@ -1,4 +1,6 @@
 package com.example.maandparailroadapp;
 
-public class JoinFragment {
+import androidx.fragment.app.Fragment;
+
+public class JoinFragment  extends Fragment {
 }

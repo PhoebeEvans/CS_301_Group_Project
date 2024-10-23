@@ -1,4 +1,6 @@
 package com.example.maandparailroadapp;
 
-public class IndustriesViewModel {
+import androidx.lifecycle.ViewModel;
+
+public class IndustriesViewModel  extends ViewModel {
 }

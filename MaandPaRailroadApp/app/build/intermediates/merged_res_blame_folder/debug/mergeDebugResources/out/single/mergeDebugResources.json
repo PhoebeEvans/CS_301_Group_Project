@@ -20,8 +20,8 @@
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\oldphone.png"
     },
     {
-        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_tourmap3.jpg.flat",
-        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/tourmap3.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_explore_village.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_explore_village.xml"
     },
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_person.xml.flat",
@@ -66,6 +66,10 @@
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_email.xml.flat",
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_tourmap3.jpg.flat",
+        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\tourmap3.jpg"
     },
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-xhdpi_ic_launcher_foreground.png.flat",

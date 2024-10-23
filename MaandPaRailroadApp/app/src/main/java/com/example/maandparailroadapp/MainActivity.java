@@ -73,6 +73,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
             } else if (itemId == R.id.register){
                 startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+            }else if (itemId == R.id.nav_equipment) {
+                navController.navigate(R.id.EquipmentFragment); // Navigate to EquipmentFragment
+            }else if (itemId == R.id.nav_explore) {
+                navController.navigate(R.id.ExploreVillageFragment); // Navigate to ExploreVillageFragment
+            }else if (itemId == R.id.nav_history) {
+                navController.navigate(R.id.HistoryFragment); // Navigate to HistoryFragment
+            }else if (itemId == R.id.nav_industries) {
+                navController.navigate(R.id.IndustriesFragment); // Navigate to IndustriesFragment
+            }else if (itemId == R.id.nav_join) {
+                navController.navigate(R.id.JoinFragment); // Navigate to JoinFragment
+            }else if (itemId == R.id.nav_links) {
+                navController.navigate(R.id.LinksFragment); // Navigate to LinksFragment
+            }else if (itemId == R.id.nav_memories) {
+                navController.navigate(R.id.MemoriesFragment); // Navigate to MemoriesFragment
+            }else if (itemId == R.id.nav_newsletter) {
+                navController.navigate(R.id.NewsletterFragment); // Navigate to NewsletterFragment
             }
 
             drawerLayout.closeDrawers(); // Close drawer after selecting

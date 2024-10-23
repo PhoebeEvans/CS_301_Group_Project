@@ -1,4 +1,6 @@
 package com.example.maandparailroadapp;
 
-public class JoinViewModel {
+import androidx.lifecycle.ViewModel;
+
+public class JoinViewModel  extends ViewModel {
 }
