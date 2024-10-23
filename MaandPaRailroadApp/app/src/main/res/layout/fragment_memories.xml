@@ -24,17 +24,18 @@
             android:text="Memories of the Ma &amp; Pa Railroad"
             android:textColor="@color/gray"
             android:padding="5dp"
-            app:layout_constraintBottom_toTopOf="@id/textview_first"
+            app:layout_constraintBottom_toTopOf="@id/web_link"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:background="@color/yellow"
-            android:id="@+id/textview_first"
+            android:id="@+id/web_link"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
+            android:autoLink="web"
             android:text="Click the link below to be taken to the memories page on our webpage. "
             app:layout_constraintTop_toBottomOf="@+id/textview_firstHeader" />
 

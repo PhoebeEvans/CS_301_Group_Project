@@ -20,21 +20,21 @@ public final class FragmentMemoriesBinding implements ViewBinding {
   private final NestedScrollView rootView;
 
   @NonNull
-  public final TextView textviewFirst;
-
-  @NonNull
   public final TextView textviewFirstHeader;
 
   @NonNull
   public final TextView textviewSecond;
 
+  @NonNull
+  public final TextView webLink;
+
   private FragmentMemoriesBinding(@NonNull NestedScrollView rootView,
-      @NonNull TextView textviewFirst, @NonNull TextView textviewFirstHeader,
-      @NonNull TextView textviewSecond) {
+      @NonNull TextView textviewFirstHeader, @NonNull TextView textviewSecond,
+      @NonNull TextView webLink) {
     this.rootView = rootView;
-    this.textviewFirst = textviewFirst;
     this.textviewFirstHeader = textviewFirstHeader;
     this.textviewSecond = textviewSecond;
+    this.webLink = webLink;
   }
 
   @Override
@@ -64,12 +64,6 @@ public final class FragmentMemoriesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textview_first;
-      TextView textviewFirst = ViewBindings.findChildViewById(rootView, id);
-      if (textviewFirst == null) {
-        break missingId;
-      }
-
       id = R.id.textview_firstHeader;
       TextView textviewFirstHeader = ViewBindings.findChildViewById(rootView, id);
       if (textviewFirstHeader == null) {
@@ -82,8 +76,14 @@ public final class FragmentMemoriesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMemoriesBinding((NestedScrollView) rootView, textviewFirst,
-          textviewFirstHeader, textviewSecond);
+      id = R.id.web_link;
+      TextView webLink = ViewBindings.findChildViewById(rootView, id);
+      if (webLink == null) {
+        break missingId;
+      }
+
+      return new FragmentMemoriesBinding((NestedScrollView) rootView, textviewFirstHeader,
+          textviewSecond, webLink);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
