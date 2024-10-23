@@ -81,9 +81,6 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
   public final TextView rollerMills;
 
   @NonNull
-  public final NestedScrollView sign;
-
-  @NonNull
   public final TextView stoneHouse;
 
   @NonNull
@@ -123,11 +120,11 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
       @NonNull TextView millRace, @NonNull TextView millTailRace,
       @NonNull TextView originalStoreSite, @NonNull TextView railroadStationPlatform,
       @NonNull TextView railroadToolHouse, @NonNull TextView rollerMills,
-      @NonNull NestedScrollView sign, @NonNull TextView stoneHouse, @NonNull TextView teamTrack,
-      @NonNull TextView textviewFifth, @NonNull TextView textviewFirst,
-      @NonNull TextView textviewFirstHeader, @NonNull TextView textviewFourth,
-      @NonNull TextView textviewSecond, @NonNull TextView textviewThird,
-      @NonNull TextView thingsThatAreNowGone, @NonNull TextView yellowHouse) {
+      @NonNull TextView stoneHouse, @NonNull TextView teamTrack, @NonNull TextView textviewFifth,
+      @NonNull TextView textviewFirst, @NonNull TextView textviewFirstHeader,
+      @NonNull TextView textviewFourth, @NonNull TextView textviewSecond,
+      @NonNull TextView textviewThird, @NonNull TextView thingsThatAreNowGone,
+      @NonNull TextView yellowHouse) {
     this.rootView = rootView;
     this.aMGroveGeneralStore = aMGroveGeneralStore;
     this.aMGroveHouse = aMGroveHouse;
@@ -149,7 +146,6 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
     this.railroadStationPlatform = railroadStationPlatform;
     this.railroadToolHouse = railroadToolHouse;
     this.rollerMills = rollerMills;
-    this.sign = sign;
     this.stoneHouse = stoneHouse;
     this.teamTrack = teamTrack;
     this.textviewFifth = textviewFifth;
@@ -309,8 +305,6 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
         break missingId;
       }
 
-      NestedScrollView sign = (NestedScrollView) rootView;
-
       id = R.id.stone_house;
       TextView stoneHouse = ViewBindings.findChildViewById(rootView, id);
       if (stoneHouse == null) {
@@ -375,7 +369,7 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
           aMGroveHouse, barn, cornCribs, cornHuskingShed, credit, fertilizerWarehouse,
           grainElevator, imageMain, imageSecond, jamesGroveHouse, keisersFertilizerWarehouse,
           milkCollectionBuilding, millLoadingPlatform, millRace, millTailRace, originalStoreSite,
-          railroadStationPlatform, railroadToolHouse, rollerMills, sign, stoneHouse, teamTrack,
+          railroadStationPlatform, railroadToolHouse, rollerMills, stoneHouse, teamTrack,
           textviewFifth, textviewFirst, textviewFirstHeader, textviewFourth, textviewSecond,
           textviewThird, thingsThatAreNowGone, yellowHouse);
     }

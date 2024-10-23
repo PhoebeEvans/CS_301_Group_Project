@@ -4,25 +4,42 @@ package com.example.maandparailroadapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.maandparailroadapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentMemoriesBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final NestedScrollView rootView;
 
-  private FragmentMemoriesBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final TextView textviewFirst;
+
+  @NonNull
+  public final TextView textviewFirstHeader;
+
+  @NonNull
+  public final TextView textviewSecond;
+
+  private FragmentMemoriesBinding(@NonNull NestedScrollView rootView,
+      @NonNull TextView textviewFirst, @NonNull TextView textviewFirstHeader,
+      @NonNull TextView textviewSecond) {
     this.rootView = rootView;
+    this.textviewFirst = textviewFirst;
+    this.textviewFirstHeader = textviewFirstHeader;
+    this.textviewSecond = textviewSecond;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -43,10 +60,32 @@ public final class FragmentMemoriesBinding implements ViewBinding {
 
   @NonNull
   public static FragmentMemoriesBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.textview_first;
+      TextView textviewFirst = ViewBindings.findChildViewById(rootView, id);
+      if (textviewFirst == null) {
+        break missingId;
+      }
 
-    return new FragmentMemoriesBinding((ConstraintLayout) rootView);
+      id = R.id.textview_firstHeader;
+      TextView textviewFirstHeader = ViewBindings.findChildViewById(rootView, id);
+      if (textviewFirstHeader == null) {
+        break missingId;
+      }
+
+      id = R.id.textview_second;
+      TextView textviewSecond = ViewBindings.findChildViewById(rootView, id);
+      if (textviewSecond == null) {
+        break missingId;
+      }
+
+      return new FragmentMemoriesBinding((NestedScrollView) rootView, textviewFirst,
+          textviewFirstHeader, textviewSecond);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

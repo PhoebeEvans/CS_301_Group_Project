@@ -22,159 +22,43 @@
             android:textSize="20sp"
             android:layout_marginTop="16dp"
             android:text="Welcome to the Ma and Pa Railroad Heritage Village"
-            android:textColor="@color/orange"
-            app:layout_constraintBottom_toTopOf="@id/textview_first"
+            android:textColor="@color/gray"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_first"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Come and Join Us"
-            android:textColor="@color/orange"
-            android:textSize="16sp"
-            app:layout_constraintTop_toBottomOf="@+id/textview_firstHeader" />
 
         <TextView
             android:background="@color/yellow"
-            android:id="@+id/textview_second"
+            android:id="@+id/credit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="On the Pumpkin Patch and Fall Foliage Excursions"
-            android:textColor="@color/orange"
+            android:gravity="right"
+            android:text="#84 Photo by Marlin Markle (Summer 1997)"
             app:layout_constraintTop_toBottomOf="@+id/imageMain" />
 
         <TextView
             android:background="@color/yellow"
-            android:id="@+id/textview_third"
+            android:id="@+id/web_link"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Make Plans to Visit Us This Fall"
-            app:layout_constraintTop_toBottomOf="@+id/textview_second" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_brochure"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Check out our 2024 Brochure"
-            app:layout_constraintTop_toBottomOf="@+id/textview_third" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_trainTickets"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Train Tickets: Adults $10, Children $7, Under 3 free"
-            app:layout_constraintTop_toBottomOf="@+id/textview_brochure" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_Contact"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Contact Us"
-            android:textColor="@color/orange"
+            android:gravity="left"
             android:textSize="16sp"
-            app:layout_constraintTop_toBottomOf="@+id/textview_trainTickets" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_Address"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="1258 Muddy Creek Forks Rd, Airville, PA 17302"
-            app:layout_constraintTop_toBottomOf="@+id/textview_Contact" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_Phone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="(717) 927-9565 (voice mail)"
-            app:layout_constraintTop_toBottomOf="@+id/textview_Address" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_Email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="info@MaAndPaRailroad.com"
-            app:layout_constraintTop_toBottomOf="@+id/textview_Phone" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_Subscribe"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Subscribe to our Special Events mailing list."
-            app:layout_constraintTop_toBottomOf="@+id/textview_Email" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_MailingAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="P.O. Box 2262, York, PA 17405-2262"
-            app:layout_constraintTop_toBottomOf="@+id/textview_Subscribe" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_Coordinates"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Latitude 39°48'27'', Longitude 76°28'34''"
-            app:layout_constraintTop_toBottomOf="@+id/textview_MailingAddress" />
-
-        <TextView
-            android:background="@color/yellow"
-            android:id="@+id/textview_WhatThreeWords"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="/// lightweight.tips.mugs"
-            app:layout_constraintTop_toBottomOf="@+id/textview_Coordinates" />
-
+            android:text="Click here to see the full list on the webpage."
+            android:autoLink="web"
+            app:layout_constraintTop_toBottomOf="@+id/credit" />
 
         <ImageView
             android:id="@+id/imageMain"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:background="@color/yellow"
-            android:src="@drawable/kidsatmapa"
-            app:layout_constraintBottom_toTopOf="@+id/textview_second"
+            android:src="@drawable/mapa82m"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/signIn" />
+            app:layout_constraintTop_toBottomOf="@+id/textview_firstHeader" />
 
-        <Button
-            android:id="@+id/signIn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:backgroundTint="@color/orange"
-            android:text="Sign in"
-            app:layout_constraintBottom_toTopOf="@+id/imageMain"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:textColor="@color/black"
-            app:layout_constraintTop_toBottomOf="@+id/textview_first" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

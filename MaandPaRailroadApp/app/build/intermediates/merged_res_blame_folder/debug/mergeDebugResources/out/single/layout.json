@@ -52,12 +52,16 @@
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_train_ride.xml"
     },
     {
+        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-43:\\layout\\activity_fullscreen_image.xml",
+        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\activity_fullscreen_image.xml"
+    },
+    {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-43:\\layout\\fragment_equipment.xml",
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_equipment.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-43:\\layout\\activity_fullscreen_image.xml",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\activity_fullscreen_image.xml"
+        "merged": "com.example.maandparailroadapp-mergeDebugResources-43:/layout/fragment_equipment.xml",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_equipment.xml"
     },
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-43:\\layout\\item_gallery_image.xml",
@@ -70,6 +74,10 @@
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-43:\\layout\\fragment_village.xml",
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_village.xml"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-mergeDebugResources-43:/layout/fragment_memories.xml",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_memories.xml"
     },
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-43:\\layout\\activity_main.xml",
@@ -86,6 +94,10 @@
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-43:\\layout\\fragment_second.xml",
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-mergeDebugResources-43:/layout/fragment_history.xml",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_history.xml"
     },
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-43:\\layout\\fragment_history.xml",
