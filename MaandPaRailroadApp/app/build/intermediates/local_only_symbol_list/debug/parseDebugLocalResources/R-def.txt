@@ -17,6 +17,7 @@ drawable beebe_clegg
 drawable boxcar_15161_jwolf
 drawable btn_bg
 drawable castlefinn
+drawable doorwesley
 drawable flatcar110_properbalance
 drawable flatcar110_sharontrestle700
 drawable heritagevillage
@@ -126,6 +127,7 @@ id imageMain
 id imageSecond
 id inputConfirmPassword
 id inputEmail
+id invite
 id james_grove_house
 id keisers_fertilizer_warehouse
 id login

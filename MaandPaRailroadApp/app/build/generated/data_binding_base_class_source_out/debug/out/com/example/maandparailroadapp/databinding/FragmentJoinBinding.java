@@ -4,25 +4,46 @@ package com.example.maandparailroadapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.maandparailroadapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentJoinBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final NestedScrollView rootView;
 
-  private FragmentJoinBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final ImageView imageMain;
+
+  @NonNull
+  public final TextView invite;
+
+  @NonNull
+  public final TextView textviewFirstHeader;
+
+  @NonNull
+  public final TextView webLink;
+
+  private FragmentJoinBinding(@NonNull NestedScrollView rootView, @NonNull ImageView imageMain,
+      @NonNull TextView invite, @NonNull TextView textviewFirstHeader, @NonNull TextView webLink) {
     this.rootView = rootView;
+    this.imageMain = imageMain;
+    this.invite = invite;
+    this.textviewFirstHeader = textviewFirstHeader;
+    this.webLink = webLink;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -43,10 +64,38 @@ public final class FragmentJoinBinding implements ViewBinding {
 
   @NonNull
   public static FragmentJoinBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.imageMain;
+      ImageView imageMain = ViewBindings.findChildViewById(rootView, id);
+      if (imageMain == null) {
+        break missingId;
+      }
 
-    return new FragmentJoinBinding((ConstraintLayout) rootView);
+      id = R.id.invite;
+      TextView invite = ViewBindings.findChildViewById(rootView, id);
+      if (invite == null) {
+        break missingId;
+      }
+
+      id = R.id.textview_firstHeader;
+      TextView textviewFirstHeader = ViewBindings.findChildViewById(rootView, id);
+      if (textviewFirstHeader == null) {
+        break missingId;
+      }
+
+      id = R.id.web_link;
+      TextView webLink = ViewBindings.findChildViewById(rootView, id);
+      if (webLink == null) {
+        break missingId;
+      }
+
+      return new FragmentJoinBinding((NestedScrollView) rootView, imageMain, invite,
+          textviewFirstHeader, webLink);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
