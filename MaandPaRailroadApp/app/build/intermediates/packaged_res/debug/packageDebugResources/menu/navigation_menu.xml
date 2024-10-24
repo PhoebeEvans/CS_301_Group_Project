@@ -1,0 +1,123 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/nav_second_fragment"
+        android:icon="@drawable/ic_info"
+        android:title="Details"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_gallery"
+        android:title="Gallery"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_village"
+        android:icon="@drawable/ic_village"
+        android:title="Village Info"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_train_ride"
+        android:icon="@drawable/ic_train"
+        android:title="Train Rides"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_hours"
+        android:icon="@drawable/ic_hours"
+        android:title="Hours"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_events"
+        android:icon="@drawable/ic_events"
+        android:title="Events"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_directions"
+        android:icon="@drawable/ic_directions"
+        android:title="Directions"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_equipment"
+        android:icon="@drawable/ic_contact"
+        android:title="Equipment"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_explore"
+        android:icon="@drawable/ic_contact"
+        android:title="Explore Village"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_contact"
+        android:title="History"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_industries"
+        android:icon="@drawable/ic_contact"
+        android:title="Industries"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_join"
+        android:icon="@drawable/ic_contact"
+        android:title="Join"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_links"
+        android:icon="@drawable/ic_contact"
+        android:title="Links"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_memories"
+        android:icon="@drawable/ic_contact"
+        android:title="Memories"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_newsletter"
+        android:icon="@drawable/ic_contact"
+        android:title="Newsletter"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/ic_contact"
+        android:title="Contact"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/login"
+        android:title="Login"
+        android:icon="@drawable/ic_login"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/register"
+        android:title="Register"
+        android:icon="@drawable/ic_register"
+        app:showAsAction="never" />
+
+</menu>

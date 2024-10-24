@@ -31,10 +31,19 @@ public final class FragmentFirstBinding implements ViewBinding {
   public final Button signIn;
 
   @NonNull
+  public final TextView textviewAddress;
+
+  @NonNull
   public final TextView textviewBrochure;
 
   @NonNull
   public final TextView textviewContact;
+
+  @NonNull
+  public final TextView textviewCoordinates;
+
+  @NonNull
+  public final TextView textviewEmail;
 
   @NonNull
   public final TextView textviewFirst;
@@ -43,7 +52,16 @@ public final class FragmentFirstBinding implements ViewBinding {
   public final TextView textviewFirstHeader;
 
   @NonNull
+  public final TextView textviewMailingAddress;
+
+  @NonNull
+  public final TextView textviewPhone;
+
+  @NonNull
   public final TextView textviewSecond;
+
+  @NonNull
+  public final TextView textviewSubscribe;
 
   @NonNull
   public final TextView textviewThird;
@@ -51,22 +69,36 @@ public final class FragmentFirstBinding implements ViewBinding {
   @NonNull
   public final TextView textviewTrainTickets;
 
+  @NonNull
+  public final TextView textviewWhatThreeWords;
+
   private FragmentFirstBinding(@NonNull NestedScrollView rootView, @NonNull ImageView imageMain,
-      @NonNull NestedScrollView sign, @NonNull Button signIn, @NonNull TextView textviewBrochure,
-      @NonNull TextView textviewContact, @NonNull TextView textviewFirst,
-      @NonNull TextView textviewFirstHeader, @NonNull TextView textviewSecond,
-      @NonNull TextView textviewThird, @NonNull TextView textviewTrainTickets) {
+      @NonNull NestedScrollView sign, @NonNull Button signIn, @NonNull TextView textviewAddress,
+      @NonNull TextView textviewBrochure, @NonNull TextView textviewContact,
+      @NonNull TextView textviewCoordinates, @NonNull TextView textviewEmail,
+      @NonNull TextView textviewFirst, @NonNull TextView textviewFirstHeader,
+      @NonNull TextView textviewMailingAddress, @NonNull TextView textviewPhone,
+      @NonNull TextView textviewSecond, @NonNull TextView textviewSubscribe,
+      @NonNull TextView textviewThird, @NonNull TextView textviewTrainTickets,
+      @NonNull TextView textviewWhatThreeWords) {
     this.rootView = rootView;
     this.imageMain = imageMain;
     this.sign = sign;
     this.signIn = signIn;
+    this.textviewAddress = textviewAddress;
     this.textviewBrochure = textviewBrochure;
     this.textviewContact = textviewContact;
+    this.textviewCoordinates = textviewCoordinates;
+    this.textviewEmail = textviewEmail;
     this.textviewFirst = textviewFirst;
     this.textviewFirstHeader = textviewFirstHeader;
+    this.textviewMailingAddress = textviewMailingAddress;
+    this.textviewPhone = textviewPhone;
     this.textviewSecond = textviewSecond;
+    this.textviewSubscribe = textviewSubscribe;
     this.textviewThird = textviewThird;
     this.textviewTrainTickets = textviewTrainTickets;
+    this.textviewWhatThreeWords = textviewWhatThreeWords;
   }
 
   @Override
@@ -110,6 +142,12 @@ public final class FragmentFirstBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textview_Address;
+      TextView textviewAddress = ViewBindings.findChildViewById(rootView, id);
+      if (textviewAddress == null) {
+        break missingId;
+      }
+
       id = R.id.textview_brochure;
       TextView textviewBrochure = ViewBindings.findChildViewById(rootView, id);
       if (textviewBrochure == null) {
@@ -119,6 +157,18 @@ public final class FragmentFirstBinding implements ViewBinding {
       id = R.id.textview_Contact;
       TextView textviewContact = ViewBindings.findChildViewById(rootView, id);
       if (textviewContact == null) {
+        break missingId;
+      }
+
+      id = R.id.textview_Coordinates;
+      TextView textviewCoordinates = ViewBindings.findChildViewById(rootView, id);
+      if (textviewCoordinates == null) {
+        break missingId;
+      }
+
+      id = R.id.textview_Email;
+      TextView textviewEmail = ViewBindings.findChildViewById(rootView, id);
+      if (textviewEmail == null) {
         break missingId;
       }
 
@@ -134,9 +184,27 @@ public final class FragmentFirstBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textview_MailingAddress;
+      TextView textviewMailingAddress = ViewBindings.findChildViewById(rootView, id);
+      if (textviewMailingAddress == null) {
+        break missingId;
+      }
+
+      id = R.id.textview_Phone;
+      TextView textviewPhone = ViewBindings.findChildViewById(rootView, id);
+      if (textviewPhone == null) {
+        break missingId;
+      }
+
       id = R.id.textview_second;
       TextView textviewSecond = ViewBindings.findChildViewById(rootView, id);
       if (textviewSecond == null) {
+        break missingId;
+      }
+
+      id = R.id.textview_Subscribe;
+      TextView textviewSubscribe = ViewBindings.findChildViewById(rootView, id);
+      if (textviewSubscribe == null) {
         break missingId;
       }
 
@@ -152,9 +220,16 @@ public final class FragmentFirstBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textview_WhatThreeWords;
+      TextView textviewWhatThreeWords = ViewBindings.findChildViewById(rootView, id);
+      if (textviewWhatThreeWords == null) {
+        break missingId;
+      }
+
       return new FragmentFirstBinding((NestedScrollView) rootView, imageMain, sign, signIn,
-          textviewBrochure, textviewContact, textviewFirst, textviewFirstHeader, textviewSecond,
-          textviewThird, textviewTrainTickets);
+          textviewAddress, textviewBrochure, textviewContact, textviewCoordinates, textviewEmail,
+          textviewFirst, textviewFirstHeader, textviewMailingAddress, textviewPhone, textviewSecond,
+          textviewSubscribe, textviewThird, textviewTrainTickets, textviewWhatThreeWords);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
