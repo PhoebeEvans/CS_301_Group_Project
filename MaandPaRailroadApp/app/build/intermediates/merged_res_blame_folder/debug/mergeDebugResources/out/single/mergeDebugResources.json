@@ -1,486 +1,482 @@
 [
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_oldmillinside200x300c.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/oldmillinside200x300c.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_img_4132.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\img_4132.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_lisa1_ma_pa_gross_trestle_c.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/lisa1_ma_pa_gross_trestle_c.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\activity_main.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_train.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_train.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_directions.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_directions.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_oldphone.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\oldphone.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_staso_vermont_report.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/staso_vermont_report.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_ind_robinsonbrotherscoal.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\ind_robinsonbrotherscoal.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_explore_village.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_explore_village.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi___stasomillingcolarge.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\__stasomillingcolarge.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_tourmap3.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/tourmap3.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_oldbox200x300.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\oldbox200x300.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/menu_navigation_menu.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/menu/navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi__0_0458.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\_0_0458.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_person.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_person.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_toolcarx11web.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\toolcarx11web.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_input_bg.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/input_bg.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-pngs-40:\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.maandparailroadapp-pngs-40:/drawable-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_home.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi___whiteford_station_captioned.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/__whiteford_station_captioned.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_email.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_email.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_gallery.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-pngs-40:\\drawable-xhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_tourmap3.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\tourmap3.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_flatcar110_sharontrestle700.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/flatcar110_sharontrestle700.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_beebe_clegg.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\beebe_clegg.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_mapaboxcardelta.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/mapaboxcardelta.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_second.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_settings.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_settings.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_toolcarx11_3.gif.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\toolcarx11_3.gif"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_staso_gerrysbuilding.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/staso_gerrysbuilding.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_join.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_join.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.maandparailroadapp-pngs-40:/drawable-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_links.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_links.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_village.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_village.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_register.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_register.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_ind_robinsonbrotherscoal.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/ind_robinsonbrotherscoal.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_castlefinn.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/castlefinn.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_gallery.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_gallery.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_img_4132.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/img_4132.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\raw_image_3.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\raw\\image_3.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/navigation_nav_graph.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi__0_0250.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\_0_0250.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_contact.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_contact.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_volunteers02.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\volunteers02.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_industries.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_industries.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_staso_trackage.gif.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\staso_trackage.gif"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_lisa4_ma_pa_forest_hill_station.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/lisa4_ma_pa_forest_hill_station.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-pngs-40:\\drawable-hdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi__0_0458.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/_0_0458.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_contact.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_contact.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_train_1.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/train_1.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_first.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_boxcar_15161_jwolf.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/boxcar_15161_jwolf.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_hours.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_hours.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_hours.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_hours.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_viber_image_2023_11_07_10_23_52_919.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\viber_image_2023_11_07_10_23_52_919.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_baggag_1.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/baggag_1.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_directions.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_directions.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_olddiesel82405x200.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/olddiesel82405x200.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_oldflatcar200x300.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\oldflatcar200x300.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/raw_image_3.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/raw/image_3.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\raw_image_2.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\raw\\image_2.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_second.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maandparailroadapp-debug-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_map_muddycreekforks.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\map_muddycreekforks.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_contact.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_contact.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_oakhill_quarry_looking_north_arrow.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\oakhill_quarry_looking_north_arrow.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_directions.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_directions.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_lisa1_ma_pa_gross_trestle_c.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\lisa1_ma_pa_gross_trestle_c.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_staso_trackage.gif.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/staso_trackage.gif"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_gallery.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_gallery.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_info.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_info.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_events.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_events.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\activity_register.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.maandparailroadapp-debug-44:/menu_menu_main.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/menu/menu_main.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_baggag_1.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\baggag_1.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_memories.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_memories.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_equipment.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_equipment.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_oldmillinside200x300c.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\oldmillinside200x300c.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/xml_backup_rules.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_staso_vermont_report.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\staso_vermont_report.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_oldmillinside200x300b.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/oldmillinside200x300b.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi__908_h_k_porterengine_500.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\_908_h_k_porterengine_500.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_beebe_clegg.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/beebe_clegg.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_contact.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_contact.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_activity_main.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_train_ride.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_train_ride.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_toolcarx11web.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/toolcarx11web.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_events.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_events.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_email.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-anydpi_lisa2_ma_pa_forest_hill_c_19.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-anydpi\\lisa2_ma_pa_forest_hill_c_19.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\content_main.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_volunteers02.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/volunteers02.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_staso_gerrysbuilding.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\staso_gerrysbuilding.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_activity_login.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_oldphone.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/oldphone.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_industries.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_industries.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_flatcar110_sharontrestle700.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\flatcar110_sharontrestle700.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_toolcarx11_1.gif.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/toolcarx11_1.gif"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_viber_image_2023_11_07_10_23_52_919.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\viber_image_2023_11_07_10_23_52_919.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_viber_image_2023_11_07_10_23_52_919.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/viber_image_2023_11_07_10_23_52_919.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_stasomaprailway.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\stasomaprailway.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.maandparailroadapp-pngs-40:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\menu_menu_main.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\menu\\menu_main.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_history.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_history.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_directions.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_directions.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_home.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_activity_fullscreen_image.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\activity_fullscreen_image.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_register.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_register.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi___whiteford_station_captioned.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\__whiteford_station_captioned.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.maandparailroadapp-pngs-40:/drawable-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_memories.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_memories.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_login.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_login.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_proctor_engine_no1.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/proctor_engine_no1.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_person.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_person.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_slateridgerr.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/slateridgerr.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\activity_login.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_first.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\menu_navigation_menu.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\menu\\navigation_menu.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-ldpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-pngs-40:\\drawable-ldpi\\ic_launcher_foreground.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_lisa3_ma_pa_gross_trestle.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/lisa3_ma_pa_gross_trestle.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\navigation\\nav_graph.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_toolcarx11_5.gif.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/toolcarx11_5.gif"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_flatcar110_properbalance.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\flatcar110_properbalance.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_kidsatmapa.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/kidsatmapa.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_security.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_security.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_village.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_village.xml"
     },
     {
         "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_doorwesley.png.flat",
         "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/doorwesley.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_hours.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_hours.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-anydpi_lisa2_ma_pa_forest_hill_c_19.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-anydpi/lisa2_ma_pa_forest_hill_c_19.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_train_1.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\train_1.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_toolcarx11_5.gif.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\toolcarx11_5.gif"
+        "merged": "com.example.maandparailroadapp-debug-44:/raw_image_1.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/raw/image_1.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_train.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_train.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_map_muddycreekforks.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/map_muddycreekforks.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_lisa4_ma_pa_forest_hill_station.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\lisa4_ma_pa_forest_hill_station.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi__908_h_k_porterengine_500.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/_908_h_k_porterengine_500.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-pngs-40:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_heritagevillage.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/heritagevillage.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_activity_register.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_oldmillinside200x300.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\oldmillinside200x300.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_newsletter.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_newsletter.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_oakhill_quarry_looking_north_arrow.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/oakhill_quarry_looking_north_arrow.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_history.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_history.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_equipment.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_equipment.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_input_bg.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\input_bg.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_oldbox200x300.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/oldbox200x300.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-pngs-40:\\drawable-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_oldmilkcans200x300.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/oldmilkcans200x300.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_explore_village.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_explore_village.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/raw_image_2.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/raw/image_2.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_ma_pa_rr_delta002_web.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\ma_pa_rr_delta002_web.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_flatcar110_properbalance.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/flatcar110_properbalance.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_oldmillinside200x300b.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\oldmillinside200x300b.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.maandparailroadapp-pngs-40:/drawable-ldpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_hydesmdmaparrcrop.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\hydesmdmaparrcrop.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_staso_siding_mahan.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/staso_siding_mahan.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_settings.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_settings.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_activity_fullscreen_image.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/activity_fullscreen_image.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_oldweights150x225.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\oldweights150x225.jpg"
-    },
-    {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_mapaboxcardelta.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\mapaboxcardelta.jpg"
-    },
-    {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_item_gallery_image.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\item_gallery_image.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_oldweights150x225.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/oldweights150x225.jpg"
     },
     {
         "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_join.xml.flat",
         "source": "com.example.maandparailroadapp-main-46:/layout/fragment_join.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_staso_siding_mahan.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\staso_siding_mahan.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_stasomaprailway.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/stasomaprailway.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_viber_image_2023_11_07_10_23_52_919.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/viber_image_2023_11_07_10_23_52_919.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_village.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_village.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_toolcarx11_3.gif.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/toolcarx11_3.gif"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_mapa82m.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\mapa82m.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_ma_pa_rr_delta002_web.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/ma_pa_rr_delta002_web.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_olddiesel82405x200.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\olddiesel82405x200.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_hours.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_hours.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_btn_bg.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\btn_bg.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_oldmillinside200x300.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/oldmillinside200x300.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_lisa3_ma_pa_gross_trestle.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\lisa3_ma_pa_gross_trestle.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_item_gallery_image.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/item_gallery_image.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_events.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_events.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_oldflatcar200x300.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/oldflatcar200x300.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_gallery.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_train_ride.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_train_ride.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_slateridgerr.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\slateridgerr.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_proctor_engine_no1.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\proctor_engine_no1.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_boxcar_15161_jwolf.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\boxcar_15161_jwolf.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_content_main.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/content_main.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.maandparailroadapp-pngs-40:/drawable-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_castlefinn.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\castlefinn.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_events.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_events.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_toolcarx11_1.gif.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\toolcarx11_1.gif"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi___stasomillingcolarge.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/__stasomillingcolarge.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\raw_image_4.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\raw\\image_4.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.maandparailroadapp-pngs-40:/drawable-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\xml\\backup_rules.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_security.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_security.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_heritagevillage.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\heritagevillage.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_btn_bg.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/btn_bg.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_kidsatmapa.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\kidsatmapa.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable_ic_info.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable/ic_info.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\raw_image_1.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\raw\\image_1.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/raw_image_4.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/raw/image_4.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable_ic_login.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable\\ic_login.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi__0_0250.png.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/_0_0250.png"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-pngs-40:\\drawable-mdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.maandparailroadapp-debug-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maandparailroadapp-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\drawable-nodpi_oldmilkcans200x300.jpg.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\drawable-nodpi\\oldmilkcans200x300.jpg"
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_mapa82m.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/mapa82m.jpg"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-44:\\layout_fragment_village.xml.flat",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-46:\\layout\\fragment_village.xml"
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_newsletter.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_newsletter.xml"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-debug-44:/drawable-nodpi_hydesmdmaparrcrop.jpg.flat",
+        "source": "com.example.maandparailroadapp-main-46:/drawable-nodpi/hydesmdmaparrcrop.jpg"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-debug-44:/layout_fragment_links.xml.flat",
+        "source": "com.example.maandparailroadapp-main-46:/layout/fragment_links.xml"
     }
 ]

@@ -3248,6 +3248,7 @@ id TrainRideFragment
 id VillageFragment
 id a_m_grove_general_store
 id a_m_grove_house
+id abandoned_header
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3338,6 +3339,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id brief
 id btnLogin
 id btnRegister
 id buttonPanel
@@ -3397,6 +3399,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailed
 id dialog_button
 id dimensions
 id direct
@@ -3673,6 +3676,7 @@ id right_icon
 id right_side
 id roller_mills
 id rounded
+id route
 id row_index_key
 id rtl
 id save_non_transition_alpha
@@ -3716,6 +3720,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id society
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -3824,6 +3829,7 @@ id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
+id village
 id village_info_text
 id visible
 id visible_removing_fragment_view_tag
@@ -3835,6 +3841,7 @@ id withinBounds
 id wrap
 id wrap_content
 id wrap_content_constrained
+id wrecks
 id x_left
 id x_right
 id yellow_house

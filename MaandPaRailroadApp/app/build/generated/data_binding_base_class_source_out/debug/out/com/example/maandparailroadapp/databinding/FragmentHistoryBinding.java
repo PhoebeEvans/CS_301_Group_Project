@@ -4,6 +4,7 @@ package com.example.maandparailroadapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,21 +21,51 @@ public final class FragmentHistoryBinding implements ViewBinding {
   private final NestedScrollView rootView;
 
   @NonNull
-  public final TextView textviewFirst;
+  public final TextView abandonedHeader;
+
+  @NonNull
+  public final TextView brief;
+
+  @NonNull
+  public final TextView credit;
+
+  @NonNull
+  public final TextView detailed;
+
+  @NonNull
+  public final ImageView imageMain;
+
+  @NonNull
+  public final TextView route;
+
+  @NonNull
+  public final TextView society;
 
   @NonNull
   public final TextView textviewFirstHeader;
 
   @NonNull
-  public final TextView textviewSecond;
+  public final TextView village;
+
+  @NonNull
+  public final TextView wrecks;
 
   private FragmentHistoryBinding(@NonNull NestedScrollView rootView,
-      @NonNull TextView textviewFirst, @NonNull TextView textviewFirstHeader,
-      @NonNull TextView textviewSecond) {
+      @NonNull TextView abandonedHeader, @NonNull TextView brief, @NonNull TextView credit,
+      @NonNull TextView detailed, @NonNull ImageView imageMain, @NonNull TextView route,
+      @NonNull TextView society, @NonNull TextView textviewFirstHeader, @NonNull TextView village,
+      @NonNull TextView wrecks) {
     this.rootView = rootView;
-    this.textviewFirst = textviewFirst;
+    this.abandonedHeader = abandonedHeader;
+    this.brief = brief;
+    this.credit = credit;
+    this.detailed = detailed;
+    this.imageMain = imageMain;
+    this.route = route;
+    this.society = society;
     this.textviewFirstHeader = textviewFirstHeader;
-    this.textviewSecond = textviewSecond;
+    this.village = village;
+    this.wrecks = wrecks;
   }
 
   @Override
@@ -64,9 +95,45 @@ public final class FragmentHistoryBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textview_first;
-      TextView textviewFirst = ViewBindings.findChildViewById(rootView, id);
-      if (textviewFirst == null) {
+      id = R.id.abandoned_header;
+      TextView abandonedHeader = ViewBindings.findChildViewById(rootView, id);
+      if (abandonedHeader == null) {
+        break missingId;
+      }
+
+      id = R.id.brief;
+      TextView brief = ViewBindings.findChildViewById(rootView, id);
+      if (brief == null) {
+        break missingId;
+      }
+
+      id = R.id.credit;
+      TextView credit = ViewBindings.findChildViewById(rootView, id);
+      if (credit == null) {
+        break missingId;
+      }
+
+      id = R.id.detailed;
+      TextView detailed = ViewBindings.findChildViewById(rootView, id);
+      if (detailed == null) {
+        break missingId;
+      }
+
+      id = R.id.imageMain;
+      ImageView imageMain = ViewBindings.findChildViewById(rootView, id);
+      if (imageMain == null) {
+        break missingId;
+      }
+
+      id = R.id.route;
+      TextView route = ViewBindings.findChildViewById(rootView, id);
+      if (route == null) {
+        break missingId;
+      }
+
+      id = R.id.society;
+      TextView society = ViewBindings.findChildViewById(rootView, id);
+      if (society == null) {
         break missingId;
       }
 
@@ -76,14 +143,20 @@ public final class FragmentHistoryBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textview_second;
-      TextView textviewSecond = ViewBindings.findChildViewById(rootView, id);
-      if (textviewSecond == null) {
+      id = R.id.village;
+      TextView village = ViewBindings.findChildViewById(rootView, id);
+      if (village == null) {
         break missingId;
       }
 
-      return new FragmentHistoryBinding((NestedScrollView) rootView, textviewFirst,
-          textviewFirstHeader, textviewSecond);
+      id = R.id.wrecks;
+      TextView wrecks = ViewBindings.findChildViewById(rootView, id);
+      if (wrecks == null) {
+        break missingId;
+      }
+
+      return new FragmentHistoryBinding((NestedScrollView) rootView, abandonedHeader, brief, credit,
+          detailed, imageMain, route, society, textviewFirstHeader, village, wrecks);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -96,11 +96,13 @@ id TrainRideFragment
 id VillageFragment
 id a_m_grove_general_store
 id a_m_grove_house
+id abandoned_header
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id action_settings
 id alreadyHaveAccount
 id barn
+id brief
 id btnLogin
 id btnRegister
 id button_second
@@ -109,6 +111,7 @@ id contact_text
 id corn_cribs
 id corn_husking_shed
 id credit
+id detailed
 id directions_image
 id directions_text
 id drawer_layout
@@ -162,8 +165,10 @@ id railroad_station_platform
 id railroad_tool_house
 id register
 id roller_mills
+id route
 id sign
 id signIn
+id society
 id stone_house
 id team_track
 id textViewSignUp
@@ -187,8 +192,10 @@ id things_that_are_now_gone
 id toolbar
 id train_ride_image
 id train_ride_text
+id village
 id village_info_text
 id web_link
+id wrecks
 id yellow_house
 layout activity_fullscreen_image
 layout activity_login
