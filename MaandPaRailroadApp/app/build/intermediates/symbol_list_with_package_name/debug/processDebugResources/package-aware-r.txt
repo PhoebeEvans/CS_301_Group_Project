@@ -3061,6 +3061,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable doorwesley
 drawable flatcar110_properbalance
 drawable flatcar110_sharontrestle700
 drawable heritagevillage
@@ -3491,6 +3492,7 @@ id info
 id inputConfirmPassword
 id inputEmail
 id invisible
+id invite
 id inward
 id is_pooling_container_tag
 id italic
