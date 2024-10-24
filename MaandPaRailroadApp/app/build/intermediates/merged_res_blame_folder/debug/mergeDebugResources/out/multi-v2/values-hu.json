@@ -4,24 +4,7 @@
             "outputFile": "com.example.maandparailroadapp-mergeDebugResources-42:/values-hu/values-hu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\04e3b731077ad70c82a7a16356e728cc\\transformed\\navigation-ui-2.8.0\\res\\values-hu\\values-hu.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,167",
-                        "endColumns": "111,119",
-                        "endOffsets": "162,282"
-                    },
-                    "to": {
-                        "startLines": "111,112",
-                        "startColumns": "4,4",
-                        "startOffsets": "9526,9638",
-                        "endColumns": "111,119",
-                        "endOffsets": "9633,9753"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\26977b5f4bacbebcac0e19e9a0815d0a\\transformed\\appcompat-1.7.0\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\1a94aeae459323b0a858bfe723618768\\transformed\\appcompat-1.7.0\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\c03fd947cd43346a32e4681b36bc2d7b\\transformed\\core-1.13.0\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\b84941538d7827afd0219ac9ff046066\\transformed\\navigation-ui-2.8.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,119",
+                        "endOffsets": "162,282"
+                    },
+                    "to": {
+                        "startLines": "111,112",
+                        "startColumns": "4,4",
+                        "startOffsets": "9526,9638",
+                        "endColumns": "111,119",
+                        "endOffsets": "9633,9753"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\6c9b9c6211b3132dc2f6a38c956b05af\\transformed\\core-1.13.0\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\13f328dde550a803b90ae7b19fa2c3c8\\transformed\\material-1.12.0\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\6079e9c6e146124b8838d870749ee8fe\\transformed\\material-1.12.0\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
