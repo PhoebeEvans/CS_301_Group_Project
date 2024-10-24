@@ -20,16 +20,16 @@ public final class FragmentLinksBinding implements ViewBinding {
   private final NestedScrollView rootView;
 
   @NonNull
-  public final NestedScrollView links;
-
-  @NonNull
   public final TextView textviewFirstHeader;
 
-  private FragmentLinksBinding(@NonNull NestedScrollView rootView, @NonNull NestedScrollView links,
-      @NonNull TextView textviewFirstHeader) {
+  @NonNull
+  public final TextView webLink;
+
+  private FragmentLinksBinding(@NonNull NestedScrollView rootView,
+      @NonNull TextView textviewFirstHeader, @NonNull TextView webLink) {
     this.rootView = rootView;
-    this.links = links;
     this.textviewFirstHeader = textviewFirstHeader;
+    this.webLink = webLink;
   }
 
   @Override
@@ -59,15 +59,19 @@ public final class FragmentLinksBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      NestedScrollView links = (NestedScrollView) rootView;
-
       id = R.id.textview_firstHeader;
       TextView textviewFirstHeader = ViewBindings.findChildViewById(rootView, id);
       if (textviewFirstHeader == null) {
         break missingId;
       }
 
-      return new FragmentLinksBinding((NestedScrollView) rootView, links, textviewFirstHeader);
+      id = R.id.web_link;
+      TextView webLink = ViewBindings.findChildViewById(rootView, id);
+      if (webLink == null) {
+        break missingId;
+      }
+
+      return new FragmentLinksBinding((NestedScrollView) rootView, textviewFirstHeader, webLink);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
