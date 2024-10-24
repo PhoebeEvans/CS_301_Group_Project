@@ -2,10 +2,9 @@
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/links"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#A05353"
+    android:backgroundTint="@color/yellow"
     android:backgroundTintMode="add">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -22,12 +21,23 @@
             android:gravity="center"
             android:textSize="20sp"
             android:layout_marginTop="16dp"
-            android:text="Ma &amp; Pa Railroad Links"
+            android:text="HEader"
             android:textColor="@color/gray"
+            android:padding="5dp"
+            app:layout_constraintBottom_toTopOf="@id/web_link"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/web_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:autoLink="web"
+            android:text="link "
+            app:layout_constraintTop_toBottomOf="@+id/textview_firstHeader" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
