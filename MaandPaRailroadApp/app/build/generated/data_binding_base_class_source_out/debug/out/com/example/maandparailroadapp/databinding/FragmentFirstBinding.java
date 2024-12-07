@@ -22,6 +22,12 @@ public final class FragmentFirstBinding implements ViewBinding {
   private final NestedScrollView rootView;
 
   @NonNull
+  public final Button buttonAmazon;
+
+  @NonNull
+  public final Button buttonFacebook;
+
+  @NonNull
   public final ImageView imageMain;
 
   @NonNull
@@ -72,16 +78,18 @@ public final class FragmentFirstBinding implements ViewBinding {
   @NonNull
   public final TextView textviewWhatThreeWords;
 
-  private FragmentFirstBinding(@NonNull NestedScrollView rootView, @NonNull ImageView imageMain,
-      @NonNull NestedScrollView sign, @NonNull Button signIn, @NonNull TextView textviewAddress,
-      @NonNull TextView textviewBrochure, @NonNull TextView textviewContact,
-      @NonNull TextView textviewCoordinates, @NonNull TextView textviewEmail,
-      @NonNull TextView textviewFirst, @NonNull TextView textviewFirstHeader,
-      @NonNull TextView textviewMailingAddress, @NonNull TextView textviewPhone,
-      @NonNull TextView textviewSecond, @NonNull TextView textviewSubscribe,
-      @NonNull TextView textviewThird, @NonNull TextView textviewTrainTickets,
-      @NonNull TextView textviewWhatThreeWords) {
+  private FragmentFirstBinding(@NonNull NestedScrollView rootView, @NonNull Button buttonAmazon,
+      @NonNull Button buttonFacebook, @NonNull ImageView imageMain, @NonNull NestedScrollView sign,
+      @NonNull Button signIn, @NonNull TextView textviewAddress, @NonNull TextView textviewBrochure,
+      @NonNull TextView textviewContact, @NonNull TextView textviewCoordinates,
+      @NonNull TextView textviewEmail, @NonNull TextView textviewFirst,
+      @NonNull TextView textviewFirstHeader, @NonNull TextView textviewMailingAddress,
+      @NonNull TextView textviewPhone, @NonNull TextView textviewSecond,
+      @NonNull TextView textviewSubscribe, @NonNull TextView textviewThird,
+      @NonNull TextView textviewTrainTickets, @NonNull TextView textviewWhatThreeWords) {
     this.rootView = rootView;
+    this.buttonAmazon = buttonAmazon;
+    this.buttonFacebook = buttonFacebook;
     this.imageMain = imageMain;
     this.sign = sign;
     this.signIn = signIn;
@@ -128,6 +136,18 @@ public final class FragmentFirstBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button_amazon;
+      Button buttonAmazon = ViewBindings.findChildViewById(rootView, id);
+      if (buttonAmazon == null) {
+        break missingId;
+      }
+
+      id = R.id.button_facebook;
+      Button buttonFacebook = ViewBindings.findChildViewById(rootView, id);
+      if (buttonFacebook == null) {
+        break missingId;
+      }
+
       id = R.id.imageMain;
       ImageView imageMain = ViewBindings.findChildViewById(rootView, id);
       if (imageMain == null) {
@@ -226,10 +246,11 @@ public final class FragmentFirstBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentFirstBinding((NestedScrollView) rootView, imageMain, sign, signIn,
-          textviewAddress, textviewBrochure, textviewContact, textviewCoordinates, textviewEmail,
-          textviewFirst, textviewFirstHeader, textviewMailingAddress, textviewPhone, textviewSecond,
-          textviewSubscribe, textviewThird, textviewTrainTickets, textviewWhatThreeWords);
+      return new FragmentFirstBinding((NestedScrollView) rootView, buttonAmazon, buttonFacebook,
+          imageMain, sign, signIn, textviewAddress, textviewBrochure, textviewContact,
+          textviewCoordinates, textviewEmail, textviewFirst, textviewFirstHeader,
+          textviewMailingAddress, textviewPhone, textviewSecond, textviewSubscribe, textviewThird,
+          textviewTrainTickets, textviewWhatThreeWords);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -105,6 +105,8 @@ id barn
 id brief
 id btnLogin
 id btnRegister
+id button_amazon
+id button_facebook
 id button_second
 id contact_image
 id contact_text
@@ -161,6 +163,7 @@ id nav_view
 id nav_village
 id original_store_site
 id photo_view
+id progressBar
 id railroad_station_platform
 id railroad_tool_house
 id register
@@ -195,12 +198,14 @@ id train_ride_text
 id village
 id village_info_text
 id web_link
+id webview
 id wrecks
 id yellow_house
 layout activity_fullscreen_image
 layout activity_login
 layout activity_main
 layout activity_register
+layout activity_webview
 layout content_main
 layout fragment_contact
 layout fragment_directions

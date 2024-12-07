@@ -3343,6 +3343,8 @@ id brief
 id btnLogin
 id btnRegister
 id buttonPanel
+id button_amazon
+id button_facebook
 id button_second
 id cache_measures
 id callMeasure
@@ -3660,6 +3662,7 @@ id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
@@ -3834,6 +3837,7 @@ id village_info_text
 id visible
 id visible_removing_fragment_view_tag
 id web_link
+id webview
 id west
 id withText
 id with_icon
@@ -3964,6 +3968,7 @@ layout activity_fullscreen_image
 layout activity_login
 layout activity_main
 layout activity_register
+layout activity_webview
 layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item
