@@ -152,6 +152,20 @@
             android:text="/// lightweight.tips.mugs"
             app:layout_constraintTop_toBottomOf="@+id/textview_Coordinates" />
 
+        <Button
+            android:id="@+id/button_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visit Facebook"
+            app:layout_constraintTop_toBottomOf="@+id/textview_WhatThreeWords" />
+
+        <Button
+            android:id="@+id/button_amazon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amazon Shop"
+            app:layout_constraintTop_toBottomOf="@+id/textview_WhatThreeWords"
+            app:layout_constraintLeft_toRightOf="@id/button_facebook"/>
 
         <ImageView
             android:id="@+id/imageMain"

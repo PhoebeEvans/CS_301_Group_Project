@@ -1,5 +1,6 @@
 package com.example.maandparailroadapp;
 
+import android.net.Uri;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -104,6 +105,19 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, RegisterActivity.class));
             }
+        });
+
+        Button facebookButton = findViewById(R.id.button_facebook);
+        Button amazonButton = findViewById(R.id.button_amazon);
+        facebookButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra("url", "https://www.facebook.com/MaAndPaRailroad");
+            startActivity(intent);
+        });
+        amazonButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra("url", "https://www.amazon.com/gp/product/B0013JWTHY/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0013JWTHY&linkCode=as2&tag=maparaipresoc-20");
+            startActivity(intent);
         });
     }
 
