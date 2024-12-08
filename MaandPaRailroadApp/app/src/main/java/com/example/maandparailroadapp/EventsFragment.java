@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import java.util.List;
+
 /**
  * @author Griffin
  * @date 10/15/2024
@@ -29,7 +31,6 @@ public class EventsFragment extends Fragment {
      */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
         // Inflate the layout for this fragment
         View root = inflater.inflate(R.layout.fragment_events, container, false);
 
@@ -41,7 +42,14 @@ public class EventsFragment extends Fragment {
 
         //This observes live data and will update the TextView with new information.
         eventsViewModel.getEventsInfo().observe(getViewLifecycleOwner(), events -> {
-            events_text.setText(events.toString());
+            StringBuilder eventsString = new StringBuilder();
+            for (Event event : events) {
+                eventsString.append(event.getTitle())
+                        .append("\n").append(event.getDescription())
+                        .append("\n").append(event.getDate()).append(" - ").append(event.getTime())
+                        .append("\n\n");
+            }
+            events_text.setText(eventsString.toString());
         });
 
         //Returns the actual view of the fragment.

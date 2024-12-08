@@ -6,7 +6,9 @@
 
     <TextView
         android:id="@+id/events_text"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Loading upcoming events..." />
+        android:text="Loading upcoming events..."
+        android:padding="16dp"
+        android:textSize="16sp"/>
 </LinearLayout>
