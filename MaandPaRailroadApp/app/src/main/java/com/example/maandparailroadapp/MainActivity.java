@@ -68,8 +68,9 @@ public class MainActivity extends AppCompatActivity {
                 navController.navigate(R.id.DirectionsFragment); // Navigate to DirectionsFragment
             } else if (itemId == R.id.nav_contact) {
                 navController.navigate(R.id.ContactFragment); // Navigate to ContactFragment
-            } else if (itemId == R.id.action_settings) {
-                // Handle settings navigation, if applicable
+            } else if (itemId == R.id.nav_maps) {
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
+                startActivity(intent);
             } else if (itemId == R.id.login){
                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
             } else if (itemId == R.id.register){
