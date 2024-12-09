@@ -57,6 +57,7 @@
         <activity android:name="com.example.maandparailroadapp.RegisterActivity" />
         <activity android:name="com.example.maandparailroadapp.LoginActivity" />
         <activity android:name="com.example.maandparailroadapp.UserProfileActivity" />
+        <activity android:name="com.example.maandparailroadapp.AdminDashboardActivity" />
         <activity android:name="com.example.maandparailroadapp.FullScreenImage" />
         <activity android:name="com.example.maandparailroadapp.WebViewActivity" />
         <activity android:name="com.example.maandparailroadapp.MapActivity" />

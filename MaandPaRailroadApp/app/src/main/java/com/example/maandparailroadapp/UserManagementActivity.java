@@ -20,7 +20,7 @@ public class UserManagementActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.user_profile);
+        setContentView(R.layout.user_management);
 
         dbHelper = DBHelper.getInstance(this);
         sessionManager = new SessionManager(this);

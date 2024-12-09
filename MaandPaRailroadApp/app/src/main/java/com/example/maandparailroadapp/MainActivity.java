@@ -25,10 +25,18 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
+    private SessionManager sessionManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        sessionManager = new SessionManager(this);
+
+        if (!sessionManager.isLoggedIn()) {
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+            finish();
+        }
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -88,7 +96,12 @@ public class MainActivity extends AppCompatActivity {
             } else if (itemId == R.id.login){
                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
             } else if (itemId == R.id.register){
-                startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+                startActivity(new Intent(MainActivity.this, UserProfileActivity.class));
+            } else if (itemId == R.id.admin){
+                startActivity(new Intent(MainActivity.this, AdminDashboardActivity.class));
+            } else if (itemId == R.id.logout){
+                sessionManager.logoutUser();
+                startActivity(new Intent(MainActivity.this, MainActivity.class));
             }else if (itemId == R.id.nav_equipment) {
                 navController.navigate(R.id.EquipmentFragment); // Navigate to EquipmentFragment
             }else if (itemId == R.id.nav_explore) {
@@ -109,17 +122,6 @@ public class MainActivity extends AppCompatActivity {
 
             drawerLayout.closeDrawers(); // Close drawer after selecting
             return true;
-        });
-
-    /*
-    @author Lauren
-     */
-        Button btn = findViewById(R.id.signIn);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, RegisterActivity.class));
-            }
         });
 
         Button facebookButton = findViewById(R.id.button_facebook);
@@ -145,9 +147,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-
-        Button btn = findViewById(R.id.signIn);
-        btn.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, RegisterActivity.class)));
 
         Button facebookButton = findViewById(R.id.button_facebook);
         Button amazonButton = findViewById(R.id.button_amazon);

@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
                         if(password.equals(correctUser.getPassword())){
                             sessionManager.createLoginSession(correctUser);
                             Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(LoginActivity.this, UserProfileActivity.class));
+                            startActivity(new Intent(LoginActivity.this, MainActivity.class));
                         }
                         else {
                             passwordTextField.setError("Incorrect Password");
