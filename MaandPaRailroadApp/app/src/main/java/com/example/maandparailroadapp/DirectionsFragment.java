@@ -1,9 +1,12 @@
 package com.example.maandparailroadapp;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
@@ -35,13 +38,18 @@ public class DirectionsFragment extends Fragment {
 
         //Instantiate the TextView in the layout.
         TextView directions_text = root.findViewById(R.id.directions_text);
-
+        ImageView directions_image = root.findViewById(R.id.directions_image);
         // Initialize the ViewModel for this fragment
         directionsViewModel = new ViewModelProvider(this).get(DirectionsViewModel.class);
 
         //This observes live data and will update the TextView with new information.
         directionsViewModel.getDirectionsInfo().observe(getViewLifecycleOwner(), directions -> {
             directions_text.setText(directions);
+        });
+        directions_image.setOnClickListener(v -> {
+            // Launch the MapActivity
+            Intent intent = new Intent(getActivity(), MapActivity.class);
+            startActivity(intent);
         });
 
         //Returns the actual view of the fragment.

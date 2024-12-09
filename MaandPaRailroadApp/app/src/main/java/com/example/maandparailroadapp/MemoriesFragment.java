@@ -1,6 +1,7 @@
 package com.example.maandparailroadapp;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
@@ -40,13 +41,14 @@ public class MemoriesFragment  extends Fragment {
         });
 
 
-
+        web_link.setPaintFlags(web_link.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
         web_link.setMovementMethod(LinkMovementMethod.getInstance());
         web_link.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("MemoriesFragment", "link clicked");
-                openWebPage("https://maandparailroad.com/memories.php");
+                Intent intent = new Intent(getActivity(), WebViewActivity.class);
+                intent.putExtra("url", "https://maandparailroad.com/memories.php");
+                startActivity(intent);
             }
         });
 

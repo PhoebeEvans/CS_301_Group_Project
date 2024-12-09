@@ -15,12 +15,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:id="@+id/directions_image"
+            android:clickable="true"
+            android:focusable="true"
             android:src="@drawable/map_muddycreekforks" />
         <TextView
             android:id="@+id/directions_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18dp"
-            android:text="Loading directions..." />
+            android:text="Loading directions..."
+            android:layout_margin="16dp"
+            android:padding="16dp"/>
     </LinearLayout>
 </ScrollView>

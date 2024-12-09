@@ -35,9 +35,6 @@ public class HoursViewModel extends ViewModel {
                 "\n" +
                 "Train Rides & Tours\n" +
                 "All Sundays June 2 - Sep. 1, 1-5 pm\n" +
-                "» Motorcar train rides on all open days. The last train departs 45 minutes before closing.\n" +
-                "\n" +
-                "» Tickets available online\n" +
-                "\n");
+                "» Motorcar train rides on all open days. The last train departs 45 minutes before closing.");
     }
 }

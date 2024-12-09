@@ -21,14 +21,18 @@ public final class FragmentHoursBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final TextView buyTickets;
+
+  @NonNull
   public final ImageView hoursImage;
 
   @NonNull
   public final TextView hoursText;
 
-  private FragmentHoursBinding(@NonNull ScrollView rootView, @NonNull ImageView hoursImage,
-      @NonNull TextView hoursText) {
+  private FragmentHoursBinding(@NonNull ScrollView rootView, @NonNull TextView buyTickets,
+      @NonNull ImageView hoursImage, @NonNull TextView hoursText) {
     this.rootView = rootView;
+    this.buyTickets = buyTickets;
     this.hoursImage = hoursImage;
     this.hoursText = hoursText;
   }
@@ -60,6 +64,12 @@ public final class FragmentHoursBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.buy_tickets;
+      TextView buyTickets = ViewBindings.findChildViewById(rootView, id);
+      if (buyTickets == null) {
+        break missingId;
+      }
+
       id = R.id.hours_image;
       ImageView hoursImage = ViewBindings.findChildViewById(rootView, id);
       if (hoursImage == null) {
@@ -72,7 +82,7 @@ public final class FragmentHoursBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHoursBinding((ScrollView) rootView, hoursImage, hoursText);
+      return new FragmentHoursBinding((ScrollView) rootView, buyTickets, hoursImage, hoursText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

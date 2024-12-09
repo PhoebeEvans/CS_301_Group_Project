@@ -48,9 +48,6 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
   public final ImageView imageMain;
 
   @NonNull
-  public final ImageView imageSecond;
-
-  @NonNull
   public final TextView jamesGroveHouse;
 
   @NonNull
@@ -114,17 +111,16 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
       @NonNull TextView aMGroveGeneralStore, @NonNull TextView aMGroveHouse, @NonNull TextView barn,
       @NonNull TextView cornCribs, @NonNull TextView cornHuskingShed, @NonNull TextView credit,
       @NonNull TextView fertilizerWarehouse, @NonNull TextView grainElevator,
-      @NonNull ImageView imageMain, @NonNull ImageView imageSecond,
-      @NonNull TextView jamesGroveHouse, @NonNull TextView keisersFertilizerWarehouse,
-      @NonNull TextView milkCollectionBuilding, @NonNull TextView millLoadingPlatform,
-      @NonNull TextView millRace, @NonNull TextView millTailRace,
-      @NonNull TextView originalStoreSite, @NonNull TextView railroadStationPlatform,
-      @NonNull TextView railroadToolHouse, @NonNull TextView rollerMills,
-      @NonNull TextView stoneHouse, @NonNull TextView teamTrack, @NonNull TextView textviewFifth,
-      @NonNull TextView textviewFirst, @NonNull TextView textviewFirstHeader,
-      @NonNull TextView textviewFourth, @NonNull TextView textviewSecond,
-      @NonNull TextView textviewThird, @NonNull TextView thingsThatAreNowGone,
-      @NonNull TextView yellowHouse) {
+      @NonNull ImageView imageMain, @NonNull TextView jamesGroveHouse,
+      @NonNull TextView keisersFertilizerWarehouse, @NonNull TextView milkCollectionBuilding,
+      @NonNull TextView millLoadingPlatform, @NonNull TextView millRace,
+      @NonNull TextView millTailRace, @NonNull TextView originalStoreSite,
+      @NonNull TextView railroadStationPlatform, @NonNull TextView railroadToolHouse,
+      @NonNull TextView rollerMills, @NonNull TextView stoneHouse, @NonNull TextView teamTrack,
+      @NonNull TextView textviewFifth, @NonNull TextView textviewFirst,
+      @NonNull TextView textviewFirstHeader, @NonNull TextView textviewFourth,
+      @NonNull TextView textviewSecond, @NonNull TextView textviewThird,
+      @NonNull TextView thingsThatAreNowGone, @NonNull TextView yellowHouse) {
     this.rootView = rootView;
     this.aMGroveGeneralStore = aMGroveGeneralStore;
     this.aMGroveHouse = aMGroveHouse;
@@ -135,7 +131,6 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
     this.fertilizerWarehouse = fertilizerWarehouse;
     this.grainElevator = grainElevator;
     this.imageMain = imageMain;
-    this.imageSecond = imageSecond;
     this.jamesGroveHouse = jamesGroveHouse;
     this.keisersFertilizerWarehouse = keisersFertilizerWarehouse;
     this.milkCollectionBuilding = milkCollectionBuilding;
@@ -236,12 +231,6 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
       id = R.id.imageMain;
       ImageView imageMain = ViewBindings.findChildViewById(rootView, id);
       if (imageMain == null) {
-        break missingId;
-      }
-
-      id = R.id.imageSecond;
-      ImageView imageSecond = ViewBindings.findChildViewById(rootView, id);
-      if (imageSecond == null) {
         break missingId;
       }
 
@@ -367,7 +356,7 @@ public final class FragmentExploreVillageBinding implements ViewBinding {
 
       return new FragmentExploreVillageBinding((NestedScrollView) rootView, aMGroveGeneralStore,
           aMGroveHouse, barn, cornCribs, cornHuskingShed, credit, fertilizerWarehouse,
-          grainElevator, imageMain, imageSecond, jamesGroveHouse, keisersFertilizerWarehouse,
+          grainElevator, imageMain, jamesGroveHouse, keisersFertilizerWarehouse,
           milkCollectionBuilding, millLoadingPlatform, millRace, millTailRace, originalStoreSite,
           railroadStationPlatform, railroadToolHouse, rollerMills, stoneHouse, teamTrack,
           textviewFifth, textviewFirst, textviewFirstHeader, textviewFourth, textviewSecond,

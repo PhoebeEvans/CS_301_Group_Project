@@ -1,5 +1,7 @@
 package com.example.maandparailroadapp;
 
+import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,13 +36,24 @@ public class ContactFragment extends Fragment {
 
         //Instantiate the TextView in the layout.
         TextView contactText = root.findViewById(R.id.contact_text);
-
+        TextView contactText2 = root.findViewById(R.id.contact_text2);
+        TextView mailingList = root.findViewById(R.id.mailing_list);
         // Initialize the ViewModel for this fragment
         contactViewModel = new ViewModelProvider(this).get(ContactViewModel.class);
 
         //This observes live data and will update the TextView with new information.
         contactViewModel.getContactInfo().observe(getViewLifecycleOwner(), contact -> {
             contactText.setText(contact);
+        });
+        contactViewModel.getContactInfo2().observe(getViewLifecycleOwner(), contact -> {
+            contactText2.setText(contact);
+        });
+
+        mailingList.setPaintFlags(mailingList.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        mailingList.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), WebViewActivity.class);
+            intent.putExtra("url", "https://maandparailroad.com/specialeventsemail.php");
+            startActivity(intent);
         });
 
         //Returns the actual view of the fragment.
