@@ -1,5 +1,10 @@
 package com.example.maandparailroadapp;
 
+/**
+ * @author Phoebe
+ * @date 12/9/2024
+ * @description Eventfor the events page
+ */
 
 public class Event {
     private int id;

@@ -19,13 +19,17 @@ import com.example.maandparailroadapp.databinding.FragmentEventsCalendarBinding;
 
 import java.util.Calendar;
 import java.util.List;
+import android.util.Log;
 
 /**
  * @author Griffin
  * @date 10/15/2024
  * @description Fragment for the events page
  */
-public class EventsFragment extends Fragment {
+
+
+
+public class EventsFragment extends Fragment implements EventsAdapter.OnEventSaveListener {
 
     private EventsViewModel eventsViewModel;
     private EventsAdapter eventsAdapter;
@@ -41,7 +45,7 @@ public class EventsFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
         eventsViewModel = new ViewModelProvider(this).get(EventsViewModel.class);
-        eventsAdapter = new EventsAdapter();
+        eventsAdapter = new EventsAdapter(this);
         recyclerView.setAdapter(eventsAdapter);
 
         calendarView.setOnDateChangeListener((view, year, month, dayOfMonth) -> {
@@ -68,5 +72,15 @@ public class EventsFragment extends Fragment {
         });
 
         return binding.getRoot();
+    }
+
+    @Override
+    public void onSave(int eventId) {
+        int userId = 1; // Assuming user ID 1 for now
+
+        // Log the event saving action
+        Log.d("EventsFragment", "Attempting to save event with eventId: " + eventId + " for userId: " + userId);
+
+        eventsViewModel.saveEventForUser(userId, eventId);
     }
 }

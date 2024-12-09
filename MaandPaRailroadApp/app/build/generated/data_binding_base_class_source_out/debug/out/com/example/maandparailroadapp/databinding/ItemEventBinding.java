@@ -4,6 +4,7 @@ package com.example.maandparailroadapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -31,14 +32,18 @@ public final class ItemEventBinding implements ViewBinding {
   @NonNull
   public final TextView eventTitle;
 
+  @NonNull
+  public final Button saveButton;
+
   private ItemEventBinding(@NonNull LinearLayout rootView, @NonNull TextView eventDate,
-      @NonNull TextView eventDescription, @NonNull TextView eventTime,
-      @NonNull TextView eventTitle) {
+      @NonNull TextView eventDescription, @NonNull TextView eventTime, @NonNull TextView eventTitle,
+      @NonNull Button saveButton) {
     this.rootView = rootView;
     this.eventDate = eventDate;
     this.eventDescription = eventDescription;
     this.eventTime = eventTime;
     this.eventTitle = eventTitle;
+    this.saveButton = saveButton;
   }
 
   @Override
@@ -92,8 +97,14 @@ public final class ItemEventBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.save_button;
+      Button saveButton = ViewBindings.findChildViewById(rootView, id);
+      if (saveButton == null) {
+        break missingId;
+      }
+
       return new ItemEventBinding((LinearLayout) rootView, eventDate, eventDescription, eventTime,
-          eventTitle);
+          eventTitle, saveButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
