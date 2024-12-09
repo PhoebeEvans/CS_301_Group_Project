@@ -13,7 +13,7 @@ public class ContactViewModel extends ViewModel {
 
     //MutableLiveData used in order to allow observers to receive updated information.
     private MutableLiveData<String> contactInfo;
-
+    private MutableLiveData<String> contactInfo2;
     //Returns the LiveData object for the village information. If not there, initializes and loads.
     public LiveData<String> getContactInfo() {
         if (contactInfo == null) {
@@ -22,20 +22,27 @@ public class ContactViewModel extends ViewModel {
         }
         return contactInfo;
     }
+    public LiveData<String> getContactInfo2() {
+        if (contactInfo2 == null) {
+            contactInfo2 = new MutableLiveData<>();
+            loadContactInfo2();
+        }
+        return contactInfo2;
+    }
 
     //Loads the village information with the .setValue method.
     private void loadContactInfo() {
-        contactInfo.setValue("address1258 Muddy Creek Forks Rd, Airville, PA 17302\n" +
+        contactInfo.setValue("Address:\n    1258 Muddy Creek Forks Rd, Airville, PA 17302\n" +
                 "\n" +
-                "phone(717) 927-9565 (voice mail)\n" +
+                "Phone Number:\n    (717) 927-9565 (voice mail)\n" +
                 "\n" +
-                "email info@MaAndPaRailroad.com\n" +
-                "\n" +
-                "mailing addressSubscribe to our Special Events mailing list.\n" +
-                "\n" +
-                "mailing address P.O. Box 2262, York, PA 17405-2262\n" +
-                "\n" +
-                "coordinates Latitude 39°48'27\", Longitude 76°28'34\"");
+                "Email Address:\n   info@MaAndPaRailroad.com\n");
 
+    }
+
+    private void loadContactInfo2() {
+        contactInfo2.setValue("MailingAddress:\n    P.O. Box 2262, York, PA 17405-2262\n" +
+                "\n" +
+                        "Coordinates:\n Latitude 39°48'27\", Longitude 76°28'34\"");
     }
 }

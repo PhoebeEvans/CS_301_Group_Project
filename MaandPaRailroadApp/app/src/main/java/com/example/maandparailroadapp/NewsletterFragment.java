@@ -45,8 +45,9 @@ public class NewsletterFragment  extends Fragment {
         web_link.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("NewsletterFragment", "link clicked");
-                openWebPage("https://maandparailroad.com/yorkmail.php");
+                Intent intent = new Intent(getActivity(), WebViewActivity.class);
+                intent.putExtra("url", "https://maandparailroad.com/yorkmail.php");
+                startActivity(intent);
             }
         });
 

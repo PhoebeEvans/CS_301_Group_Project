@@ -8,6 +8,8 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import android.view.MenuItem;
 import com.example.maandparailroadapp.databinding.ActivityMainBinding;
@@ -43,6 +45,20 @@ public class MainActivity extends AppCompatActivity {
 
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(view -> {
+            Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+            emailIntent.setData(Uri.parse("mailto:")); // Ensure only email apps handle this
+            emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"info@maandparailroad.com"}); // Add email address
+            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Contact Us"); // Add email subject
+
+            if (emailIntent.resolveActivity(getPackageManager()) != null) {
+                startActivity(emailIntent);
+            } else {
+                Snackbar.make(view, "No email app found", Snackbar.LENGTH_LONG).show();
+            }
+        });
         /*
         @author Griffin
          */
@@ -52,8 +68,6 @@ public class MainActivity extends AppCompatActivity {
 
             if (itemId == R.id.nav_home) {
                 navController.navigate(R.id.FirstFragment); // Navigate to FirstFragment (Home)
-            } else if (itemId == R.id.nav_second_fragment) {
-                navController.navigate(R.id.SecondFragment); // Navigate to SecondFragment (Details)
             } else if (itemId == R.id.nav_gallery) {
                 navController.navigate(R.id.GalleryFragment); // Navigate to GalleryFragment
             } else if (itemId == R.id.nav_village) {
@@ -126,5 +140,40 @@ public class MainActivity extends AppCompatActivity {
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, appBarConfiguration) || super.onSupportNavigateUp();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        Button btn = findViewById(R.id.signIn);
+        btn.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, RegisterActivity.class)));
+
+        Button facebookButton = findViewById(R.id.button_facebook);
+        Button amazonButton = findViewById(R.id.button_amazon);
+        facebookButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra("url", "https://www.facebook.com/MaAndPaRailroad");
+            startActivity(intent);
+        });
+        amazonButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra("url", "https://www.amazon.com/gp/product/B0013JWTHY/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0013JWTHY&linkCode=as2&tag=maparaipresoc-20");
+            startActivity(intent);
+        });
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(view -> {
+            Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+            emailIntent.setData(Uri.parse("mailto:")); // Ensure only email apps handle this
+            emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"info@maandparailroad.com"}); // Add email address
+            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Contact Us"); // Add email subject
+
+            if (emailIntent.resolveActivity(getPackageManager()) != null) {
+                startActivity(emailIntent);
+            } else {
+                Snackbar.make(view, "No email app found", Snackbar.LENGTH_LONG).show();
+            }
+        });
     }
 }

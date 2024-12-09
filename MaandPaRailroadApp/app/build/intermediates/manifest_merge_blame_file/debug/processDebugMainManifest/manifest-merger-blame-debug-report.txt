@@ -109,11 +109,11 @@
 61-->C:\Users\Griffin\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:32:19-46
 62
 63        <meta-data
-63-->C:\Users\Griffin\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:33:9-35:71
+63-->C:\Users\Griffin\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:33:9-35:49
 64            android:name="com.google.android.geo.API_KEY"
 64-->C:\Users\Griffin\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:34:13-58
-65            android:value="AIzaSyCw__R7GGD6DzP44X9S5QvpzwDfVs6GP28" />
-65-->C:\Users\Griffin\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:35:13-68
+65            android:value="YOUR_API_KEY_HERE" />
+65-->C:\Users\Griffin\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:35:13-46
 66        <!-- Needs to be explicitly declared on P+ -->
 67        <uses-library
 67-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Griffin\.gradle\caches\8.9\transforms\c628590390f70f3bd29f56c28c98522d\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40

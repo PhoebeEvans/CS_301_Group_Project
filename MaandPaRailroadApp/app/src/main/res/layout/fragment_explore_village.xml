@@ -21,7 +21,7 @@
             android:gravity="center"
             android:textSize="20sp"
             android:layout_marginTop="16dp"
-            android:text="Ma &amp; Pa Railroad Heritage Village Map - Walking Tour"
+            android:text="Loading info..."
             android:textColor="@color/gray"
             android:padding="5dp"
             app:layout_constraintBottom_toTopOf="@id/textview_first"
@@ -149,13 +149,14 @@
             app:layout_constraintTop_toBottomOf="@+id/corn_cribs" />
 
         <TextView
-            android:background="@color/yellow"
             android:id="@+id/railroad_tool_house"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="11. Railroad Tool House"
+            android:background="@color/yellow"
             android:padding="5dp"
-            app:layout_constraintTop_toBottomOf="@+id/corn_husking_shed" />
+            android:text="11. Railroad Tool House"
+            app:layout_constraintTop_toBottomOf="@+id/corn_husking_shed"
+            tools:layout_editor_absoluteX="209dp" />
 
         <TextView
             android:background="@color/yellow"
@@ -274,7 +275,7 @@
             android:padding="5dp"
             android:gravity="center"
             android:textSize="10dp"
-            app:layout_constraintTop_toBottomOf="@+id/imageSecond" />
+            app:layout_constraintTop_toBottomOf="@+id/textview_fifth" />
 
         <ImageView
             android:id="@+id/imageMain"
@@ -288,16 +289,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textview_second" />
 
-        <ImageView
-            android:id="@+id/imageSecond"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:background="@color/yellow"
-            android:src="@drawable/tourmap3"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textview_fifth" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

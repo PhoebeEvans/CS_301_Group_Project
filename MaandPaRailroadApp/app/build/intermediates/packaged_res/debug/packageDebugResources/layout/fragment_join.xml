@@ -11,7 +11,7 @@
         android:background="@color/black"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="24dp">
+        android:padding="12dp">
 
         <TextView
             android:background="@color/yellow"
@@ -34,7 +34,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:textSize="16sp"
+            android:textSize="18dp"
+            android:padding="16dp"
+            android:layout_margin="16dp"
             android:text="invite"
             app:layout_constraintTop_toBottomOf="@+id/imageMain" />
 
@@ -44,9 +46,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:textSize="16sp"
+            android:textSize="18dp"
             android:text="link"
-            android:autoLink="web"
+            android:padding="16dp"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@android:color/holo_blue_light"
             app:layout_constraintTop_toBottomOf="@+id/invite" />
 
         <ImageView

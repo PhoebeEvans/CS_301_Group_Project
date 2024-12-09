@@ -3141,23 +3141,31 @@ drawable ic_clock_black_24dp
 drawable ic_contact
 drawable ic_directions
 drawable ic_email
+drawable ic_equipment
 drawable ic_events
+drawable ic_explore
 drawable ic_gallery
+drawable ic_history
 drawable ic_home
 drawable ic_hours
+drawable ic_industry
 drawable ic_info
+drawable ic_join
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_links
 drawable ic_login
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
 drawable ic_map
+drawable ic_memories
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_newsletter
 drawable ic_person
 drawable ic_register
 drawable ic_search_black_24
@@ -3417,6 +3425,7 @@ id button_facebook
 id button_second
 id button_zoom_in
 id button_zoom_out
+id buy_tickets
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3442,8 +3451,10 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
+id contact_header
 id contact_image
 id contact_text
+id contact_text2
 id container
 id content
 id contentPanel
@@ -3514,6 +3525,7 @@ id events_text
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id explore
 id fab
 id fade
 id fertilizer_warehouse
@@ -3521,6 +3533,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id find_header
 id fitCenter
 id fitEnd
 id fitStart
@@ -3563,7 +3576,6 @@ id ignore
 id ignoreRequest
 id image
 id imageMain
-id imageSecond
 id immediateStop
 id included
 id indeterminate
@@ -3582,6 +3594,7 @@ id jumpToStart
 id keisers_fertilizer_warehouse
 id labeled
 id layout
+id learn_header
 id left
 id leftToRight
 id legacy
@@ -3595,6 +3608,7 @@ id locale
 id login
 id ltr
 id m3_side_sheet
+id mailing_list
 id main
 id map
 id marquee
@@ -3635,6 +3649,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id more_header
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -3679,7 +3694,6 @@ id nav_links
 id nav_maps
 id nav_memories
 id nav_newsletter
-id nav_second_fragment
 id nav_train_ride
 id nav_view
 id nav_village
@@ -3888,6 +3902,7 @@ id topPanel
 id touch_outside
 id train_ride_image
 id train_ride_text
+id train_ride_text2
 id transitionToEnd
 id transitionToStart
 id transition_clip
@@ -4228,6 +4243,7 @@ string common_signin_button_text_long
 string dest_title
 string error_a11y_label
 string error_icon_content_description
+string explore1
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior

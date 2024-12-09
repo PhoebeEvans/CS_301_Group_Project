@@ -21,16 +21,25 @@ public final class FragmentTrainRideBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final TextView buyTickets;
+
+  @NonNull
   public final ImageView trainRideImage;
 
   @NonNull
   public final TextView trainRideText;
 
-  private FragmentTrainRideBinding(@NonNull ScrollView rootView, @NonNull ImageView trainRideImage,
-      @NonNull TextView trainRideText) {
+  @NonNull
+  public final TextView trainRideText2;
+
+  private FragmentTrainRideBinding(@NonNull ScrollView rootView, @NonNull TextView buyTickets,
+      @NonNull ImageView trainRideImage, @NonNull TextView trainRideText,
+      @NonNull TextView trainRideText2) {
     this.rootView = rootView;
+    this.buyTickets = buyTickets;
     this.trainRideImage = trainRideImage;
     this.trainRideText = trainRideText;
+    this.trainRideText2 = trainRideText2;
   }
 
   @Override
@@ -60,6 +69,12 @@ public final class FragmentTrainRideBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.buy_tickets;
+      TextView buyTickets = ViewBindings.findChildViewById(rootView, id);
+      if (buyTickets == null) {
+        break missingId;
+      }
+
       id = R.id.train_ride_image;
       ImageView trainRideImage = ViewBindings.findChildViewById(rootView, id);
       if (trainRideImage == null) {
@@ -72,7 +87,14 @@ public final class FragmentTrainRideBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentTrainRideBinding((ScrollView) rootView, trainRideImage, trainRideText);
+      id = R.id.train_ride_text2;
+      TextView trainRideText2 = ViewBindings.findChildViewById(rootView, id);
+      if (trainRideText2 == null) {
+        break missingId;
+      }
+
+      return new FragmentTrainRideBinding((ScrollView) rootView, buyTickets, trainRideImage,
+          trainRideText, trainRideText2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -33,7 +33,7 @@
             android:id="@+id/credit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="right"
+            android:gravity="center"
             android:text="#84 Photo by Marlin Markle (Summer 1997)"
             app:layout_constraintTop_toBottomOf="@+id/imageMain" />
 
@@ -43,8 +43,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:textSize="16sp"
+            android:textSize="18dp"
+            android:clickable="true"
+            android:focusable="true"
             android:text="Click here to see the full list on the webpage."
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_margin="16dp"
+            android:padding="16dp"
             android:autoLink="web"
             app:layout_constraintTop_toBottomOf="@+id/credit" />
 
