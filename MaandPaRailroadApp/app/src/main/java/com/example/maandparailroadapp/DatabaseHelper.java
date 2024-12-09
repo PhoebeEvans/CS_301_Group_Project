@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-    private static final String DATABASE_NAME = "events.db";
+    private static final String DATABASE_NAME = "events2.db";
     private static final int DATABASE_VERSION = 1;
 
     public static final String TABLE_EVENTS = "events";
@@ -56,12 +56,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         insertEvent(db, "Fall Leaf Excursions", "", "October 20", "1 pm to 5 pm");
         insertEvent(db, "Fall Leaf Excursions", "", "October 26", "11 am to 4 pm");
         insertEvent(db, "Fall Leaf Excursions", "", "October 27", "1 pm to 5 pm");
-        insertEvent(db, "Holiday Events", "Holiday events with multiple times.", "December 7", "5 pm & 7 pm");
-        insertEvent(db, "Holiday Events", "Holiday events with multiple times.", "December 8", "1:30 pm & 3:30 pm & 5:30 pm");
-        insertEvent(db, "Holiday Events", "Holiday events with multiple times.", "December 14", "5 pm & 7 pm");
-        insertEvent(db, "Holiday Events", "Holiday events with multiple times.", "December 15", "1:30 pm & 3:30 pm & 5:30 pm");
-        insertEvent(db, "Holiday Events", "Holiday events with multiple times.", "December 21", "1:30 pm & 3:30 pm & 5:30 pm");
-        insertEvent(db, "Holiday Events", "Holiday events with multiple times.", "December 22", "1:30 pm & 3:30 pm & 5:30 pm");
+        insertEvent(db, "Christmas City Express", "The Christmas City Express program is centered around the dramatic reading of a story of a young girl traveling to Muddy Creek Forks a hundred years ago to visit her grandparents for Christmas.", "December 7", "5 pm & 7 pm");
+        insertEvent(db, "Christmas City Express", "The Christmas City Express program is centered around the dramatic reading of a story of a young girl traveling to Muddy Creek Forks a hundred years ago to visit her grandparents for Christmas.", "December 8", "1:30 pm & 3:30 pm & 5:30 pm");
+        insertEvent(db, "Christmas City Express", "The Christmas City Express program is centered around the dramatic reading of a story of a young girl traveling to Muddy Creek Forks a hundred years ago to visit her grandparents for Christmas.", "December 14", "5 pm & 7 pm");
+        insertEvent(db, "Christmas City Express", "The Christmas City Express program is centered around the dramatic reading of a story of a young girl traveling to Muddy Creek Forks a hundred years ago to visit her grandparents for Christmas.", "December 15", "1:30 pm & 3:30 pm & 5:30 pm");
+        insertEvent(db, "Christmas City Express", "The Christmas City Express program is centered around the dramatic reading of a story of a young girl traveling to Muddy Creek Forks a hundred years ago to visit her grandparents for Christmas.", "December 21", "1:30 pm & 3:30 pm & 5:30 pm");
+        insertEvent(db, "Christmas City Express", "The Christmas City Express program is centered around the dramatic reading of a story of a young girl traveling to Muddy Creek Forks a hundred years ago to visit her grandparents for Christmas.", "December 22", "1:30 pm & 3:30 pm & 5:30 pm");
     }
 
 

@@ -1,5 +1,6 @@
 package com.example.maandparailroadapp;
 
+import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -35,7 +36,7 @@ public class EventDAO {
 
         if (cursor != null && cursor.moveToFirst()) {
             do {
-                Event event = new Event(
+                @SuppressLint("Range") Event event = new Event(
                         cursor.getInt(cursor.getColumnIndex(DatabaseHelper.COLUMN_ID)),
                         cursor.getString(cursor.getColumnIndex(DatabaseHelper.COLUMN_TITLE)),
                         cursor.getString(cursor.getColumnIndex(DatabaseHelper.COLUMN_DESCRIPTION)),
@@ -50,4 +51,3 @@ public class EventDAO {
         return events;
     }
 }
-

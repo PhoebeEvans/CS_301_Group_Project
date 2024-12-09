@@ -39,4 +39,3 @@ public class EventsViewModel extends AndroidViewModel {
         events.setValue(eventsList);
     }
 }
-

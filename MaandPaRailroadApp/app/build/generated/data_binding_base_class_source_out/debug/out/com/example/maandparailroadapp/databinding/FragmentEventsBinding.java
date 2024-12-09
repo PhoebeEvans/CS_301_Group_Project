@@ -4,7 +4,7 @@ package com.example.maandparailroadapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,19 +17,19 @@ import java.lang.String;
 
 public final class FragmentEventsBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final TextView eventsText;
 
-  private FragmentEventsBinding(@NonNull LinearLayout rootView, @NonNull TextView eventsText) {
+  private FragmentEventsBinding(@NonNull ScrollView rootView, @NonNull TextView eventsText) {
     this.rootView = rootView;
     this.eventsText = eventsText;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -60,7 +60,7 @@ public final class FragmentEventsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentEventsBinding((LinearLayout) rootView, eventsText);
+      return new FragmentEventsBinding((ScrollView) rootView, eventsText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
