@@ -267,11 +267,11 @@ public class ExploreVillageViewModel  extends ViewModel {
 
     //load the information with the .setValue method
     private void loadFirstHeaderInfo() {
-        firstHeader.setValue("Ma &amp; Pa Railroad Heritage Village Map - Walking Tour");
+        firstHeader.setValue("Ma & Pa Railroad Heritage Village Map - Walking Tour");
     }
 
     private void loadFirstInfo() {
-        first.setValue("Come visit the historic Ma &amp; Pa Railroad Heritage Village at Muddy Creek Forks. The buildings are open during our operating season (June-Sept). The grounds are open for self-guided tours year-round.");
+        first.setValue("Come visit the historic Ma & Pa Railroad Heritage Village at Muddy Creek Forks. The buildings are open during our operating season (June-Sept). The grounds are open for self-guided tours year-round.");
     }
 
     private void loadSecondInfo() {
@@ -283,7 +283,7 @@ public class ExploreVillageViewModel  extends ViewModel {
     }
 
     private void loadFourthInfo() {
-        fourth.setValue("This walking tour is designed to give you an overview of the village and some understanding of what life was like here when Muddy Creek Forks was an important commercial hub centered about the Maryland &amp; Pennsylvania Railroad (the Ma &amp; Pa).");
+        fourth.setValue("This walking tour is designed to give you an overview of the village and some understanding of what life was like here when Muddy Creek Forks was an important commercial hub centered about the Maryland &amp; Pennsylvania Railroad (the Ma & Pa).");
     }
 
     private void loadFifthInfo() {

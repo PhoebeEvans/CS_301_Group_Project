@@ -40,6 +40,6 @@ public class NewsletterViewModel  extends ViewModel {
 
     //Loads the village information with the .setValue method.
     private void loadWebLinkInfo() {
-        web_link.setValue("To view The York Mail online, click here. ");
+        web_link.setValue("To view The York Mail online, click here.");
     }
 }

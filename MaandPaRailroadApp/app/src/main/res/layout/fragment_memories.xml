@@ -11,7 +11,7 @@
         android:background="@color/black"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="24dp">
+        android:padding="12dp">
 
         <TextView
             android:background="@color/yellow"
@@ -35,7 +35,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:autoLink="web"
+            android:textSize="18dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@android:color/holo_blue_light"
             android:text="Click the link below to be taken to the memories page on our webpage. "
             app:layout_constraintTop_toBottomOf="@+id/textview_firstHeader" />
 

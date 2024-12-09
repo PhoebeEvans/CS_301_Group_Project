@@ -34,12 +34,12 @@ public class MemoriesViewModel  extends ViewModel {
 
     //Loads the village information with the .setValue method.
     private void loadHeaderInfo() {
-        textview_firstHeader.setValue("Memories of the Ma &amp; Pa Railroad");
+        textview_firstHeader.setValue("Memories of the Ma & Pa Railroad");
     }
 
 
     //Loads the village information with the .setValue method.
     private void loadWebLinkInfo() {
-        web_link.setValue("Click the link below to be taken to the memories page on our webpage. ");
+        web_link.setValue("Click here to be taken to the memories page on our webpage. ");
     }
 }

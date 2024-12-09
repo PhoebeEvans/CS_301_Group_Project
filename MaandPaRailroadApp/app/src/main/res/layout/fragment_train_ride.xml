@@ -21,8 +21,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Loading train information..."
-            android:textSize="18dp"/>
+            android:textSize="18dp"
+            android:layout_margin="16dp"
+            android:padding="16dp"/>
 
+        <TextView
+            android:id="@+id/buy_tickets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Buy tickets online"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            android:layout_marginLeft="32dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/train_ride_text2"
+            android:textSize="18dp"
+            android:layout_margin="16dp"
+            android:padding="16dp"/>
 
     </LinearLayout>
 </ScrollView>

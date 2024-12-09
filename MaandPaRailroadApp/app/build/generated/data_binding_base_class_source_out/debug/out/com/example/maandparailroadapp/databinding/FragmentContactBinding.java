@@ -26,11 +26,20 @@ public final class FragmentContactBinding implements ViewBinding {
   @NonNull
   public final TextView contactText;
 
+  @NonNull
+  public final TextView contactText2;
+
+  @NonNull
+  public final TextView mailingList;
+
   private FragmentContactBinding(@NonNull ScrollView rootView, @NonNull ImageView contactImage,
-      @NonNull TextView contactText) {
+      @NonNull TextView contactText, @NonNull TextView contactText2,
+      @NonNull TextView mailingList) {
     this.rootView = rootView;
     this.contactImage = contactImage;
     this.contactText = contactText;
+    this.contactText2 = contactText2;
+    this.mailingList = mailingList;
   }
 
   @Override
@@ -72,7 +81,20 @@ public final class FragmentContactBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentContactBinding((ScrollView) rootView, contactImage, contactText);
+      id = R.id.contact_text2;
+      TextView contactText2 = ViewBindings.findChildViewById(rootView, id);
+      if (contactText2 == null) {
+        break missingId;
+      }
+
+      id = R.id.mailing_list;
+      TextView mailingList = ViewBindings.findChildViewById(rootView, id);
+      if (mailingList == null) {
+        break missingId;
+      }
+
+      return new FragmentContactBinding((ScrollView) rootView, contactImage, contactText,
+          contactText2, mailingList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

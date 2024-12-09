@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\menu\\navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_train.xml.flat",
-        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_train.xml"
-    },
-    {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi_proctor_engine_no1.jpg.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\proctor_engine_no1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_train.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_train.xml"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_village.xml.flat",
@@ -40,16 +40,16 @@
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\layout\\fragment_explore_village.xml"
     },
     {
-        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi_baggag_1.png.flat",
-        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\baggag_1.png"
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\layout_fragment_links.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\layout\\fragment_links.xml"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_input_bg.xml.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\input_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\layout_fragment_links.xml.flat",
-        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\layout\\fragment_links.xml"
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi_baggag_1.png.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\baggag_1.png"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_zoomin.xml.flat",
@@ -120,16 +120,16 @@
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\layout\\fragment_memories.xml"
     },
     {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_memories.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_memories.xml"
+    },
+    {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi_staso_siding_mahan.jpg.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\staso_siding_mahan.jpg"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi_staso_vermont_report.jpg.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\staso_vermont_report.jpg"
-    },
-    {
-        "merged": "com.example.maandparailroadapp-debug-47:/layout_activity_map.xml.flat",
-        "source": "com.example.maandparailroadapp-main-49:/layout/activity_map.xml"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi__0_0458.png.flat",
@@ -146,6 +146,10 @@
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi_oldmilkcans200x300.jpg.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\oldmilkcans200x300.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_industry.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_industry.xml"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\layout_fragment_history.xml.flat",
@@ -272,6 +276,10 @@
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_security.xml"
     },
     {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_explore.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_explore.xml"
+    },
+    {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-pngs-43:\\drawable-xxhdpi\\ic_launcher_foreground.png"
     },
@@ -314,6 +322,10 @@
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_register.xml.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_history.xml"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\layout_activity_main.xml.flat",
@@ -404,6 +416,10 @@
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_links.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_links.xml"
+    },
+    {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi_stasomaprailway.png.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\stasomaprailway.png"
     },
@@ -418,6 +434,10 @@
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi__908_h_k_porterengine_500.jpg.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\_908_h_k_porterengine_500.jpg"
+    },
+    {
+        "merged": "com.example.maandparailroadapp-debug-47:/layout_fragment_memories.xml.flat",
+        "source": "com.example.maandparailroadapp-main-49:/layout/fragment_memories.xml"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi_beebe_clegg.png.flat",
@@ -488,12 +508,24 @@
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\_0_0250.png"
     },
     {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_join.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_join.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_equipment.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_equipment.xml"
+    },
+    {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_gallery.xml.flat",
         "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_ic_newsletter.xml.flat",
+        "source": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\ic_newsletter.xml"
     },
     {
         "merged": "C:\\Users\\Griffin\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_oldphone.png.flat",
