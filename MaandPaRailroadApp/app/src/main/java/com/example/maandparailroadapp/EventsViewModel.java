@@ -13,9 +13,9 @@ import java.util.List;
  * @date 10/15/2024
  * @description ViewModel for the events page
  */
+
 public class EventsViewModel extends AndroidViewModel {
 
-    //MutableLiveData used in order to allow observers to receive updated information.
     private MutableLiveData<List<Event>> events;
     private EventDAO eventDAO;
 
@@ -24,7 +24,11 @@ public class EventsViewModel extends AndroidViewModel {
         eventDAO = new EventDAO(application);
     }
 
-    //Returns the LiveData object for the village information. If not there, initializes and loads.
+    /**
+     * Returns the LiveData object for all events.
+     *
+     * @return LiveData object containing the list of all events.
+     */
     public LiveData<List<Event>> getEventsInfo() {
         if (events == null) {
             events = new MutableLiveData<>();
@@ -33,13 +37,22 @@ public class EventsViewModel extends AndroidViewModel {
         return events;
     }
 
-    //Loads the village information with the .setValue method.
+    /**
+     * Loads all events from the database.
+     */
     private void loadEvents() {
-        List<Event> eventsList = eventDAO.getAllEvents();
-        events.setValue(eventsList);
+        new Thread(() -> {
+            List<Event> eventsList = eventDAO.getAllEvents();
+            events.postValue(eventsList);
+        }).start();
     }
 
-    //get events by date
+    /**
+     * Returns the LiveData object for events on a specific date.
+     *
+     * @param date The date of the events to be retrieved.
+     * @return LiveData object containing the list of events for the specified date.
+     */
     public LiveData<List<Event>> getEventsByDate(String date) {
         MutableLiveData<List<Event>> filteredEvents = new MutableLiveData<>();
         new Thread(() -> {
@@ -49,5 +62,28 @@ public class EventsViewModel extends AndroidViewModel {
         return filteredEvents;
     }
 
+    /**
+     * Saves an event for a user.
+     *
+     * @param userId The ID of the user.
+     * @param eventId The ID of the event to be saved.
+     */
+    public void saveEventForUser(int userId, int eventId) {
+        new Thread(() -> eventDAO.saveEventForUser(userId, eventId)).start();
+    }
 
+    /**
+     * Returns the LiveData object for events saved by a user.
+     *
+     * @param userId The ID of the user.
+     * @return LiveData object containing the list of events saved by the user.
+     */
+    public LiveData<List<Event>> getSavedEventsForUser(int userId) {
+        MutableLiveData<List<Event>> savedEvents = new MutableLiveData<>();
+        new Thread(() -> {
+            List<Event> eventsList = eventDAO.getSavedEventsForUser(userId);
+            savedEvents.postValue(eventsList);
+        }).start();
+        return savedEvents;
+    }
 }

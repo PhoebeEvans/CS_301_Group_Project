@@ -3,6 +3,7 @@ package com.example.maandparailroadapp;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -11,9 +12,20 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Phoebe
+ * @date 12/9/2024
+ * @description EventsAdapter for the events page
+ */
+
 public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewHolder> {
 
     private List<Event> events = new ArrayList<>();
+    private OnEventSaveListener onEventSaveListener;
+
+    public EventsAdapter(OnEventSaveListener onEventSaveListener) {
+        this.onEventSaveListener = onEventSaveListener;
+    }
 
     @NonNull
     @Override
@@ -29,6 +41,7 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewH
         holder.description.setText(event.getDescription());
         holder.date.setText(event.getDate());
         holder.time.setText(event.getTime());
+        holder.saveButton.setOnClickListener(v -> onEventSaveListener.onSave(event.getId()));
     }
 
     @Override
@@ -43,6 +56,7 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewH
 
     public static class EventViewHolder extends RecyclerView.ViewHolder {
         TextView title, description, date, time;
+        Button saveButton;
 
         public EventViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -50,6 +64,11 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewH
             description = itemView.findViewById(R.id.event_description);
             date = itemView.findViewById(R.id.event_date);
             time = itemView.findViewById(R.id.event_time);
+            saveButton = itemView.findViewById(R.id.save_button);
         }
+    }
+
+    public interface OnEventSaveListener {
+        void onSave(int eventId);
     }
 }
