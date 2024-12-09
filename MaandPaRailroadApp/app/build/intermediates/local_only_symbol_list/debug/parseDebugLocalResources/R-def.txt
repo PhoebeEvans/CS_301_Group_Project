@@ -17,6 +17,7 @@ drawable beebe_clegg
 drawable boxcar_15161_jwolf
 drawable btn_bg
 drawable castlefinn
+drawable custom_selector
 drawable doorwesley
 drawable flatcar110_properbalance
 drawable flatcar110_sharontrestle700
@@ -276,7 +277,10 @@ string lorem_ipsum
 string next
 string previous
 string second_fragment_label
+style AppTheme
 style Base.Theme.MaAndPaRailroadApp
+style CalendarView_DateText
+style CalendarView_WeekDay
 style Theme.MaAndPaRailroadApp
 xml backup_rules
 xml data_extraction_rules

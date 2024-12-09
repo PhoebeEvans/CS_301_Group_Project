@@ -2,7 +2,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-        <!-- Declare any variables or imports here -->
     </data>
 
     <LinearLayout
@@ -14,7 +13,14 @@
         <CalendarView
             android:id="@+id/calendarView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:weekDayTextAppearance="@style/CalendarView_WeekDay"
+            android:dateTextAppearance="@style/CalendarView_DateText"
+            android:focusedMonthDateColor="@color/black"
+            android:unfocusedMonthDateColor="@color/gray"
+            android:selectedWeekBackgroundColor="@color/yellow"
+            android:selectedDateVerticalBar="@drawable/custom_selector" />
 
         <Button
             android:id="@+id/reset_button"

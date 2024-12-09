@@ -1,3 +1,0 @@
-com.example.maandparailroadapp.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
