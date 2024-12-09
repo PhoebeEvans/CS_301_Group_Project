@@ -1,14 +1,23 @@
 package com.example.maandparailroadapp;
 
 import android.os.Bundle;
+import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.Button;
+import android.widget.CalendarView;
 
+import androidx.annotation.NonNull;
+import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.maandparailroadapp.databinding.FragmentEventsCalendarBinding;
+
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -18,41 +27,46 @@ import java.util.List;
  */
 public class EventsFragment extends Fragment {
 
-    //The ViewModel for this fragment, which handles UI-related data for the village information.
     private EventsViewModel eventsViewModel;
+    private EventsAdapter eventsAdapter;
 
-    /**
-     * Called to have the fragment instantiate its user interface view.
-     *
-     * @param inflater The LayoutInflater object that can be used to inflate any views in the fragment.
-     * @param container If non-null, this is the parent view that the fragment's UI should be attached to.
-     * @param savedInstanceState If non-null, this fragment is being re-constructed from a previous saved state.
-     * @return Return the View for the fragment's UI, or null.
-     */
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.fragment_events, container, false);
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        FragmentEventsCalendarBinding binding = DataBindingUtil.inflate(inflater, R.layout.fragment_events_calendar, container, false);
 
-        //Instantiate the TextView in the layout.
-        TextView events_text = root.findViewById(R.id.events_text);
+        CalendarView calendarView = binding.calendarView;
+        RecyclerView recyclerView = binding.eventsRecyclerView;
+        Button resetButton = binding.resetButton;
 
-        // Initialize the ViewModel for this fragment
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
         eventsViewModel = new ViewModelProvider(this).get(EventsViewModel.class);
+        eventsAdapter = new EventsAdapter();
+        recyclerView.setAdapter(eventsAdapter);
 
-        //This observes live data and will update the TextView with new information.
-        eventsViewModel.getEventsInfo().observe(getViewLifecycleOwner(), events -> {
-            StringBuilder eventsString = new StringBuilder();
-            for (Event event : events) {
-                eventsString.append(event.getTitle())
-                        .append("\n").append(event.getDescription())
-                        .append("\n").append(event.getDate()).append(" - ").append(event.getTime())
-                        .append("\n\n");
-            }
-            events_text.setText(eventsString.toString());
+        calendarView.setOnDateChangeListener((view, year, month, dayOfMonth) -> {
+            Calendar selectedDate = Calendar.getInstance();
+            selectedDate.set(year, month, dayOfMonth);
+            String date = DateFormat.format("yyyy-MM-dd", selectedDate).toString();
+            eventsViewModel.getEventsByDate(date).observe(getViewLifecycleOwner(), filteredEvents -> {
+                eventsAdapter.setEvents(filteredEvents);
+            });
         });
 
-        //Returns the actual view of the fragment.
-        return root;
+        resetButton.setOnClickListener(v -> {
+            eventsViewModel.getEventsInfo().observe(getViewLifecycleOwner(), events -> {
+                eventsAdapter.setEvents(events);
+            });
+        });
+
+        // Set the calendar to start on the current date
+        calendarView.setDate(System.currentTimeMillis(), false, true);
+
+        // Load all events initially
+        eventsViewModel.getEventsInfo().observe(getViewLifecycleOwner(), events -> {
+            eventsAdapter.setEvents(events);
+        });
+
+        return binding.getRoot();
     }
 }

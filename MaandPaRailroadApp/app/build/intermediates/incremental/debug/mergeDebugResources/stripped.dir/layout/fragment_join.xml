@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#A05353"
+    android:backgroundTintMode="add">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/textview_firstHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:text="Join"
+            android:textColor="@color/gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/invite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="16sp"
+            android:text="invite"
+            app:layout_constraintTop_toBottomOf="@+id/imageMain" />
+
+        <TextView
+            android:background="@color/yellow"
+            android:id="@+id/web_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="16sp"
+            android:text="link"
+            android:autoLink="web"
+            app:layout_constraintTop_toBottomOf="@+id/invite" />
+
+        <ImageView
+            android:id="@+id/imageMain"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/yellow"
+            android:src="@drawable/doorwesley"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textview_firstHeader" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

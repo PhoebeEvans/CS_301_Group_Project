@@ -3347,6 +3347,7 @@ id button_amazon
 id button_facebook
 id button_second
 id cache_measures
+id calendarView
 id callMeasure
 id cancel_button
 id carryVelocity
@@ -3389,6 +3390,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3438,6 +3440,11 @@ id enterAlwaysCollapsed
 id enterPassword
 id enterUsername
 id escape
+id event_date
+id event_description
+id event_time
+id event_title
+id events_recycler_view
 id events_text
 id exitUntilCollapsed
 id expand_activities_button
@@ -3626,6 +3633,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id onInterceptTouchReturnSwipe
 id open_search_bar_text_view
 id open_search_view_background
@@ -3672,6 +3681,7 @@ id ratio
 id rectangles
 id register
 id report_drawn
+id reset_button
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3772,6 +3782,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textViewSignUp
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3990,6 +4001,7 @@ layout fragment_contact
 layout fragment_directions
 layout fragment_equipment
 layout fragment_events
+layout fragment_events_calendar
 layout fragment_explore_village
 layout fragment_first
 layout fragment_gallery
@@ -4005,6 +4017,7 @@ layout fragment_train_ride
 layout fragment_village
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_event
 layout item_gallery_image
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

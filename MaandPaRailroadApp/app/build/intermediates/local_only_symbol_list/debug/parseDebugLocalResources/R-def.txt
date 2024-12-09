@@ -108,6 +108,7 @@ id btnRegister
 id button_amazon
 id button_facebook
 id button_second
+id calendarView
 id contact_image
 id contact_text
 id corn_cribs
@@ -119,6 +120,11 @@ id directions_text
 id drawer_layout
 id enterPassword
 id enterUsername
+id event_date
+id event_description
+id event_time
+id event_title
+id events_recycler_view
 id events_text
 id fab
 id fertilizer_warehouse
@@ -167,6 +173,7 @@ id progressBar
 id railroad_station_platform
 id railroad_tool_house
 id register
+id reset_button
 id roller_mills
 id route
 id sign
@@ -211,6 +218,7 @@ layout fragment_contact
 layout fragment_directions
 layout fragment_equipment
 layout fragment_events
+layout fragment_events_calendar
 layout fragment_explore_village
 layout fragment_first
 layout fragment_gallery
@@ -224,6 +232,7 @@ layout fragment_newsletter
 layout fragment_second
 layout fragment_train_ride
 layout fragment_village
+layout item_event
 layout item_gallery_image
 menu menu_main
 menu navigation_menu

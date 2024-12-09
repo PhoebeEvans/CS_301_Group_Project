@@ -38,4 +38,16 @@ public class EventsViewModel extends AndroidViewModel {
         List<Event> eventsList = eventDAO.getAllEvents();
         events.setValue(eventsList);
     }
+
+    //get events by date
+    public LiveData<List<Event>> getEventsByDate(String date) {
+        MutableLiveData<List<Event>> filteredEvents = new MutableLiveData<>();
+        new Thread(() -> {
+            List<Event> eventsList = eventDAO.getEventsByDate(date);
+            filteredEvents.postValue(eventsList);
+        }).start();
+        return filteredEvents;
+    }
+
+
 }
