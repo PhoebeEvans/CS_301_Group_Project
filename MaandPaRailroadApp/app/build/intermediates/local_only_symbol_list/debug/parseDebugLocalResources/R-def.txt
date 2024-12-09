@@ -33,12 +33,15 @@ drawable ic_info
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_login
+drawable ic_map
 drawable ic_person
 drawable ic_register
 drawable ic_security
 drawable ic_settings
 drawable ic_train
 drawable ic_village
+drawable ic_zoomin
+drawable ic_zoomout
 drawable img_4132
 drawable ind_robinsonbrotherscoal
 drawable input_bg
@@ -106,8 +109,11 @@ id brief
 id btnLogin
 id btnRegister
 id button_amazon
+id button_directions
 id button_facebook
 id button_second
+id button_zoom_in
+id button_zoom_out
 id contact_image
 id contact_text
 id corn_cribs
@@ -137,6 +143,7 @@ id james_grove_house
 id keisers_fertilizer_warehouse
 id login
 id main
+id map
 id milk_collection_building
 id mill_loading_platform
 id mill_race
@@ -155,6 +162,7 @@ id nav_hours
 id nav_industries
 id nav_join
 id nav_links
+id nav_maps
 id nav_memories
 id nav_newsletter
 id nav_second_fragment
@@ -204,6 +212,7 @@ id yellow_house
 layout activity_fullscreen_image
 layout activity_login
 layout activity_main
+layout activity_map
 layout activity_register
 layout activity_webview
 layout content_main
