@@ -3309,6 +3309,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id adminDashboardTitle
+id adminDashboardTitle2
+id adminManagementTitle3
 id alertTitle
 id aligned
 id all
@@ -3394,6 +3397,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteBtn
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3438,6 +3442,7 @@ id enterAlwaysCollapsed
 id enterPassword
 id enterUsername
 id escape
+id eventManagementBtn
 id events_text
 id exitUntilCollapsed
 id expand_activities_button
@@ -3499,6 +3504,7 @@ id inputEmail
 id invisible
 id invite
 id inward
+id isAdmin
 id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
@@ -3616,6 +3622,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newBtn
 id noScroll
 id noState
 id none
@@ -3692,6 +3699,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchBtn
 id search_badge
 id search_bar
 id search_button
@@ -3824,7 +3832,16 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updateBtn
 id useLogo
+id userManagementBtn
+id userProfileConfirmPassword
+id userProfileCurrentPassword
+id userProfileEmail
+id userProfileNewPassword
+id userProfileTitle
+id userProfileTitle2
+id userProfileUsername
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3969,6 +3986,7 @@ layout activity_login
 layout activity_main
 layout activity_register
 layout activity_webview
+layout admin_dashboard
 layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -4067,6 +4085,8 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout user_management
+layout user_profile
 menu menu_main
 menu navigation_menu
 mipmap ic_launcher

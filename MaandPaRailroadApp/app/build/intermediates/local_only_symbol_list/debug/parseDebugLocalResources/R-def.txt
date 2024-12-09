@@ -100,6 +100,9 @@ id abandoned_header
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id action_settings
+id adminDashboardTitle
+id adminDashboardTitle2
+id adminManagementTitle3
 id alreadyHaveAccount
 id barn
 id brief
@@ -113,12 +116,14 @@ id contact_text
 id corn_cribs
 id corn_husking_shed
 id credit
+id deleteBtn
 id detailed
 id directions_image
 id directions_text
 id drawer_layout
 id enterPassword
 id enterUsername
+id eventManagementBtn
 id events_text
 id fab
 id fertilizer_warehouse
@@ -133,6 +138,7 @@ id imageSecond
 id inputConfirmPassword
 id inputEmail
 id invite
+id isAdmin
 id james_grove_house
 id keisers_fertilizer_warehouse
 id login
@@ -161,6 +167,7 @@ id nav_second_fragment
 id nav_train_ride
 id nav_view
 id nav_village
+id newBtn
 id original_store_site
 id photo_view
 id progressBar
@@ -169,6 +176,7 @@ id railroad_tool_house
 id register
 id roller_mills
 id route
+id searchBtn
 id sign
 id signIn
 id society
@@ -195,6 +203,15 @@ id things_that_are_now_gone
 id toolbar
 id train_ride_image
 id train_ride_text
+id updateBtn
+id userManagementBtn
+id userProfileConfirmPassword
+id userProfileCurrentPassword
+id userProfileEmail
+id userProfileNewPassword
+id userProfileTitle
+id userProfileTitle2
+id userProfileUsername
 id village
 id village_info_text
 id web_link
@@ -206,6 +223,7 @@ layout activity_login
 layout activity_main
 layout activity_register
 layout activity_webview
+layout admin_dashboard
 layout content_main
 layout fragment_contact
 layout fragment_directions
@@ -225,6 +243,8 @@ layout fragment_second
 layout fragment_train_ride
 layout fragment_village
 layout item_gallery_image
+layout user_management
+layout user_profile
 menu menu_main
 menu navigation_menu
 mipmap ic_launcher

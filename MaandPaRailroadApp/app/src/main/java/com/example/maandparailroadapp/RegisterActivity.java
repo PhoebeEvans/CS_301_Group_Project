@@ -13,7 +13,11 @@ import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.maandparailroadapp.database.DBHelper;
+
 public class RegisterActivity extends AppCompatActivity {
+
+    private DBHelper dbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +25,7 @@ public class RegisterActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_register);
 
-        TextView btn=findViewById(R.id.alreadyHaveAccount);
+        TextView btn = findViewById(R.id.alreadyHaveAccount);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,7 +39,7 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View view) {
                 boolean allFieldsFilled = true;
 
-              // Gets the values in the text fields
+                // Gets the values in the text fields
                 EditText usernameTextField = findViewById(R.id.enterUsername);
                 String username = usernameTextField.getText().toString();
                 if (usernameTextField.getText().toString().isEmpty()) {
@@ -64,14 +68,16 @@ public class RegisterActivity extends AppCompatActivity {
                     allFieldsFilled = false;
                 }
 
-                if (allFieldsFilled){
-                    if(!password.equals(cPassword)){
+                if (allFieldsFilled) {
+                    if (!password.equals(cPassword)) {
                         // Password and Confirm Password do not match
-                        // TODO: throw error message
+                        cPasswordTextField.setError("Passwords do not match.");
                     } else {
                         // Creates a new user and navigates to account
-                        User newUser = new User(username, email, password, false);
-                        SharedList.users.add(newUser);
+                        User newUser = new User(username, email, password, 0);
+
+                        dbHelper = DBHelper.getInstance(RegisterActivity.this);
+                        dbHelper.insertUser(newUser);
 
                         startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                     }

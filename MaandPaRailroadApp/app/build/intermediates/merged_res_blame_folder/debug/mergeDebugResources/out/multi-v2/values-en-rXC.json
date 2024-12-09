@@ -4,7 +4,7 @@
             "outputFile": "com.example.maandparailroadapp-mergeDebugResources-42:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Griffin\\.gradle\\caches\\8.9\\transforms\\2c3981ccca25768b46b33d05253bdeea\\transformed\\appcompat-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\1a94aeae459323b0a858bfe723618768\\transformed\\appcompat-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Griffin\\.gradle\\caches\\8.9\\transforms\\9b5a9faa20c86fcf008a3245da588cc1\\transformed\\core-1.13.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\6c9b9c6211b3132dc2f6a38c956b05af\\transformed\\core-1.13.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -9,15 +9,13 @@ public class User {
     private String username;
     private String email;
     private String password;
-    private boolean isAdmin;
+    private int isAdmin;
 
-    public User(String _username, String _email, String _password, boolean _isAdmin){
+    public User(String _username, String _email, String _password, int _isAdmin){
         this.username = _username;
         this.email = _email;
         this.password = _password;
         this.isAdmin = _isAdmin;
-
-
     }
     public List<String> getInfo(){
         List<String> values = new ArrayList<>();
@@ -34,11 +32,11 @@ public class User {
     }
 
     public void makeAdmin(){
-        this.isAdmin = true;
+        this.isAdmin = 1;
     }
 
     public void removeAdmin(){
-        this.isAdmin = false;
+        this.isAdmin = 0;
     }
 
     public String getUsername(){
@@ -48,5 +46,9 @@ public class User {
     public String getPassword(){
         return password;
     }
+
+    public String getEmail() { return email; }
+
+    public int getIsAdmin() { return isAdmin; }
 
 }
