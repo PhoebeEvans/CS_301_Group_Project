@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -67,13 +69,6 @@ public class UserManagementActivity extends AppCompatActivity {
                     allFieldsFilled = false;
                 }
 
-                EditText currentPasswordTextField = findViewById(R.id.userProfileCurrentPassword);
-                String currentPassword = currentPasswordTextField.getText().toString();
-                if (currentPasswordTextField.getText().toString().isEmpty()) {
-                    currentPasswordTextField.setError("This field is required");
-                    allFieldsFilled = false;
-                }
-
                 EditText newPasswordTextField = findViewById(R.id.userProfileNewPassword);
                 String newPassword = newPasswordTextField.getText().toString();
                 if (newPasswordTextField.getText().toString().isEmpty()) {
@@ -88,29 +83,24 @@ public class UserManagementActivity extends AppCompatActivity {
                     allFieldsFilled = false;
                 }
 
-                if(allFieldsFilled){
-                    User user = sessionManager.getUser();
-                    if(currentPassword.equals(user.getPassword())){
-                        if (!newPassword.equals(confirmPassword)) {
-                            // Password and Confirm Password do not match
-                            confirmPasswordTextField.setError("Passwords do not match.");
-                        } else {
-                            // Updates the user and navigates to account
-                            // Assuming you have a user object with updated details
-                            User updatedUser = new User(username, email, newPassword, 0);
-                            /**
-                            int isUpdated = dbHelper.updateUser(updatedUser);
-                            if(isUpdated==0) {
-                                Toast.makeText(UserProfileActivity.this, "User updated successfully", Toast.LENGTH_SHORT).show();
-                                sessionManager.createLoginSession(updatedUser);
-                            } else {
-                                Toast.makeText(UserProfileActivity.this, "Update failed", Toast.LENGTH_SHORT).show();
-                            } **/
+                int admin = 0;
+                Switch isAdmin = findViewById(R.id.isAdmin);
+                boolean isChecked = isAdmin.isChecked();
+                if(isChecked){
+                    admin = 1;
+                }
 
-                        }
-                    }
-                    else {
-                        currentPasswordTextField.setError("Incorrect Password");
+                if(allFieldsFilled){
+                    if (!newPassword.equals(confirmPassword)) {
+                        // Password and Confirm Password do not match
+                        confirmPasswordTextField.setError("Passwords do not match.");
+                    } else {
+                        User newUser = new User(username, email, newPassword, admin);
+
+                        dbHelper = DBHelper.getInstance(UserManagementActivity.this);
+                        dbHelper.insertUser(newUser);
+
+                        Toast.makeText(UserManagementActivity.this, "User Created", Toast.LENGTH_SHORT).show();
                     }
                 }
             }

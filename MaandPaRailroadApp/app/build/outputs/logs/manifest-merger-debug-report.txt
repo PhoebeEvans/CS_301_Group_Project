@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\laure\.gradle\caches\8.9\transforms\d5148e867a580eda1d76c642cda3b9ef\transformed\viewbinding-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\laure\.gradle\caches\8.9\transforms\d0fc1e7a037545164c7073e0d5e20067\transformed\play-services-maps-18.0.2\AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\laure\.gradle\caches\8.9\transforms\94aef0df3279d0be3c66ab634ef59856\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
@@ -90,8 +90,8 @@ ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRail
 	android:name
 		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:7:5-38:19
-INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:7:5-38:19
+ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:7:5-39:19
+INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:7:5-39:19
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\laure\.gradle\caches\8.9\transforms\d0fc1e7a037545164c7073e0d5e20067\transformed\play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\laure\.gradle\caches\8.9\transforms\d0fc1e7a037545164c7073e0d5e20067\transformed\play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\laure\.gradle\caches\8.9\transforms\94aef0df3279d0be3c66ab634ef59856\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
@@ -176,24 +176,28 @@ activity#com.example.maandparailroadapp.AdminDashboardActivity
 ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:31:9-59
 	android:name
 		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:31:19-57
-activity#com.example.maandparailroadapp.FullScreenImage
-ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:32:9-53
+activity#com.example.maandparailroadapp.UserManagementActivity
+ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:32:9-59
 	android:name
-		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:32:19-50
-activity#com.example.maandparailroadapp.WebViewActivity
+		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:32:19-57
+activity#com.example.maandparailroadapp.FullScreenImage
 ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:33:9-53
 	android:name
 		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:33:19-50
+activity#com.example.maandparailroadapp.WebViewActivity
+ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:34:9-53
+	android:name
+		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:34:19-50
 activity#com.example.maandparailroadapp.MapActivity
-ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:34:9-49
+ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:35:9-49
 	android:name
-		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:34:19-46
+		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:35:19-46
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:35:9-37:49
+ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:36:9-38:49
 	android:value
-		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:37:13-46
+		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:38:13-46
 	android:name
-		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:36:13-58
+		ADDED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml:37:13-58
 uses-sdk
 INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\laure\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp\app\src\main\AndroidManifest.xml

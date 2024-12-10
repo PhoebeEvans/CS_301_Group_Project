@@ -3086,6 +3086,7 @@ drawable abc_vector_test
 drawable admin
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_arrow
 drawable baggag_1
 drawable beebe_clegg
 drawable boxcar_15161_jwolf
@@ -3409,6 +3410,8 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backTitle
+id backTitle2
 id barn
 id barrier
 id baseline

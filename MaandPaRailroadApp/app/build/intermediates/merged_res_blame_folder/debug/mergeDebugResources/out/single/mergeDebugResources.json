@@ -68,6 +68,10 @@
         "source": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\layout\\fragment_newsletter.xml"
     },
     {
+        "merged": "com.example.maandparailroadapp-debug-47:/layout_user_management.xml.flat",
+        "source": "com.example.maandparailroadapp-main-49:/layout/user_management.xml"
+    },
+    {
         "merged": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable-nodpi_boxcar_15161_jwolf.jpg.flat",
         "source": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable-nodpi\\boxcar_15161_jwolf.jpg"
     },
@@ -236,6 +240,10 @@
         "source": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-pngs-43:\\drawable-xxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\drawable_back_arrow.xml.flat",
+        "source": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\drawable\\back_arrow.xml"
+    },
+    {
         "merged": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\menu_menu_main.xml.flat",
         "source": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\menu\\menu_main.xml"
     },
@@ -286,10 +294,6 @@
     {
         "merged": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\layout_fragment_history.xml.flat",
         "source": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-49:\\layout\\fragment_history.xml"
-    },
-    {
-        "merged": "com.example.maandparailroadapp-debug-47:/layout_admin_dashboard.xml.flat",
-        "source": "com.example.maandparailroadapp-main-49:/layout/admin_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\laure\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-debug-47:\\navigation_nav_graph.xml.flat",

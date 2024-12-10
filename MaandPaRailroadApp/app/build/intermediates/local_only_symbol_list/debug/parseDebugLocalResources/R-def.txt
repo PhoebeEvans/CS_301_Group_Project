@@ -13,6 +13,7 @@ drawable _908_h_k_porterengine_500
 drawable __stasomillingcolarge
 drawable __whiteford_station_captioned
 drawable admin
+drawable back_arrow
 drawable baggag_1
 drawable beebe_clegg
 drawable boxcar_15161_jwolf
@@ -118,6 +119,8 @@ id adminDashboardTitle
 id adminDashboardTitle2
 id adminManagementTitle3
 id alreadyHaveAccount
+id backTitle
+id backTitle2
 id barn
 id brief
 id btnLogin

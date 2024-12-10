@@ -48,6 +48,14 @@ public class UserProfileActivity extends AppCompatActivity {
         usernameTextField.setText(sessionManager.getUsername());
         emailTextField.setText(sessionManager.getEmail());
 
+        TextView backBtn = findViewById(R.id.backTitle);
+        backBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(UserProfileActivity.this, MainActivity.class));
+            }
+        });
+
         TextView btnUpdate=findViewById(R.id.newBtn);
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override

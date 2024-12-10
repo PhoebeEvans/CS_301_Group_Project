@@ -29,6 +29,7 @@
         <activity android:name=".LoginActivity"/>
         <activity android:name=".UserProfileActivity"/>
         <activity android:name=".AdminDashboardActivity"/>
+        <activity android:name=".UserManagementActivity"/>
         <activity android:name=".FullScreenImage" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".MapActivity" />
