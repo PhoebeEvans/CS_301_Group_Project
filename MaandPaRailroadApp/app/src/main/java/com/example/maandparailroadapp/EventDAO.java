@@ -71,7 +71,8 @@ public class EventDAO {
     // Getting saved events for a user
     public List<SavedEvent> getSavedEventsForUser(int userId) {
         List<SavedEvent> savedEvents = new ArrayList<>();
-        String query = "SELECT u.id, u.username, u.email, e.event_id, e.title, e.description, e.date, e.time " +
+        String query = "SELECT u." + DBHelper.COLUMN_USER_ID + ", u." + DBHelper.COLUMN_USERNAME + ", u." + DBHelper.COLUMN_EMAIL + ", " +
+                "e." + DBHelper.COLUMN_EVENT_ID + ", e." + DBHelper.COLUMN_TITLE + ", e." + DBHelper.COLUMN_DESCRIPTION + ", e." + DBHelper.COLUMN_DATE + ", e." + DBHelper.COLUMN_TIME + " " +
                 "FROM " + DBHelper.TABLE_SAVED_EVENTS + " s " +
                 "INNER JOIN " + DBHelper.TABLE_USERS + " u ON s." + DBHelper.COLUMN_USER_ID + " = u." + DBHelper.COLUMN_USER_ID + " " +
                 "INNER JOIN " + DBHelper.TABLE_EVENTS + " e ON s." + DBHelper.COLUMN_EVENT_ID + " = e." + DBHelper.COLUMN_EVENT_ID + " " +
@@ -105,7 +106,8 @@ public class EventDAO {
     // Getting saved events for all users
     public List<SavedEvent> getSavedEventsForAllUsers() {
         List<SavedEvent> savedEvents = new ArrayList<>();
-        String query = "SELECT u.id, u.username, u.email, e.event_id, e.title, e.description, e.date, e.time " +
+        String query = "SELECT u." + DBHelper.COLUMN_USER_ID + ", u." + DBHelper.COLUMN_USERNAME + ", u." + DBHelper.COLUMN_EMAIL + ", " +
+                "e." + DBHelper.COLUMN_EVENT_ID + ", e." + DBHelper.COLUMN_TITLE + ", e." + DBHelper.COLUMN_DESCRIPTION + ", e." + DBHelper.COLUMN_DATE + ", e." + DBHelper.COLUMN_TIME + " " +
                 "FROM " + DBHelper.TABLE_SAVED_EVENTS + " s " +
                 "INNER JOIN " + DBHelper.TABLE_USERS + " u ON s." + DBHelper.COLUMN_USER_ID + " = u." + DBHelper.COLUMN_USER_ID + " " +
                 "INNER JOIN " + DBHelper.TABLE_EVENTS + " e ON s." + DBHelper.COLUMN_EVENT_ID + " = e." + DBHelper.COLUMN_EVENT_ID;
