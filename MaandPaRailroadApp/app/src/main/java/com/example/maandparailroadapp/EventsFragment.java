@@ -27,28 +27,25 @@ import android.util.Log;
  * @description Fragment for the events page
  */
 
-
-
 public class EventsFragment extends Fragment implements EventsAdapter.OnEventSaveListener {
-
     private EventsViewModel eventsViewModel;
     private EventsAdapter eventsAdapter;
+    private UserSessionManager userSessionManager;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         FragmentEventsCalendarBinding binding = DataBindingUtil.inflate(inflater, R.layout.fragment_events_calendar, container, false);
 
-        CalendarView calendarView = binding.calendarView;
         RecyclerView recyclerView = binding.eventsRecyclerView;
-        Button resetButton = binding.resetButton;
-
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
         eventsViewModel = new ViewModelProvider(this).get(EventsViewModel.class);
         eventsAdapter = new EventsAdapter(this);
         recyclerView.setAdapter(eventsAdapter);
 
-        calendarView.setOnDateChangeListener((view, year, month, dayOfMonth) -> {
+        userSessionManager = new UserSessionManager(getContext());
+
+        binding.calendarView.setOnDateChangeListener((view, year, month, dayOfMonth) -> {
             Calendar selectedDate = Calendar.getInstance();
             selectedDate.set(year, month, dayOfMonth);
             String date = DateFormat.format("yyyy-MM-dd", selectedDate).toString();
@@ -57,14 +54,14 @@ public class EventsFragment extends Fragment implements EventsAdapter.OnEventSav
             });
         });
 
-        resetButton.setOnClickListener(v -> {
+        binding.resetButton.setOnClickListener(v -> {
             eventsViewModel.getEventsInfo().observe(getViewLifecycleOwner(), events -> {
                 eventsAdapter.setEvents(events);
             });
         });
 
         // Set the calendar to start on the current date
-        calendarView.setDate(System.currentTimeMillis(), false, true);
+        binding.calendarView.setDate(System.currentTimeMillis(), false, true);
 
         // Load all events initially
         eventsViewModel.getEventsInfo().observe(getViewLifecycleOwner(), events -> {
@@ -76,11 +73,15 @@ public class EventsFragment extends Fragment implements EventsAdapter.OnEventSav
 
     @Override
     public void onSave(int eventId) {
-        int userId = 1; // Assuming user ID 1 for now
+        int userId = userSessionManager.getUserId(); // Get the currently logged-in user ID
 
-        // Log the event saving action
-        Log.d("EventsFragment", "Attempting to save event with eventId: " + eventId + " for userId: " + userId);
+        if (userId != -1) {
+            // Log the event saving action
+            Log.d("EventsFragment", "Attempting to save event with eventId: " + eventId + " for userId: " + userId);
 
-        eventsViewModel.saveEventForUser(userId, eventId);
+            eventsViewModel.saveEventForUser(userId, eventId);
+        } else {
+            Log.e("EventsFragment", "No user is currently logged in.");
+        }
     }
 }

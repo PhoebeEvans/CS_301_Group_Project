@@ -9,14 +9,13 @@ import androidx.lifecycle.MutableLiveData;
 import java.util.List;
 
 /**
- * @author Griffin
- * @date 10/15/2024
- * @description ViewModel for the events page
+ * ViewModel for the events page.
+ * Provides data to the UI and handles data-related logic.
  */
-
 public class EventsViewModel extends AndroidViewModel {
 
     private MutableLiveData<List<Event>> events;
+    private MutableLiveData<List<SavedEvent>> savedEvents;
     private EventDAO eventDAO;
 
     public EventsViewModel(Application application) {
@@ -48,18 +47,29 @@ public class EventsViewModel extends AndroidViewModel {
     }
 
     /**
-     * Returns the LiveData object for events on a specific date.
+     * Returns the LiveData object for saved events by the current user.
      *
-     * @param date The date of the events to be retrieved.
-     * @return LiveData object containing the list of events for the specified date.
+     * @param userId The ID of the user.
+     * @return LiveData object containing the list of saved events for the user.
      */
-    public LiveData<List<Event>> getEventsByDate(String date) {
-        MutableLiveData<List<Event>> filteredEvents = new MutableLiveData<>();
+    public LiveData<List<SavedEvent>> getSavedEventsForUser(int userId) {
+        if (savedEvents == null) {
+            savedEvents = new MutableLiveData<>();
+            loadSavedEventsForUser(userId);
+        }
+        return savedEvents;
+    }
+
+    /**
+     * Loads saved events for a user from the database.
+     *
+     * @param userId The ID of the user.
+     */
+    private void loadSavedEventsForUser(int userId) {
         new Thread(() -> {
-            List<Event> eventsList = eventDAO.getEventsByDate(date);
-            filteredEvents.postValue(eventsList);
+            List<SavedEvent> eventsList = eventDAO.getSavedEventsForUser(userId);
+            savedEvents.postValue(eventsList);
         }).start();
-        return filteredEvents;
     }
 
     /**
@@ -73,17 +83,17 @@ public class EventsViewModel extends AndroidViewModel {
     }
 
     /**
-     * Returns the LiveData object for events saved by a user.
+     * Returns the LiveData object for events on a specific date.
      *
-     * @param userId The ID of the user.
-     * @return LiveData object containing the list of events saved by the user.
+     * @param date The date of the events to be retrieved.
+     * @return LiveData object containing the list of events for the specified date.
      */
-    public LiveData<List<Event>> getSavedEventsForUser(int userId) {
-        MutableLiveData<List<Event>> savedEvents = new MutableLiveData<>();
+    public LiveData<List<Event>> getEventsByDate(String date) {
+        MutableLiveData<List<Event>> filteredEvents = new MutableLiveData<>();
         new Thread(() -> {
-            List<Event> eventsList = eventDAO.getSavedEventsForUser(userId);
-            savedEvents.postValue(eventsList);
+            List<Event> eventsList = eventDAO.getEventsByDate(date);
+            filteredEvents.postValue(eventsList);
         }).start();
-        return savedEvents;
+        return filteredEvents;
     }
 }

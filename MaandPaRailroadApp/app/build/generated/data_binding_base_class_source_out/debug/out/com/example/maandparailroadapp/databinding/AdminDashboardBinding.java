@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -36,18 +37,23 @@ public final class AdminDashboardBinding implements ViewBinding {
   public final Button eventManagementBtn;
 
   @NonNull
+  public final FrameLayout fragmentContainer;
+
+  @NonNull
   public final Button userManagementBtn;
 
   private AdminDashboardBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView adminDashboardTitle, @NonNull TextView adminDashboardTitle2,
       @NonNull TextView adminManagementTitle3, @NonNull TextView backTitle2,
-      @NonNull Button eventManagementBtn, @NonNull Button userManagementBtn) {
+      @NonNull Button eventManagementBtn, @NonNull FrameLayout fragmentContainer,
+      @NonNull Button userManagementBtn) {
     this.rootView = rootView;
     this.adminDashboardTitle = adminDashboardTitle;
     this.adminDashboardTitle2 = adminDashboardTitle2;
     this.adminManagementTitle3 = adminManagementTitle3;
     this.backTitle2 = backTitle2;
     this.eventManagementBtn = eventManagementBtn;
+    this.fragmentContainer = fragmentContainer;
     this.userManagementBtn = userManagementBtn;
   }
 
@@ -108,6 +114,12 @@ public final class AdminDashboardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fragment_container;
+      FrameLayout fragmentContainer = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentContainer == null) {
+        break missingId;
+      }
+
       id = R.id.userManagementBtn;
       Button userManagementBtn = ViewBindings.findChildViewById(rootView, id);
       if (userManagementBtn == null) {
@@ -116,7 +128,7 @@ public final class AdminDashboardBinding implements ViewBinding {
 
       return new AdminDashboardBinding((ConstraintLayout) rootView, adminDashboardTitle,
           adminDashboardTitle2, adminManagementTitle3, backTitle2, eventManagementBtn,
-          userManagementBtn);
+          fragmentContainer, userManagementBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
