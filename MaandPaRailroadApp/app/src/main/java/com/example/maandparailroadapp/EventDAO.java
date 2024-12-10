@@ -68,40 +68,7 @@ public class EventDAO {
         }
     }
 
-    // Getting saved events for a user
-    public List<SavedEvent> getSavedEventsForUser(int userId) {
-        List<SavedEvent> savedEvents = new ArrayList<>();
-        String query = "SELECT u." + DBHelper.COLUMN_USER_ID + ", u." + DBHelper.COLUMN_USERNAME + ", u." + DBHelper.COLUMN_EMAIL + ", " +
-                "e." + DBHelper.COLUMN_EVENT_ID + ", e." + DBHelper.COLUMN_TITLE + ", e." + DBHelper.COLUMN_DESCRIPTION + ", e." + DBHelper.COLUMN_DATE + ", e." + DBHelper.COLUMN_TIME + " " +
-                "FROM " + DBHelper.TABLE_SAVED_EVENTS + " s " +
-                "INNER JOIN " + DBHelper.TABLE_USERS + " u ON s." + DBHelper.COLUMN_USER_ID + " = u." + DBHelper.COLUMN_USER_ID + " " +
-                "INNER JOIN " + DBHelper.TABLE_EVENTS + " e ON s." + DBHelper.COLUMN_EVENT_ID + " = e." + DBHelper.COLUMN_EVENT_ID + " " +
-                "WHERE s." + DBHelper.COLUMN_USER_ID + " = ?";
-        Cursor cursor = db.rawQuery(query, new String[]{String.valueOf(userId)});
 
-        if (cursor != null && cursor.moveToFirst()) {
-            do {
-                @SuppressLint("Range") int eventId = cursor.getInt(cursor.getColumnIndex(DBHelper.COLUMN_EVENT_ID));
-                @SuppressLint("Range") String title = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_TITLE));
-                @SuppressLint("Range") String description = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_DESCRIPTION));
-                @SuppressLint("Range") String date = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_DATE));
-                @SuppressLint("Range") String time = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_TIME));
-                @SuppressLint("Range") String username = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_USERNAME));
-                @SuppressLint("Range") String email = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_EMAIL));
-
-                // Create User and Event objects
-                User user = new User(username, email, "", 0); // Assuming password and isAdmin fields are not required here
-                Event event = new Event(eventId, title, description, date, time);
-                SavedEvent savedEvent = new SavedEvent(user, event);
-
-                // Add to list
-                savedEvents.add(savedEvent);
-            } while (cursor.moveToNext());
-            cursor.close();
-        }
-
-        return savedEvents;
-    }
 
     // Getting saved events for all users
     public List<SavedEvent> getSavedEventsForAllUsers() {
@@ -160,4 +127,40 @@ public class EventDAO {
 
         return events;
     }
+
+    //saved events for user
+    public List<SavedEvent> getSavedEventsForUser(int userId) {
+        List<SavedEvent> savedEvents = new ArrayList<>();
+        String query = "SELECT u." + DBHelper.COLUMN_USER_ID + ", u." + DBHelper.COLUMN_USERNAME + ", u." + DBHelper.COLUMN_EMAIL + ", " +
+                "e." + DBHelper.COLUMN_EVENT_ID + ", e." + DBHelper.COLUMN_TITLE + ", e." + DBHelper.COLUMN_DESCRIPTION + ", e." + DBHelper.COLUMN_DATE + ", e." + DBHelper.COLUMN_TIME + " " +
+                "FROM " + DBHelper.TABLE_SAVED_EVENTS + " s " +
+                "INNER JOIN " + DBHelper.TABLE_USERS + " u ON s." + DBHelper.COLUMN_USER_ID + " = u." + DBHelper.COLUMN_USER_ID + " " +
+                "INNER JOIN " + DBHelper.TABLE_EVENTS + " e ON s." + DBHelper.COLUMN_EVENT_ID + " = e." + DBHelper.COLUMN_EVENT_ID + " " +
+                "WHERE s." + DBHelper.COLUMN_USER_ID + " = ?";
+        Cursor cursor = db.rawQuery(query, new String[]{String.valueOf(userId)});
+
+        if (cursor != null && cursor.moveToFirst()) {
+            do {
+                @SuppressLint("Range") int eventId = cursor.getInt(cursor.getColumnIndex(DBHelper.COLUMN_EVENT_ID));
+                @SuppressLint("Range") String title = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_TITLE));
+                @SuppressLint("Range") String description = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_DESCRIPTION));
+                @SuppressLint("Range") String date = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_DATE));
+                @SuppressLint("Range") String time = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_TIME));
+                @SuppressLint("Range") String username = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_USERNAME));
+                @SuppressLint("Range") String email = cursor.getString(cursor.getColumnIndex(DBHelper.COLUMN_EMAIL));
+
+                // Create User and Event objects
+                User user = new User(username, email, "", 0); // Assuming password and isAdmin fields are not required here
+                Event event = new Event(eventId, title, description, date, time);
+                SavedEvent savedEvent = new SavedEvent(user, event);
+
+                // Add to list
+                savedEvents.add(savedEvent);
+            } while (cursor.moveToNext());
+            cursor.close();
+        }
+
+        return savedEvents;
+    }
+
 }

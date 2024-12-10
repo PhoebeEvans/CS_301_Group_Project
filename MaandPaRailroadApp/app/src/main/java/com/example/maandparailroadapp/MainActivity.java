@@ -4,6 +4,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -147,6 +149,15 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("url", "https://www.amazon.com/gp/product/B0013JWTHY/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0013JWTHY&linkCode=as2&tag=maparaipresoc-20");
             startActivity(intent);
         });
+    /*
+        if (savedInstanceState == null) {
+            AdminSavedEventsFragment fragment = new AdminSavedEventsFragment();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.add(R.id.fragment_container, fragment);
+            fragmentTransaction.commit();
+        }*/
+
     }
 
     @Override

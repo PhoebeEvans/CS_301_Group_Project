@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.example.maandparailroadapp.database.DBHelper;
 
@@ -32,14 +34,18 @@ public class UserProfileActivity extends AppCompatActivity {
             startActivity(new Intent(UserProfileActivity.this, LoginActivity.class));
             finish();
         }
-/**
-        TextView btn=findViewById(R.id.textViewSignUp);
+    /*
+        TextView btn = findViewById(R.id.textViewSignUp);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(UserProfileActivity.this, RegisterActivity.class));
+                UserSavedEventsFragment fragment = new UserSavedEventsFragment();
+                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, fragment);
+                transaction.addToBackStack(null);
+                transaction.commit();
             }
-        }); **/
+        });*/
 
         EditText usernameTextField = findViewById(R.id.userProfileUsername);
         EditText emailTextField = findViewById(R.id.userProfileEmail);
@@ -49,14 +55,14 @@ public class UserProfileActivity extends AppCompatActivity {
         emailTextField.setText(sessionManager.getEmail());
 
         TextView backBtn = findViewById(R.id.backTitle);
-        backBtn.setOnClickListener(new View.OnClickListener(){
+        backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(UserProfileActivity.this, MainActivity.class));
             }
         });
 
-        TextView btnUpdate=findViewById(R.id.newBtn);
+        TextView btnUpdate = findViewById(R.id.newBtn);
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -96,32 +102,46 @@ public class UserProfileActivity extends AppCompatActivity {
                     allFieldsFilled = false;
                 }
 
-                if(allFieldsFilled){
+                if (allFieldsFilled) {
                     User user = sessionManager.getUser();
-                    if(currentPassword.equals(user.getPassword())){
+                    if (currentPassword.equals(user.getPassword())) {
                         if (!newPassword.equals(confirmPassword)) {
                             // Password and Confirm Password do not match
                             confirmPasswordTextField.setError("Passwords do not match.");
                         } else {
                             // Updates the user and navigates to account
-                            // Assuming you have a user object with updated details
                             User updatedUser = new User(username, email, newPassword, 0);
                             /**
-                            int isUpdated = dbHelper.updateUser(updatedUser);
-                            if(isUpdated==0) {
-                                Toast.makeText(UserProfileActivity.this, "User updated successfully", Toast.LENGTH_SHORT).show();
-                                sessionManager.createLoginSession(updatedUser);
-                            } else {
-                                Toast.makeText(UserProfileActivity.this, "Update failed", Toast.LENGTH_SHORT).show();
-                            } **/
+                             int isUpdated = dbHelper.updateUser(updatedUser);
+                             if (isUpdated == 0) {
+                             Toast.makeText(UserProfileActivity.this, "User updated successfully", Toast.LENGTH_SHORT).show();
+                             sessionManager.createLoginSession(updatedUser);
+                             } else {
+                             Toast.makeText(UserProfileActivity.this, "Update failed", Toast.LENGTH_SHORT).show();
+                             } **/
 
                         }
-                    }
-                    else {
+                    } else {
                         currentPasswordTextField.setError("Incorrect Password");
                     }
                 }
             }
         });
+
+        // This is for navigating to the Event Management page
+        TextView btn2 = findViewById(R.id.saveButton);
+        btn2.setOnClickListener(view -> navigateToFragment(new AdminSavedEventsFragment()));
+    }
+
+    /**
+     * Navigate to a specified fragment.
+     *
+     * @param fragment The fragment to navigate to.
+     */
+    private void navigateToFragment(Fragment fragment) {
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment_container, fragment); // Make sure fragment_container exists in your layout
+        transaction.addToBackStack(null); // Optional: to add the transaction to the back stack
+        transaction.commit();
     }
 }

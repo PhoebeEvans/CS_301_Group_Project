@@ -215,6 +215,7 @@ id register
 id reset_button
 id roller_mills
 id route
+id saveButton
 id save_button
 id searchBtn
 id sign
@@ -253,6 +254,7 @@ id userProfileTitle
 id userProfileTitle2
 id userProfileUsername
 id user_email
+id user_saved_events_recycler_view
 id user_username
 id village
 id village_info_text
@@ -270,6 +272,7 @@ layout admin_dashboard
 layout content_main
 layout fragment_admin_saved_events
 layout fragment_contact
+layout fragment_container
 layout fragment_directions
 layout fragment_equipment
 layout fragment_events
@@ -286,6 +289,7 @@ layout fragment_memories
 layout fragment_newsletter
 layout fragment_second
 layout fragment_train_ride
+layout fragment_user_saved_events
 layout fragment_village
 layout item_event
 layout item_gallery_image

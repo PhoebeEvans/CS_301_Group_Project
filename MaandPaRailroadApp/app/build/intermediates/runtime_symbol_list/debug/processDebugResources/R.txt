@@ -3800,6 +3800,7 @@ int id route 0x7f0801f7
 int id row_index_key 0x7f0801f8
 int id rtl 0x7f0801f9
 int id satellite 0x7f0801fa
+int id saveButton 0x7f0802b5
 int id save_button 0x7f0801fb
 int id save_non_transition_alpha 0x7f0801fc
 int id save_overlay_view 0x7f0801fd
@@ -3957,6 +3958,7 @@ int id userProfileTitle 0x7f080294
 int id userProfileTitle2 0x7f080295
 int id userProfileUsername 0x7f080296
 int id user_email 0x7f0802b2
+int id user_saved_events_recycler_view 0x7f0802b4
 int id user_username 0x7f0802b3
 int id vertical_only 0x7f080297
 int id view_offset_helper 0x7f080298
@@ -4125,6 +4127,7 @@ int layout design_text_input_end_icon 0x7f0b0032
 int layout design_text_input_start_icon 0x7f0b0033
 int layout fragment_admin_saved_events 0x7f0b0089
 int layout fragment_contact 0x7f0b0034
+int layout fragment_container 0x7f0b008c
 int layout fragment_directions 0x7f0b0035
 int layout fragment_equipment 0x7f0b0036
 int layout fragment_events 0x7f0b0037
@@ -4141,6 +4144,7 @@ int layout fragment_memories 0x7f0b0041
 int layout fragment_newsletter 0x7f0b0042
 int layout fragment_second 0x7f0b0043
 int layout fragment_train_ride 0x7f0b0044
+int layout fragment_user_saved_events 0x7f0b008b
 int layout fragment_village 0x7f0b0045
 int layout ime_base_split_test_activity 0x7f0b0046
 int layout ime_secondary_split_test_activity 0x7f0b0047

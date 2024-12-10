@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.maandparailroadapp.databinding.FragmentAdminSavedEventsBindingImpl;
 import com.example.maandparailroadapp.databinding.FragmentEventsCalendarBindingImpl;
+import com.example.maandparailroadapp.databinding.FragmentUserSavedEventsBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -23,11 +24,14 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTEVENTSCALENDAR = 2;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
+  private static final int LAYOUT_FRAGMENTUSERSAVEDEVENTS = 3;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.maandparailroadapp.R.layout.fragment_admin_saved_events, LAYOUT_FRAGMENTADMINSAVEDEVENTS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.maandparailroadapp.R.layout.fragment_events_calendar, LAYOUT_FRAGMENTEVENTSCALENDAR);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.maandparailroadapp.R.layout.fragment_user_saved_events, LAYOUT_FRAGMENTUSERSAVEDEVENTS);
   }
 
   @Override
@@ -50,6 +54,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentEventsCalendarBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_events_calendar is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTUSERSAVEDEVENTS: {
+          if ("layout/fragment_user_saved_events_0".equals(tag)) {
+            return new FragmentUserSavedEventsBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_user_saved_events is invalid. Received: " + tag);
         }
       }
     }
@@ -104,11 +114,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
 
     static {
       sKeys.put("layout/fragment_admin_saved_events_0", com.example.maandparailroadapp.R.layout.fragment_admin_saved_events);
       sKeys.put("layout/fragment_events_calendar_0", com.example.maandparailroadapp.R.layout.fragment_events_calendar);
+      sKeys.put("layout/fragment_user_saved_events_0", com.example.maandparailroadapp.R.layout.fragment_user_saved_events);
     }
   }
 }

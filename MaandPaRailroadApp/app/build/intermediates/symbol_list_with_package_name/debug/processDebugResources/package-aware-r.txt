@@ -3801,6 +3801,7 @@ id route
 id row_index_key
 id rtl
 id satellite
+id saveButton
 id save_button
 id save_non_transition_alpha
 id save_overlay_view
@@ -3958,6 +3959,7 @@ id userProfileTitle
 id userProfileTitle2
 id userProfileUsername
 id user_email
+id user_saved_events_recycler_view
 id user_username
 id vertical_only
 id view_offset_helper
@@ -4126,6 +4128,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_admin_saved_events
 layout fragment_contact
+layout fragment_container
 layout fragment_directions
 layout fragment_equipment
 layout fragment_events
@@ -4142,6 +4145,7 @@ layout fragment_memories
 layout fragment_newsletter
 layout fragment_second
 layout fragment_train_ride
+layout fragment_user_saved_events
 layout fragment_village
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity

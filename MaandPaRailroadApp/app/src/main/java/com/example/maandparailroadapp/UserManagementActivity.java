@@ -34,14 +34,14 @@ public class UserManagementActivity extends AppCompatActivity {
             startActivity(new Intent(UserManagementActivity.this, LoginActivity.class));
             finish();
         }
-/**
-        TextView btn=findViewById(R.id.textViewSignUp);
+        /*
+        TextView btn = findViewById(R.id.textViewSignUp);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(UserProfileActivity.this, RegisterActivity.class));
+                startActivity(new Intent(UserManagementActivity.this, UserSavedEventsFragment.class));
             }
-        }); **/
+        });*/
 
         EditText usernameTextField = findViewById(R.id.userProfileUsername);
         EditText emailTextField = findViewById(R.id.userProfileEmail);
@@ -50,7 +50,7 @@ public class UserManagementActivity extends AppCompatActivity {
         usernameTextField.setText(sessionManager.getUsername());
         emailTextField.setText(sessionManager.getEmail());
 
-        TextView btnUpdate=findViewById(R.id.newBtn);
+        TextView btnUpdate = findViewById(R.id.newBtn);
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -86,11 +86,11 @@ public class UserManagementActivity extends AppCompatActivity {
                 int admin = 0;
                 Switch isAdmin = findViewById(R.id.isAdmin);
                 boolean isChecked = isAdmin.isChecked();
-                if(isChecked){
+                if (isChecked) {
                     admin = 1;
                 }
 
-                if(allFieldsFilled){
+                if (allFieldsFilled) {
                     if (!newPassword.equals(confirmPassword)) {
                         // Password and Confirm Password do not match
                         confirmPasswordTextField.setError("Passwords do not match.");
