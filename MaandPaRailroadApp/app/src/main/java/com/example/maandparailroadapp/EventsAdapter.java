@@ -1,5 +1,6 @@
 package com.example.maandparailroadapp;
 
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,7 +21,7 @@ import java.util.List;
 
 public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewHolder> {
 
-    private List<Event> events = new ArrayList<>();
+    private List<Event> events;
     private OnEventSaveListener onEventSaveListener;
 
     public EventsAdapter(OnEventSaveListener onEventSaveListener) {
@@ -41,17 +42,25 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewH
         holder.description.setText(event.getDescription());
         holder.date.setText(event.getDate());
         holder.time.setText(event.getTime());
-        holder.saveButton.setOnClickListener(v -> onEventSaveListener.onSave(event.getId()));
+
+        holder.saveButton.setOnClickListener(v -> {
+            onEventSaveListener.onSave(event.getId());
+            holder.saveButton.setBackgroundColor(Color.RED); // Change button color
+        });
     }
 
     @Override
     public int getItemCount() {
-        return events.size();
+        return (events != null) ? events.size() : 0;
     }
 
     public void setEvents(List<Event> events) {
         this.events = events;
         notifyDataSetChanged();
+    }
+
+    public interface OnEventSaveListener {
+        void onSave(int eventId);
     }
 
     public static class EventViewHolder extends RecyclerView.ViewHolder {
@@ -64,11 +73,8 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.EventViewH
             description = itemView.findViewById(R.id.event_description);
             date = itemView.findViewById(R.id.event_date);
             time = itemView.findViewById(R.id.event_time);
-            saveButton = itemView.findViewById(R.id.save_button);
+            saveButton = itemView.findViewById(R.id.save_button); // Reference to the save button
         }
     }
-
-    public interface OnEventSaveListener {
-        void onSave(int eventId);
-    }
 }
+

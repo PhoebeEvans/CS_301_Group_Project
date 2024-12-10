@@ -20,6 +20,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
+import com.example.maandparailroadapp.database.DBHelper;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,9 +29,18 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
     private SessionManager sessionManager;
 
+    private DBHelper dbHelper;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        User admin = new User("Admin", "test@gmail.com", "password", 1);
+
+        dbHelper = DBHelper.getInstance(MainActivity.this);
+        dbHelper.insertUser(admin);
 
         sessionManager = new SessionManager(this);
 

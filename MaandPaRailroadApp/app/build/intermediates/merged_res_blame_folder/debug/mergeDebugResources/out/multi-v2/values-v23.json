@@ -4,26 +4,7 @@
             "outputFile": "com.example.maandparailroadapp-mergeDebugResources-47:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\laure\\AndroidStudioProjects\\CS_358_Group_Project\\MaandPaRailroadApp\\app\\src\\main\\res\\values-v23\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "66",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "457"
-                    },
-                    "to": {
-                        "startLines": "53",
-                        "startColumns": "4",
-                        "startOffsets": "3382",
-                        "endLines": "58",
-                        "endColumns": "12",
-                        "endOffsets": "3718"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\24c3f43d392ac887db495ee70788c710\\transformed\\appcompat-1.7.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\24c3f43d392ac887db495ee70788c710\\transformed\\appcompat-1.7.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\0effb9587648183584028ac13e2429bf\\transformed\\material-1.12.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\0effb9587648183584028ac13e2429bf\\transformed\\material-1.12.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -53,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\93b83454575ec749289c0615436624dc\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\93b83454575ec749289c0615436624dc\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -69,6 +50,25 @@
                         "endLines": "52",
                         "endColumns": "12",
                         "endOffsets": "3377"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\phoeb\\CS_358_Group_Project\\MaandPaRailroadApp\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "66",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "457"
+                    },
+                    "to": {
+                        "startLines": "53",
+                        "startColumns": "4",
+                        "startOffsets": "3382",
+                        "endLines": "58",
+                        "endColumns": "12",
+                        "endOffsets": "3718"
                     }
                 }
             ]
