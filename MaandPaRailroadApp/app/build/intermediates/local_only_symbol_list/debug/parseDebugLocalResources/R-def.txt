@@ -19,6 +19,7 @@ drawable beebe_clegg
 drawable boxcar_15161_jwolf
 drawable btn_bg
 drawable castlefinn
+drawable custom_selector
 drawable doorwesley
 drawable flatcar110_properbalance
 drawable flatcar110_sharontrestle700
@@ -132,6 +133,7 @@ id button_second
 id button_zoom_in
 id button_zoom_out
 id buy_tickets
+id calendarView
 id contact_header
 id contact_image
 id contact_text
@@ -147,6 +149,11 @@ id drawer_layout
 id enterPassword
 id enterUsername
 id eventManagementBtn
+id event_date
+id event_description
+id event_time
+id event_title
+id events_recycler_view
 id events_text
 id explore
 id fab
@@ -203,8 +210,10 @@ id progressBar
 id railroad_station_platform
 id railroad_tool_house
 id register
+id reset_button
 id roller_mills
 id route
+id save_button
 id searchBtn
 id sign
 id society
@@ -259,6 +268,7 @@ layout fragment_contact
 layout fragment_directions
 layout fragment_equipment
 layout fragment_events
+layout fragment_events_calendar
 layout fragment_explore_village
 layout fragment_first
 layout fragment_gallery
@@ -272,6 +282,7 @@ layout fragment_newsletter
 layout fragment_second
 layout fragment_train_ride
 layout fragment_village
+layout item_event
 layout item_gallery_image
 layout user_management
 layout user_profile
@@ -292,7 +303,10 @@ string lorem_ipsum
 string next
 string previous
 string second_fragment_label
+style AppTheme
 style Base.Theme.MaAndPaRailroadApp
+style CalendarView_DateText
+style CalendarView_WeekDay
 style Theme.MaAndPaRailroadApp
 xml backup_rules
 xml data_extraction_rules

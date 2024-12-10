@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="CalendarView_WeekDay" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CalendarView_DateText" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
