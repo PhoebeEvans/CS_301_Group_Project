@@ -551,14 +551,4 @@
     <item name="android:background">@drawable/m3_tabs_background</item>
   </style>
     <style name="Widget.MaterialComponents.PopupMenu" parent="Base.Widget.MaterialComponents.PopupMenu">
-    <item name="android:popupBackground">?attr/popupMenuBackground</item>
-    <item name="android:popupElevation">8dp</item>
-  </style>
-    <style name="Widget.MaterialComponents.PopupMenu.Overflow" parent="Base.Widget.MaterialComponents.PopupMenu.Overflow">
-    <item name="android:popupBackground">?attr/popupMenuBackground</item>
-    <item name="android:popupElevation">8dp</item>
-  </style>
-    <style name="Widget.MaterialComponents.Slider" parent="Base.Widget.MaterialComponents.Slider">
-    <item name="android:background">?attr/controlBackground</item>
-  </style>
-</resources>
+    <item name="android:popupBa

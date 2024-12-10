@@ -87,5 +87,4 @@
     <color name="material_dynamic_color_light_error">@color/m3_sys_color_dynamic_light_error</color>
     <color name="material_dynamic_color_light_error_container">@color/m3_sys_color_dynamic_light_error_container</color>
     <color name="material_dynamic_color_light_on_error">@color/m3_sys_color_dynamic_light_on_error</color>
-    <color name="material_dynamic_color_light_on_error_container">@color/m3_sys_color_dynamic_light_on_error_container</color>
-</resources>
+    <color name="material_dynamic_color_light_on_e

@@ -12,4 +12,3 @@
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowElevation">0dp</item>
     </style>
-</resources>

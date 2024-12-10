@@ -14,5 +14,4 @@
         <item name="android:touchscreenBlocksFocus">true</item>
         <item name="android:keyboardNavigationCluster">true</item>
     </style>
-    <style name="Base.Widget.AppCompat.Toolbar" parent="Base.V26.Widget.AppCompat.Toolbar"/>
-</resources>
+    <style name="Base.Widget.AppCompat.Toolbar" parent="Base.V26.Widget.AppCompat.Toolbar

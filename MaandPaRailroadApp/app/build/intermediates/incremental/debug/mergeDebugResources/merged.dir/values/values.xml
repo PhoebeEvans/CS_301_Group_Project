@@ -662,6 +662,14 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -1818,6 +1826,7 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="androidx_window_activity_scope" type="id"/>
+    <item name="dataBinding" type="id"/>
     <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
@@ -1844,6 +1853,8 @@
     <item name="navigation_bar_item_labels_group" type="id"/>
     <item name="navigation_bar_item_large_label_view" type="id"/>
     <item name="navigation_bar_item_small_label_view" type="id"/>
+    <item name="onAttachStateChangeListener" type="id"/>
+    <item name="onDateChanged" type="id"/>
     <item name="parent_matrix" type="id"/>
     <item name="pooling_container_listener_holder_tag" type="id"/>
     <item name="progress_circular" type="id"/>
@@ -1874,6 +1885,7 @@
     <item name="tag_window_insets_animation_callback" type="id"/>
     <item name="text" type="id"/>
     <item name="text2" type="id"/>
+    <item name="textWatcher" type="id"/>
     <item name="text_input_error_icon" type="id"/>
     <item name="textinput_counter" type="id"/>
     <item name="textinput_error" type="id"/>
@@ -1907,6 +1919,7 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="google_play_services_version">12451000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="m3_badge_max_number">999</integer>
     <integer name="m3_btn_anim_delay_ms">100</integer>
@@ -2019,6 +2032,24 @@
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="dest_title">destination title</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
@@ -11922,6 +11953,82 @@
         
         <attr name="android:dropDownHorizontalOffset"/>
     </declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr>
+
+<attr format="float" name="imageAspectRatio"/>
+
+<attr format="boolean" name="circleCrop"/>
+</declare-styleable>
+    <declare-styleable name="MapAttrs"><attr name="mapType">
+<enum name="none" value="0"/>
+
+<enum name="normal" value="1"/>
+
+<enum name="satellite" value="2"/>
+
+<enum name="terrain" value="3"/>
+
+<enum name="hybrid" value="4"/>
+
+</attr>
+
+<attr format="float" name="cameraBearing"/>
+
+<attr format="float" name="cameraTargetLat"/>
+
+<attr format="float" name="cameraTargetLng"/>
+
+<attr format="float" name="cameraTilt"/>
+
+<attr format="float" name="cameraZoom"/>
+
+<attr format="boolean" name="liteMode"/>
+
+<attr format="boolean" name="uiCompass"/>
+
+<attr format="boolean" name="uiRotateGestures"/>
+
+<attr format="boolean" name="uiScrollGestures"/>
+
+<attr format="boolean" name="uiScrollGesturesDuringRotateOrZoom"/>
+
+<attr format="boolean" name="uiTiltGestures"/>
+
+<attr format="boolean" name="uiZoomControls"/>
+
+<attr format="boolean" name="uiZoomGestures"/>
+
+<attr format="boolean" name="useViewLifecycle"/>
+
+<attr format="boolean" name="zOrderOnTop"/>
+
+<attr format="boolean" name="uiMapToolbar"/>
+
+<attr format="boolean" name="ambientEnabled"/>
+
+<attr format="float" name="cameraMinZoomPreference"/>
+
+<attr format="float" name="cameraMaxZoomPreference"/>
+
+<attr format="float" name="latLngBoundsSouthWestLatitude"/>
+
+<attr format="float" name="latLngBoundsSouthWestLongitude"/>
+
+<attr format="float" name="latLngBoundsNorthEastLatitude"/>
+
+<attr format="float" name="latLngBoundsNorthEastLongitude"/>
+
+<attr format="color" name="backgroundColor"/>
+
+<attr format="string" name="mapId"/>
+</declare-styleable>
     <declare-styleable name="MaterialAlertDialog">
     <attr name="backgroundTint"/>
     <attr format="dimension" name="backgroundInsetStart"/>
@@ -12942,6 +13049,25 @@
     <attr format="reference" name="coplanarSiblingViewId"/>
 
   </declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr>
+<attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr>
+
+<attr format="reference|string" name="scopeUris"/>
+</declare-styleable>
     <declare-styleable name="Slider">
     <attr name="android:value"/>
     <attr name="android:valueFrom"/>
@@ -14052,146 +14178,4 @@
     <macro name="m3_comp_search_bar_container_color">?attr/colorSurfaceContainerHigh</macro>
     <macro name="m3_comp_search_bar_hover_state_layer_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_search_bar_hover_supporting_text_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_search_bar_input_text_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_search_bar_input_text_type">?attr/textAppearanceBodyLarge</macro>
-    <macro name="m3_comp_search_bar_leading_icon_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_search_bar_pressed_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_search_bar_pressed_supporting_text_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_search_bar_supporting_text_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_search_bar_supporting_text_type">?attr/textAppearanceBodyLarge</macro>
-    <macro name="m3_comp_search_bar_trailing_icon_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_search_view_container_color">?attr/colorSurfaceContainerHigh</macro>
-    <macro name="m3_comp_search_view_divider_color">?attr/colorOutline</macro>
-    <macro name="m3_comp_search_view_docked_container_shape">?attr/shapeAppearanceCornerExtraLarge</macro>
-    <macro name="m3_comp_search_view_header_input_text_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_search_view_header_input_text_type">?attr/textAppearanceBodyLarge</macro>
-    <macro name="m3_comp_search_view_header_leading_icon_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_search_view_header_supporting_text_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_search_view_header_supporting_text_type">?attr/textAppearanceBodyLarge</macro>
-    <macro name="m3_comp_search_view_header_trailing_icon_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_secondary_navigation_tab_active_indicator_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_secondary_navigation_tab_active_label_text_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_secondary_navigation_tab_container_color">?attr/colorSurface</macro>
-    <macro name="m3_comp_secondary_navigation_tab_focus_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_secondary_navigation_tab_hover_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_secondary_navigation_tab_inactive_label_text_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_secondary_navigation_tab_label_text_type">?attr/textAppearanceTitleSmall</macro>
-    <macro name="m3_comp_secondary_navigation_tab_pressed_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_secondary_navigation_tab_with_icon_active_icon_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_secondary_navigation_tab_with_icon_inactive_icon_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_sheet_bottom_docked_container_color">?attr/colorSurfaceContainerLow</macro>
-    <macro name="m3_comp_sheet_bottom_docked_container_shape">?attr/shapeAppearanceCornerExtraLarge</macro>
-    <macro name="m3_comp_sheet_bottom_docked_drag_handle_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_sheet_side_detached_container_shape">?attr/shapeAppearanceCornerLarge</macro>
-    <macro name="m3_comp_sheet_side_docked_modal_container_color">?attr/colorSurfaceContainerLow</macro>
-    <macro name="m3_comp_sheet_side_docked_modal_container_shape">?attr/shapeAppearanceCornerLarge</macro>
-    <macro name="m3_comp_sheet_side_docked_standard_container_color">?attr/colorSurface</macro>
-    <macro name="m3_comp_slider_active_track_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_slider_disabled_active_track_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_slider_disabled_handle_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_slider_disabled_inactive_track_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_slider_handle_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_slider_inactive_track_color">?attr/colorSecondaryContainer</macro>
-    <macro name="m3_comp_slider_label_container_color">?attr/colorSurfaceInverse</macro>
-    <macro name="m3_comp_slider_label_label_text_color">?attr/colorOnSurfaceInverse</macro>
-    <macro name="m3_comp_snackbar_container_color">?attr/colorSurfaceInverse</macro>
-    <macro name="m3_comp_snackbar_container_shape">?attr/shapeAppearanceCornerExtraSmall</macro>
-    <macro name="m3_comp_snackbar_supporting_text_color">?attr/colorOnSurfaceInverse</macro>
-    <macro name="m3_comp_snackbar_supporting_text_type">?attr/textAppearanceBodyMedium</macro>
-    <macro name="m3_comp_suggestion_chip_container_shape">?attr/shapeAppearanceCornerSmall</macro>
-    <macro name="m3_comp_suggestion_chip_label_text_type">?attr/textAppearanceLabelLarge</macro>
-    <macro name="m3_comp_switch_disabled_selected_handle_color">?attr/colorSurface</macro>
-    <macro name="m3_comp_switch_disabled_selected_icon_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_disabled_selected_track_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_disabled_unselected_handle_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_disabled_unselected_icon_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_disabled_unselected_track_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_disabled_unselected_track_outline_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_selected_focus_handle_color">?attr/colorPrimaryContainer</macro>
-    <macro name="m3_comp_switch_selected_focus_icon_color">?attr/colorOnPrimaryContainer</macro>
-    <macro name="m3_comp_switch_selected_focus_state_layer_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_switch_selected_focus_track_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_switch_selected_handle_color">?attr/colorOnPrimary</macro>
-    <macro name="m3_comp_switch_selected_hover_handle_color">?attr/colorPrimaryContainer</macro>
-    <macro name="m3_comp_switch_selected_hover_icon_color">?attr/colorOnPrimaryContainer</macro>
-    <macro name="m3_comp_switch_selected_hover_state_layer_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_switch_selected_hover_track_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_switch_selected_icon_color">?attr/colorOnPrimaryContainer</macro>
-    <macro name="m3_comp_switch_selected_pressed_handle_color">?attr/colorPrimaryContainer</macro>
-    <macro name="m3_comp_switch_selected_pressed_icon_color">?attr/colorOnPrimaryContainer</macro>
-    <macro name="m3_comp_switch_selected_pressed_state_layer_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_switch_selected_pressed_track_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_switch_selected_track_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_switch_unselected_focus_handle_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_switch_unselected_focus_icon_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_unselected_focus_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_unselected_focus_track_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_unselected_focus_track_outline_color">?attr/colorOutline</macro>
-    <macro name="m3_comp_switch_unselected_handle_color">?attr/colorOutline</macro>
-    <macro name="m3_comp_switch_unselected_hover_handle_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_switch_unselected_hover_icon_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_unselected_hover_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_unselected_hover_track_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_unselected_hover_track_outline_color">?attr/colorOutline</macro>
-    <macro name="m3_comp_switch_unselected_icon_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_unselected_pressed_handle_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_switch_unselected_pressed_icon_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_unselected_pressed_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_unselected_pressed_track_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_unselected_pressed_track_outline_color">?attr/colorOutline</macro>
-    <macro name="m3_comp_switch_unselected_track_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_switch_unselected_track_outline_color">?attr/colorOutline</macro>
-    <macro name="m3_comp_text_button_focus_state_layer_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_text_button_hover_state_layer_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_text_button_label_text_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_text_button_label_text_type">?attr/textAppearanceLabelLarge</macro>
-    <macro name="m3_comp_text_button_pressed_state_layer_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_time_input_time_input_field_container_shape">?attr/shapeAppearanceCornerSmall</macro>
-    <macro name="m3_comp_time_input_time_input_field_focus_outline_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_time_input_time_input_field_label_text_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_time_input_time_input_field_supporting_text_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_time_input_time_input_field_supporting_text_type">?attr/textAppearanceBodySmall</macro>
-    <macro name="m3_comp_time_picker_clock_dial_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_time_picker_clock_dial_selector_handle_container_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_time_picker_container_color">?attr/colorSurfaceContainerHigh</macro>
-    <macro name="m3_comp_time_picker_container_shape">?attr/shapeAppearanceCornerExtraLarge</macro>
-    <macro name="m3_comp_time_picker_headline_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_time_picker_headline_type">?attr/textAppearanceLabelMedium</macro>
-    <macro name="m3_comp_time_picker_period_selector_container_shape">?attr/shapeAppearanceCornerSmall</macro>
-    <macro name="m3_comp_time_picker_period_selector_label_text_type">?attr/textAppearanceTitleMedium</macro>
-    <macro name="m3_comp_time_picker_period_selector_outline_color">?attr/colorOutline</macro>
-    <macro name="m3_comp_time_picker_period_selector_selected_container_color">?attr/colorTertiaryContainer</macro>
-    <macro name="m3_comp_time_picker_period_selector_selected_focus_state_layer_color">?attr/colorOnTertiaryContainer</macro>
-    <macro name="m3_comp_time_picker_period_selector_selected_hover_state_layer_color">?attr/colorOnTertiaryContainer</macro>
-    <macro name="m3_comp_time_picker_period_selector_selected_label_text_color">?attr/colorOnTertiaryContainer</macro>
-    <macro name="m3_comp_time_picker_period_selector_selected_pressed_state_layer_color">?attr/colorOnTertiaryContainer</macro>
-    <macro name="m3_comp_time_picker_period_selector_unselected_focus_state_layer_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_time_picker_period_selector_unselected_hover_state_layer_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_time_picker_period_selector_unselected_label_text_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_time_picker_period_selector_unselected_pressed_state_layer_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_time_picker_time_selector_container_shape">?attr/shapeAppearanceCornerSmall</macro>
-    <macro name="m3_comp_time_picker_time_selector_label_text_type">?attr/textAppearanceDisplayLarge</macro>
-    <macro name="m3_comp_time_picker_time_selector_selected_container_color">?attr/colorPrimaryContainer</macro>
-    <macro name="m3_comp_time_picker_time_selector_selected_focus_state_layer_color">?attr/colorOnPrimaryContainer</macro>
-    <macro name="m3_comp_time_picker_time_selector_selected_hover_state_layer_color">?attr/colorOnPrimaryContainer</macro>
-    <macro name="m3_comp_time_picker_time_selector_selected_label_text_color">?attr/colorOnPrimaryContainer</macro>
-    <macro name="m3_comp_time_picker_time_selector_selected_pressed_state_layer_color">?attr/colorOnPrimaryContainer</macro>
-    <macro name="m3_comp_time_picker_time_selector_separator_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_time_picker_time_selector_separator_type">?attr/textAppearanceDisplayLarge</macro>
-    <macro name="m3_comp_time_picker_time_selector_unselected_container_color">?attr/colorSurfaceContainerHighest</macro>
-    <macro name="m3_comp_time_picker_time_selector_unselected_focus_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_time_picker_time_selector_unselected_hover_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_time_picker_time_selector_unselected_label_text_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_top_app_bar_large_headline_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_top_app_bar_large_headline_type">?attr/textAppearanceHeadlineMedium</macro>
-    <macro name="m3_comp_top_app_bar_medium_headline_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_top_app_bar_medium_headline_type">?attr/textAppearanceHeadlineSmall</macro>
-    <macro name="m3_comp_top_app_bar_small_container_color">?attr/colorSurface</macro>
-    <macro name="m3_comp_top_app_bar_small_headline_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_top_app_bar_small_headline_type">?attr/textAppearanceTitleLarge</macro>
-    <macro name="m3_comp_top_app_bar_small_leading_icon_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_top_app_bar_small_on_scroll_container_color">?attr/colorSurfaceContainer</macro>
-    <macro name="m3_comp_top_app_bar_small_trailing_icon_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_sys_color_dark_surface_tint">?attr/colorPrimary</macro>
-    <macro name="m3_sys_color_light_surface_tint">?attr/colorPrimary</macro>
-</resources>
+    <macro 

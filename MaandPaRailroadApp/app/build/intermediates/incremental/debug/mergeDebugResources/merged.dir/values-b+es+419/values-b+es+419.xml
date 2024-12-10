@@ -78,5 +78,4 @@
     <string name="password_toggle_content_description">Mostrar contraseña</string>
     <string name="searchview_clear_text_content_description">Borrar texto</string>
     <string name="searchview_navigation_content_description">Atrás</string>
-    <string name="side_sheet_accessibility_pane_title">Hoja lateral</string>
-</resources>
+    <stri
