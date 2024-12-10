@@ -124,16 +124,26 @@
                 app:showAsAction="ifRoom" />
         </menu>
     </item>
-
+    <item
+        android:id="@+id/register"
+        android:icon="@drawable/ic_register"
+        android:title="Profile"
+        app:showAsAction="never" />
     <item
         android:id="@+id/login"
-        android:title="Login"
+        android:title="Log In"
         android:icon="@drawable/ic_login"
         app:showAsAction="never" />
     <item
-        android:id="@+id/register"
-        android:title="Register"
-        android:icon="@drawable/ic_register"
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Log Out"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/admin"
+        android:icon="@drawable/admin"
+        android:title="Admin"
+        app:showAsAction="never" />
+
 
 </menu>

@@ -5,17 +5,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.maandparailroadapp.database.DBHelper;
+
 public class LoginActivity extends AppCompatActivity {
+
+    private DBHelper dbHelper;
+    private SessionManager sessionManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
+
+        dbHelper = DBHelper.getInstance(this);
+        sessionManager = new SessionManager(this);
 
         TextView btn=findViewById(R.id.textViewSignUp);
         btn.setOnClickListener(new View.OnClickListener() {
@@ -48,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 if(allFieldsFilled){
                     User correctUser = null;
-                    for (User user : SharedList.users) {
+                    for (User user : dbHelper.getAllUsers()) {
                         if(username.equals(user.getUsername())){
                             // Finds the correct user
                             correctUser = user;
@@ -57,6 +66,8 @@ public class LoginActivity extends AppCompatActivity {
 
                     if(correctUser != null){
                         if(password.equals(correctUser.getPassword())){
+                            sessionManager.createLoginSession(correctUser);
+                            Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(LoginActivity.this, MainActivity.class));
                         }
                         else {

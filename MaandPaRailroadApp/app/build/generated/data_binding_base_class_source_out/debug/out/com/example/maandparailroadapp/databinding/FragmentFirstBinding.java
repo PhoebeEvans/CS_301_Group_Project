@@ -34,9 +34,6 @@ public final class FragmentFirstBinding implements ViewBinding {
   public final NestedScrollView sign;
 
   @NonNull
-  public final Button signIn;
-
-  @NonNull
   public final TextView textviewAddress;
 
   @NonNull
@@ -80,7 +77,7 @@ public final class FragmentFirstBinding implements ViewBinding {
 
   private FragmentFirstBinding(@NonNull NestedScrollView rootView, @NonNull Button buttonAmazon,
       @NonNull Button buttonFacebook, @NonNull ImageView imageMain, @NonNull NestedScrollView sign,
-      @NonNull Button signIn, @NonNull TextView textviewAddress, @NonNull TextView textviewBrochure,
+      @NonNull TextView textviewAddress, @NonNull TextView textviewBrochure,
       @NonNull TextView textviewContact, @NonNull TextView textviewCoordinates,
       @NonNull TextView textviewEmail, @NonNull TextView textviewFirst,
       @NonNull TextView textviewFirstHeader, @NonNull TextView textviewMailingAddress,
@@ -92,7 +89,6 @@ public final class FragmentFirstBinding implements ViewBinding {
     this.buttonFacebook = buttonFacebook;
     this.imageMain = imageMain;
     this.sign = sign;
-    this.signIn = signIn;
     this.textviewAddress = textviewAddress;
     this.textviewBrochure = textviewBrochure;
     this.textviewContact = textviewContact;
@@ -155,12 +151,6 @@ public final class FragmentFirstBinding implements ViewBinding {
       }
 
       NestedScrollView sign = (NestedScrollView) rootView;
-
-      id = R.id.signIn;
-      Button signIn = ViewBindings.findChildViewById(rootView, id);
-      if (signIn == null) {
-        break missingId;
-      }
 
       id = R.id.textview_Address;
       TextView textviewAddress = ViewBindings.findChildViewById(rootView, id);
@@ -247,10 +237,10 @@ public final class FragmentFirstBinding implements ViewBinding {
       }
 
       return new FragmentFirstBinding((NestedScrollView) rootView, buttonAmazon, buttonFacebook,
-          imageMain, sign, signIn, textviewAddress, textviewBrochure, textviewContact,
-          textviewCoordinates, textviewEmail, textviewFirst, textviewFirstHeader,
-          textviewMailingAddress, textviewPhone, textviewSecond, textviewSubscribe, textviewThird,
-          textviewTrainTickets, textviewWhatThreeWords);
+          imageMain, sign, textviewAddress, textviewBrochure, textviewContact, textviewCoordinates,
+          textviewEmail, textviewFirst, textviewFirstHeader, textviewMailingAddress, textviewPhone,
+          textviewSecond, textviewSubscribe, textviewThird, textviewTrainTickets,
+          textviewWhatThreeWords);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/blur_circular/baseline_blur_circular_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/arrow_back_ios/baseline_arrow_back_ios_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,7 +33,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_memories" />
+                            <entry key="outputName" value="back_arrow" />
                             <entry key="sourceFile" value="C:\Users\Griffin\AndroidStudioProjects\CS_358_Group_Project\MaandPaRailroadApp" />
                           </map>
                         </option>

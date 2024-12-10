@@ -3083,8 +3083,10 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable admin
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_arrow
 drawable baggag_1
 drawable beebe_clegg
 drawable boxcar_15161_jwolf
@@ -3185,6 +3187,7 @@ drawable lisa1_ma_pa_gross_trestle_c
 drawable lisa2_ma_pa_forest_hill_c_19
 drawable lisa3_ma_pa_gross_trestle
 drawable lisa4_ma_pa_forest_hill_station
+drawable logout
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3386,6 +3389,10 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
+id admin
+id adminDashboardTitle
+id adminDashboardTitle2
+id adminManagementTitle3
 id alertTitle
 id aligned
 id all
@@ -3404,6 +3411,8 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backTitle
+id backTitle2
 id barn
 id barrier
 id baseline
@@ -3480,6 +3489,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteBtn
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3524,6 +3534,7 @@ id enterAlwaysCollapsed
 id enterPassword
 id enterUsername
 id escape
+id eventManagementBtn
 id event_date
 id event_description
 id event_time
@@ -3593,6 +3604,7 @@ id inputEmail
 id invisible
 id invite
 id inward
+id isAdmin
 id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
@@ -3614,6 +3626,7 @@ id listMode
 id list_item
 id locale
 id login
+id logout
 id ltr
 id m3_side_sheet
 id mailing_list
@@ -3715,6 +3728,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newBtn
 id noScroll
 id noState
 id none
@@ -3796,6 +3810,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchBtn
 id search_badge
 id search_bar
 id search_button
@@ -3816,7 +3831,6 @@ id showCustom
 id showHome
 id showTitle
 id sign
-id signIn
 id sin
 id skipCollapsed
 id skipped
@@ -3931,7 +3945,16 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updateBtn
 id useLogo
+id userManagementBtn
+id userProfileConfirmPassword
+id userProfileCurrentPassword
+id userProfileEmail
+id userProfileNewPassword
+id userProfileTitle
+id userProfileTitle2
+id userProfileUsername
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -4079,6 +4102,7 @@ layout activity_main
 layout activity_map
 layout activity_register
 layout activity_webview
+layout admin_dashboard
 layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -4179,6 +4203,8 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout user_management
+layout user_profile
 menu menu_main
 menu navigation_menu
 mipmap ic_launcher

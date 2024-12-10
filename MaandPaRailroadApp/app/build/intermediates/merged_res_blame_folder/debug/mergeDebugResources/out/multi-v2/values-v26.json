@@ -4,7 +4,7 @@
             "outputFile": "com.example.maandparailroadapp-mergeDebugResources-47:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\phoeb\\.gradle\\caches\\8.9\\transforms\\8e8a9e21fd5e6b4377eb2baa9a2101b4\\transformed\\appcompat-1.7.0\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\laure\\.gradle\\caches\\8.9\\transforms\\24c3f43d392ac887db495ee70788c710\\transformed\\appcompat-1.7.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

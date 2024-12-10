@@ -30,12 +30,6 @@ public class FirstFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // Set up button click listeners using binding
-        binding.signIn.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(), RegisterActivity.class);
-            startActivity(intent);
-        });
-
         binding.buttonFacebook.setOnClickListener(v -> {
             Intent intent = new Intent(getActivity(), WebViewActivity.class);
             intent.putExtra("url", "https://www.facebook.com/MaAndPaRailroad");
