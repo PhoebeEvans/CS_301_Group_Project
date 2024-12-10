@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 /**
  * @author Phoebe
  * @date 12/9/2024
- * @description Eventfor the events page
+ * @description DatabaseHelper for the events page
  */
 
 public class DatabaseHelper extends SQLiteOpenHelper {
