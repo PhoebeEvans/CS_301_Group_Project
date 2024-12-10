@@ -28,12 +28,12 @@
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\fragment_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\fragment_history.xml",
-        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\fragment_history.xml"
-    },
-    {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\activity_login.xml",
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\fragment_history.xml",
+        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\fragment_history.xml"
     },
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\fragment_hours.xml",
@@ -62,6 +62,10 @@
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\user_profile.xml",
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\fragment_container.xml",
+        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\fragment_container.xml"
     },
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\fragment_events_calendar.xml",
@@ -104,10 +108,6 @@
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\fragment_newsletter.xml"
     },
     {
-        "merged": "com.example.maandparailroadapp-mergeDebugResources-48:/layout/item_saved_event.xml",
-        "source": "com.example.maandparailroadapp-main-51:/layout/item_saved_event.xml"
-    },
-    {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\item_event.xml",
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\item_event.xml"
     },
@@ -120,12 +120,20 @@
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\fragment_second.xml"
     },
     {
+        "merged": "com.example.maandparailroadapp-mergeDebugResources-48:/layout/user_profile.xml",
+        "source": "com.example.maandparailroadapp-main-51:/layout/user_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\fragment_events.xml",
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\fragment_events.xml"
     },
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\fragment_links.xml",
         "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\fragment_links.xml"
+    },
+    {
+        "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\fragment_user_saved_events.xml",
+        "source": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-main-51:\\layout\\fragment_user_saved_events.xml"
     },
     {
         "merged": "C:\\Users\\phoeb\\.gradle\\daemon\\8.9\\com.example.maandparailroadapp-mergeDebugResources-48:\\layout\\activity_register.xml",

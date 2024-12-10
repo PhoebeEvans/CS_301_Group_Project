@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,7 +26,13 @@ public final class UserProfileBinding implements ViewBinding {
   public final TextView backTitle;
 
   @NonNull
+  public final FrameLayout fragmentContainer;
+
+  @NonNull
   public final Button newBtn;
+
+  @NonNull
+  public final Button saveButton;
 
   @NonNull
   public final EditText userProfileConfirmPassword;
@@ -49,13 +56,16 @@ public final class UserProfileBinding implements ViewBinding {
   public final EditText userProfileUsername;
 
   private UserProfileBinding(@NonNull ConstraintLayout rootView, @NonNull TextView backTitle,
-      @NonNull Button newBtn, @NonNull EditText userProfileConfirmPassword,
-      @NonNull EditText userProfileCurrentPassword, @NonNull EditText userProfileEmail,
-      @NonNull EditText userProfileNewPassword, @NonNull TextView userProfileTitle,
-      @NonNull TextView userProfileTitle2, @NonNull EditText userProfileUsername) {
+      @NonNull FrameLayout fragmentContainer, @NonNull Button newBtn, @NonNull Button saveButton,
+      @NonNull EditText userProfileConfirmPassword, @NonNull EditText userProfileCurrentPassword,
+      @NonNull EditText userProfileEmail, @NonNull EditText userProfileNewPassword,
+      @NonNull TextView userProfileTitle, @NonNull TextView userProfileTitle2,
+      @NonNull EditText userProfileUsername) {
     this.rootView = rootView;
     this.backTitle = backTitle;
+    this.fragmentContainer = fragmentContainer;
     this.newBtn = newBtn;
+    this.saveButton = saveButton;
     this.userProfileConfirmPassword = userProfileConfirmPassword;
     this.userProfileCurrentPassword = userProfileCurrentPassword;
     this.userProfileEmail = userProfileEmail;
@@ -98,9 +108,21 @@ public final class UserProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fragment_container;
+      FrameLayout fragmentContainer = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentContainer == null) {
+        break missingId;
+      }
+
       id = R.id.newBtn;
       Button newBtn = ViewBindings.findChildViewById(rootView, id);
       if (newBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.saveButton;
+      Button saveButton = ViewBindings.findChildViewById(rootView, id);
+      if (saveButton == null) {
         break missingId;
       }
 
@@ -146,9 +168,10 @@ public final class UserProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new UserProfileBinding((ConstraintLayout) rootView, backTitle, newBtn,
-          userProfileConfirmPassword, userProfileCurrentPassword, userProfileEmail,
-          userProfileNewPassword, userProfileTitle, userProfileTitle2, userProfileUsername);
+      return new UserProfileBinding((ConstraintLayout) rootView, backTitle, fragmentContainer,
+          newBtn, saveButton, userProfileConfirmPassword, userProfileCurrentPassword,
+          userProfileEmail, userProfileNewPassword, userProfileTitle, userProfileTitle2,
+          userProfileUsername);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
