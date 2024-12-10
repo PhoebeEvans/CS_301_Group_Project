@@ -16,6 +16,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private DBHelper dbHelper;
     private SessionManager sessionManager;
+    private UserSessionManager userSessionManager; // Add UserSessionManager
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +26,9 @@ public class LoginActivity extends AppCompatActivity {
 
         dbHelper = DBHelper.getInstance(this);
         sessionManager = new SessionManager(this);
+        userSessionManager = new UserSessionManager(this); // Initialize UserSessionManager
 
-        TextView btn=findViewById(R.id.textViewSignUp);
+        TextView btn = findViewById(R.id.textViewSignUp);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        TextView btnLogin=findViewById(R.id.btnLogin);
+        TextView btnLogin = findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,22 +57,22 @@ public class LoginActivity extends AppCompatActivity {
                     allFieldsFilled = false;
                 }
 
-                if(allFieldsFilled){
+                if (allFieldsFilled) {
                     User correctUser = null;
                     for (User user : dbHelper.getAllUsers()) {
-                        if(username.equals(user.getUsername())){
+                        if (username.equals(user.getUsername())) {
                             // Finds the correct user
                             correctUser = user;
                         }
                     }
 
-                    if(correctUser != null){
-                        if(password.equals(correctUser.getPassword())){
+                    if (correctUser != null) {
+                        if (password.equals(correctUser.getPassword())) {
                             sessionManager.createLoginSession(correctUser);
+                            userSessionManager.saveUsername(correctUser.getUsername()); // Save username
                             Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(LoginActivity.this, MainActivity.class));
-                        }
-                        else {
+                        } else {
                             passwordTextField.setError("Incorrect Password");
                         }
                     } else {
